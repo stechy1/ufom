@@ -1,14 +1,12 @@
-.menu-item {
-    -fx-graphic: url("../icon/32/generate.png");
-    -fx-background-repeat: no-repeat;
-}
-
 .toolbar-button {
     -fx-background-color: transparent;
     -fx-background-repeat: no-repeat;
 }
 .toolbar-button:hover {
     -fx-background-color: rgba(0, 0, 0, 0.1);
+    -fx-border-color: rgba(0, 0, 0, 0.2);
+    -fx-border-radius: 5px;
+    -fx-border-style: solid;
 }
 .icon-new {
     -fx-graphic: url("../icon/32/new.png");
