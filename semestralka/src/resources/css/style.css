@@ -1,0 +1,33 @@
+.menu-item {
+    -fx-graphic: url("../icon/32/generate.png");
+    -fx-background-repeat: no-repeat;
+}
+
+.toolbar-button {
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+}
+.toolbar-button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+.icon-new {
+    -fx-graphic: url("../icon/32/new.png");
+}
+.icon-open {
+    -fx-graphic: url("../icon/32/open.png");
+}
+.icon-save {
+    -fx-graphic: url("../icon/32/save.png");
+}
+.icon-save-as {
+    -fx-graphic: url("../icon/32/save_as.png");
+}
+.icon-run {
+    -fx-graphic: url("../icon/32/start.png");
+}
+.icon-stop {
+    -fx-graphic: url("../icon/32/stop.png");
+}
+.icon-step {
+    -fx-graphic: url("../icon/32/step.png");
+}

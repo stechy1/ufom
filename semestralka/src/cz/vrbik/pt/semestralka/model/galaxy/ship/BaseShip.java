@@ -1,0 +1,256 @@
+package cz.vrbik.pt.semestralka.model.galaxy.ship;
+
+import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
+import org.apache.log4j.Logger;
+
+import java.util.*;
+
+/**
+ * Základní třída pro všechny lodě
+ */
+public abstract class BaseShip implements IShip {
+
+    private static final Logger log = Logger.getLogger(BaseShip.class.getName());
+
+    public final LinkedList<BasePlanet> trip = new LinkedList<>();
+
+    protected static int ID_COUNTER = 0;
+
+    private Iterator<BasePlanet> tripIterator;
+    protected BasePlanet actualPlanet;
+    protected BasePlanet nextPlanet;
+
+    protected boolean endConnection = false;
+    protected int totalProgress = 0;
+    protected int connectionProgress = 0;
+    protected int speed = 25;
+    protected boolean hijacked;
+    protected int id;
+
+    protected boolean checked;
+
+    /**
+     * Konstruktor třídy {@link BaseShip}
+     *
+     * Vytvoří novou vesmírnou loď
+     *
+     * @param homePlanet Reference na domovskou planetu lodi
+     */
+    public BaseShip(BasePlanet homePlanet) {
+        actualPlanet = homePlanet;
+        id = ID_COUNTER++;
+        log.debug(String.format("Vytvářím novou loď na planetě: %s. ID lodi: %d", homePlanet.getName(), id));
+    }
+
+    /**
+     * Odstartuje loď na cestu
+     */
+    @Override
+    public void startTrip() {
+        endConnection = false;
+        try {
+            nextPlanet = tripIterator.next();
+            actualPlanet.send(this);
+        } catch (NoSuchElementException ex) {
+            log.error(String.format("Nepodařilo se odstartovat loď číslo: %d. Aktuální planeta: %s", id, actualPlanet.getName()));
+            //ex.printStackTrace();
+        }
+    }
+
+    /**
+     * Pošle loď na další cestu
+     */
+    @Override
+    public void continueTrip() {
+        if (nextPlanet != null)
+            actualPlanet = nextPlanet;
+        else
+            actualPlanet = tripIterator.next();
+        startTrip();
+    }
+
+    /**
+     * Pošle loď z aktuální pozice zpět domů
+     */
+    @Override
+    public void turnBackToHome() {
+        while(tripIterator.hasNext()) {
+            tripIterator.next();
+            tripIterator.remove();
+        }
+
+        unLoadCargo(getCargo());
+        schedule();
+        startTrip();
+    }
+
+    /**
+     * Metoda zjišťujě, zda-li je loď na konci své cesty
+     *
+     * @return Vrátí true, pokud už dál loď nepoletí, jinak false
+     */
+    @Override
+    public boolean isEndOfTrip() {
+        return !tripIterator.hasNext();
+    }
+
+    /**
+     * Metoda zjišťuje, zda-li má loď vystoupit z hyperprostoru
+     *
+     * @return True, pokud loď dosáhla dočasného cíle, jinak false
+     */
+    @Override
+    public boolean isEndOfConnection() {
+        return endConnection;
+    }
+
+    /**
+     * Inkrementuje celkový postup lodě
+     */
+    @Override
+    public void incrementTotalProgress() {
+        totalProgress++;
+    }
+
+    /**
+     * Inkrementuje postup lodi na aktuálním meziplanetárním spojení
+     */
+    @Override
+    public void decrementConnectionProgress() {
+        connectionProgress--;
+        //TODO vytvořit nastavení pro počítání celkového pstupu
+        if (connectionProgress <= 0) {
+            endConnection = true;
+            incrementTotalProgress();
+            nextPlanet.dock(this);
+        }
+    }
+
+    /**
+     * Nastaví celkovou dobu na jedné cestě
+     *
+     * @param value Doba na cestě
+     */
+    @Override
+    public void setConnectionProgress(int value) {
+        /*if (value > 4)
+            value /= 2;*/
+        connectionProgress = value;
+    }
+
+    /**
+     * Naplánuje cestu zpět do výchozího bodu
+     */
+    @Override
+    public void schedule() {
+        totalProgress = 0;
+        Collections.reverse(trip);
+        actualPlanet = nextPlanet;
+        tripIterator = trip.iterator();
+        tripIterator.next();
+    }
+
+    /**
+     * Naplánuje novou cestu
+     *
+     * @param road List všech planet, přes které vede cesta
+     */
+    @Override
+    public void schedule(List<BasePlanet> road) {
+        totalProgress = 0;
+        trip.clear();
+        trip.addAll(road);
+        tripIterator = trip.iterator();
+        tripIterator.next();
+    }
+
+    /**
+     * Nastaví příznak, pokud byla loď přepadena
+     *
+     * @param hijacked True, pokud byla loď přepadena, jinak false
+     */
+    @Override
+    public void setHijacked(boolean hijacked) {
+        this.hijacked = hijacked;
+    }
+
+    /**
+     * Metoda zjišťuje, zda-li byla loď přepadena
+     *
+     * @return True, pokud byla loď přepadena, jinak false
+     */
+    @Override
+    public boolean isHijacked() {
+        return hijacked;
+    }
+
+    /**
+     * Metoda nastaví příznak, zda-li byla kontrolovaná na piráty
+     *
+     * @param checked True, pokud byla loď zkontrolovaná na piráty, jinak false
+     */
+    @Override
+    public void setChecked(boolean checked) {
+        this.checked = checked;
+    }
+
+    /**
+     * Metoda zjistí, zda-li se loď kontrolovala na piráty
+     *
+     * @return True, pokud byla loď zkontrolovaná na piráty, jinak false
+     */
+    @Override
+    public boolean isChecked() {
+        return checked;
+    }
+
+    /**
+     * Vrátí referenci na další cíl
+     */
+    @Override
+    public BasePlanet getNextDestination() {
+        return nextPlanet;
+    }
+
+    /**
+     * Vrátí referenci na poslední cílovou planetu
+     */
+    @Override
+    public BasePlanet getTotalDestination() {
+        return trip.getLast();
+    }
+
+    /**
+     * Vrátí list s naplánovanou cestou
+     */
+    @Override
+    public List<BasePlanet> getTrip() {
+        return trip;
+    }
+
+    /**
+     * Returns a string representation of the object. In general, the
+     * {@code toString} method returns a string that
+     * "textually represents" this object. The result should
+     * be a concise but informative representation that is easy for a
+     * person to read.
+     * It is recommended that all subclasses override this method.
+     * <p>
+     * The {@code toString} method for class {@code Object}
+     * returns a string consisting of the name of the class of which the
+     * object is an instance, the at-sign character `{@code @}', and
+     * the unsigned hexadecimal representation of the hash code of the
+     * object. In other words, this method returns a string equal to the
+     * value of:
+     * <blockquote>
+     * <pre>
+     * getClass().getName() + '@' + Integer.toHexString(hashCode())
+     * </pre></blockquote>
+     *
+     * @return a string representation of the object.
+     */
+    @Override
+    public String toString() {
+        return String.format("Ship {%d}", id);
+    }
+}

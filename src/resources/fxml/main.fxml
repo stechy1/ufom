@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<VBox   xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+        fx:id="container"
+        fx:controller="cz.vrbik.ufo.controller.MainController">
+    <ToolBar prefHeight="40.0">
+        <Button text="Generate" onAction="#generateDataButtonHandler"/>
+        <Button text="Start" onAction="#startSimulationButtonHandler"/>
+        <Button text="Export" onAction="#exportGalaxyButtonHandler"/>
+        <Button text="Import" onAction="#importGalaxyButtonHandler"/>
+    </ToolBar>
+
+    <SplitPane dividerPositions="0.35" VBox.vgrow="ALWAYS">
+        <Accordion fx:id="propertyBox">
+            <panes>
+                <TitledPane text="Properties">
+                    <VBox fx:id="propertyVBox" alignment="BASELINE_CENTER" spacing="5.0">
+                <Label textFill="RED" >Properties:
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+                <Label>Galaxy width</Label>
+                <Spinner fx:id="spinnerGalaxyWidth" min="100" max="1600" initialValue="800" editable="true"/>
+                <Label>Galaxy height</Label>
+                <Spinner fx:id="spinnerGalaxyHeight" min="100" max="1600" initialValue="800" editable="true"/>
+                <Label>Planet count</Label>
+                <Spinner fx:id="spinnerPlanetCount" min="50" max="10000" initialValue="5000" editable="true"/>
+                <Label>Station count</Label>
+                <Spinner fx:id="spinnerStationCount" min="5" max="20" initialValue="5000" editable="true"/>
+                <Label>Planet spacing</Label>
+                <Spinner fx:id="spinnerPlanetSpacing" min="1" max="20" initialValue="2" editable="true"/>
+                <Label>Station spacing</Label>
+                <Spinner fx:id="spinnerStationSpacing" min="5" max="50" initialValue="10" editable="true"/>
+
+                <Button text="Default" textFill="RED">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Button>
+
+            </VBox>
+                </TitledPane>
+                <TitledPane text="Zásilky">
+                    <VBox>
+                        <ComboBox fx:id="comboboxPlanets"/>
+                    </VBox>
+                </TitledPane>
+            </panes>
+        </Accordion>
+        <ScrollPane fx:id="scrollPane" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS" pannable="true">
+            <Canvas fx:id="canvas" width="900" height="900"/>
+        </ScrollPane>
+    </SplitPane>
+
+</VBox>

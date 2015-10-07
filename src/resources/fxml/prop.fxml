@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="BASELINE_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="159.0" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Properties:" textAlignment="CENTER" textFill="RED">
+            <font>
+                <Font size="24.0" />
+            </font>
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+        </Label>
+        <Label text="Galaxy width" textAlignment="CENTER">
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </Label>
+        <TextField fx:id="TFgalaxyWidth" alignment="CENTER" maxWidth="100.0" text="800" />
+        <Label text="Galaxy height" />
+        <TextField fx:id="TFgalaxyHeight" alignment="CENTER" maxWidth="100.0" text="800" />
+        <Label text="Planet count" />
+        <TextField fx:id="TFplanetCount" alignment="CENTER" maxWidth="100.0" text="5000" />
+        <Label text="Station count" />
+        <TextField fx:id="TFstationCount" alignment="CENTER" maxWidth="100.0" text="5" />
+        <Label text="Planet spacing" />
+        <TextField fx:id="TFplanetSpacing" alignment="CENTER" maxWidth="100.0" text="3" />
+        <Label text="Station spacing" />
+        <TextField fx:id="TFstationSpacing" alignment="CENTER" maxWidth="100.0" text="10" />
+        <Button mnemonicParsing="false" text="Default" textFill="RED">
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </Button>
+    </children>
+</VBox>

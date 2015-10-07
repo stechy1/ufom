@@ -1,0 +1,108 @@
+package cz.stechy1.czfx.model.service;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Locale;
+import java.util.Properties;
+
+public class Configuration {
+
+    public static final String CONFIG_FILE_NAME = "czfx-config.properties";
+
+    public static final String FOLDER_CSS = "css";
+    public static final String FOLDER_FXML = "fxml";
+    public static final String FOLDER_COMPONENT = "component";
+    public static final String FOLDER_TEMPLATE = "template";
+    public static final String FOLDER_VIEW = "view";
+    public static final String FOLDER_IMG = "img";
+    public static final String FOLDER_LANG = "lang";
+    public static final String FOLDER_CONFIG = "config";
+
+
+    private static final String PROP_LOCALE = "locale";
+    private static final String PROP_ANIMATED = "animated";
+    private static final String PROP_DURATION_TO_HIDE_VIEW = "dur_to_hide";
+    private static final String PROP_DURATION_BETWEEN_VIEWS = "dur_between";
+
+    private static final Locale DEF_LOCALE = Locale.forLanguageTag("en-GB");
+    private static final boolean DEF_ANIMATED = true;
+    private static final int DEF_DURATION_TO_HIDE_VIEW = 500;
+    private static final int DEF_DURATION_BETWEEN_VIEWS = 500;
+
+    private static Configuration INSTANCE;
+
+    //private final FileSystem FS = FileSystem.getINSTANCE();
+    private final AdvancedFileSystem FS = AdvancedFileSystem.getINSTANCE();
+
+    private Properties prop;
+    private File configFile;
+
+    private Configuration() {
+        prop = new Properties();
+
+        String configFilePath = FS.getDirectory(FOLDER_CONFIG) + FileSystem.FILE_SEPARATOR + CONFIG_FILE_NAME;
+        configFile = new File(configFilePath);
+        try {
+            if (configFile.createNewFile()) {
+                prop.setProperty(PROP_LOCALE, DEF_LOCALE.toString());
+                prop.setProperty(PROP_ANIMATED, String.valueOf(DEF_ANIMATED));
+                prop.setProperty(PROP_DURATION_TO_HIDE_VIEW, String.valueOf(DEF_DURATION_TO_HIDE_VIEW));
+                prop.setProperty(PROP_DURATION_BETWEEN_VIEWS, String.valueOf(DEF_DURATION_BETWEEN_VIEWS));
+
+                prop.store(new FileOutputStream(configFile), "Konfiguracni soubor pro screeny");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static Configuration getINSTANCE() {
+        if(INSTANCE == null)
+            INSTANCE = new Configuration();
+        return INSTANCE;
+    }
+
+    /**
+     * Vrátí jazyk aplikace.
+     */
+    public Locale getLocale() {
+        String lang = prop.getProperty(PROP_LOCALE);
+        if(lang == null || lang.isEmpty() || lang.equals(""))
+            return DEF_LOCALE;
+
+        return new Locale(lang);
+    }
+
+    /**
+     * Nastaví lokalizaci aplikace.
+     * @param locale Nová lokalizace.
+     */
+    public void setLocale(Locale locale) throws Exception{
+        prop.setProperty(PROP_LOCALE, locale.getLanguage());
+        prop.store(new FileOutputStream(configFile), "Konfiguracni soubor pro czfx aplikaci");
+    }
+
+    /**
+     * Vrátí dobu zmizení screenu.
+     */
+    public int getDurationToHideView() {
+        String duration = prop.getProperty(PROP_DURATION_TO_HIDE_VIEW);
+        if(duration == null || duration.isEmpty() || duration.equals(""))
+            return DEF_DURATION_TO_HIDE_VIEW;
+
+        return Integer.parseInt(duration);
+    }
+
+    /**
+     * Vrátí dobu přepnutí mezi screeny.
+     */
+    public int getDurationBetweenViews() {
+        String duration = prop.getProperty(PROP_DURATION_BETWEEN_VIEWS);
+        if(duration == null || duration.isEmpty() || duration.equals(""))
+            return DEF_DURATION_BETWEEN_VIEWS;
+
+        return Integer.parseInt(duration);
+    }
+
+}

@@ -1,0 +1,10 @@
+extern
+node_modules
+tmp
+vendor
+.idea/
+out/
+*.iml
+*.ini
+logging.log
+Standardní zadání semestrální práce pro PT 2015.pdf
