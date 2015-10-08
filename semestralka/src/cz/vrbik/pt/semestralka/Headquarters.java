@@ -1,7 +1,6 @@
 package cz.vrbik.pt.semestralka;
 
 import cz.vrbik.pt.semestralka.model.dijkstra.DijkstraAlgorithm;
-import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.Path;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
@@ -11,7 +10,6 @@ import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import org.apache.log4j.Logger;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Třída představuje zdravotní velitelství
@@ -27,7 +25,8 @@ public class Headquarters {
     private List<Planet> planets = new ArrayList<>();
     private List<Path> paths = new ArrayList<>();
 
-    private final Queue<ResourceRequest> requests = new PriorityQueue<>();
+    private final Set<ResourceRequest> requests = new HashSet<>();
+    private final Set<ResourceRequest> pendingRequests = new HashSet<>();
     private final Map<BasePlanet, Prepravka> mapa = new HashMap<>();
 
     private int hijackedShips = 0;
@@ -48,8 +47,11 @@ public class Headquarters {
 
     //    Dočasná metoda pro vytvoření testovacího requestu
     public void makeRequest() {
-        ResourceRequest request = new ResourceRequest(planets.get(256), 60000);
-        makeRequest(request);
+        for (int i = 0; i < 1; i++) {
+            makeRequest(new ResourceRequest(planets.get(i), 60000));
+        }
+        /*ResourceRequest request = new ResourceRequest(planets.get(256), 60000);
+        makeRequest(request);*/
 
     }
 
@@ -113,7 +115,16 @@ public class Headquarters {
      * @param request Reference na požadavek
      */
     public void makeRequest(ResourceRequest request) {
+        if (request.requestPlanet.isInteresting()) {
+            log.info(String.format("Odmítám požadavek planety: %s, protože už je nezajímavá...", request.requestPlanet.getName()));
+            return;
+        }
+
+        if (requests.contains(request))
+            requests.remove(request);
+
         requests.add(request);
+
     }
 
     /**
@@ -144,8 +155,9 @@ public class Headquarters {
     }
 
     public void update(int timestamp) {
-        /*
-        if (hijackedShips >= CRICITAL_HIJACKED_SHIP) {
+
+
+        /*if (hijackedShips >= CRICITAL_HIJACKED_SHIP) {
             hijackedShips = 0;
             runDijkstra();
         }*/
@@ -153,11 +165,26 @@ public class Headquarters {
         if (requests.size() == 0)
             return;
 
-        ResourceRequest request = requests.poll();
 
-        Prepravka p = mapa.get(request.requestPlanet);
-        Station s = (Station) p.source;
+        Iterator<ResourceRequest> requestIterator = requests.iterator();
+        int i = 0;
+        while (requestIterator.hasNext()) {
+            if (i == 50)
+                break;
 
-        s.sendShipToTrip(p.path);
+            ResourceRequest request = requestIterator.next();
+
+            Prepravka p = mapa.get(request.requestPlanet);
+
+
+            //podmínka jestli se na planetu dostaneme do konce měsíce
+            if((p.weight + 10) < ((30*25) - (timestamp % (30*25)))) {
+                Station s = (Station) p.source;
+                if (s.sendShipToTrip(p.path))
+                    pendingRequests.add(request);
+                    requestIterator.remove();
+                i++;
+            }
+        }
     }
 }

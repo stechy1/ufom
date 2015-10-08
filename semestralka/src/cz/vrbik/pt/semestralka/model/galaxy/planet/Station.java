@@ -1,7 +1,6 @@
 package cz.vrbik.pt.semestralka.model.galaxy.planet;
 
 import cz.vrbik.pt.semestralka.Headquarters;
-import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.SmallTransportShip;
 import javafx.scene.canvas.GraphicsContext;
@@ -24,6 +23,9 @@ public class Station extends BasePlanet {
     private final Stack<IShip> parkedShips = new Stack<>();
 
     private static int ID_COUNTER = -1;
+    private static int MAX_SHIP_OUT = 10;
+
+    private int shipOut = 0;
 
     /**
      * Vyrestartuje čítač stanic
@@ -32,12 +34,6 @@ public class Station extends BasePlanet {
         ID_COUNTER = -1;
     }
 
-    /**
-     * Konstruktor třídy {@link BasePlanet} s výchozí výškou a šířkou objektu
-     *
-     * @param x Vodorovná souřadnice stanice
-     * @param y Svislá souřadnice stanice
-     */
 
     /**
      * Statická metoda pro vrácení objektu Station z konfiguračního řádku
@@ -46,13 +42,15 @@ public class Station extends BasePlanet {
      */
     public static Station restoreStation(String line) {
         String[] data = line.split(";");
-
-
-
         return new Station(Double.parseDouble(data[0]), Double.parseDouble(data[1]), DEFAULT_WIDTH, DEFAULT_HEIGHT, Integer.parseInt(data[2]), data[3]);
     }
 
-
+    /**
+     * Konstruktor třídy {@link BasePlanet} s výchozí výškou a šířkou objektu
+     *
+     * @param x Vodorovná souřadnice stanice
+     * @param y Svislá souřadnice stanice
+     */
     public Station(double x, double y) {
         this(x, y, DEFAULT_WIDTH, DEFAULT_HEIGHT);
     }
@@ -90,7 +88,11 @@ public class Station extends BasePlanet {
      *
      * @param road Spojový seznam představující jednu cestu
      */
-    public void sendShipToTrip(List<BasePlanet> road) {
+    public boolean sendShipToTrip(List<BasePlanet> road) {
+        if (shipOut == MAX_SHIP_OUT)
+            return false;
+
+        shipOut++;
         //System.out.println("Posílám loď na cestu");
         IShip ship;
 
@@ -99,14 +101,14 @@ public class Station extends BasePlanet {
         ship.schedule(road);
         emptyShips.add(ship);
 
-        log.debug("Posílám loď " + ship + " na cestu");
+        log.debug("Připravuji loď " + ship + " na cestu");
         //ship.startTrip();
+        return true;
     }
     
     public String export(){
         return x + ";" + y + ";" + id + ";" + name;
     }
-
 
     /**
      * Metoda aktualizující logiku objektu
@@ -118,13 +120,15 @@ public class Station extends BasePlanet {
         shipsReadyToGo.forEach(IShip::startTrip);
         shipsReadyToGo.clear();
 
-        for (IShip emptyShip : emptyShips) {
+        emptyShips.stream().filter(emptyShip -> emptyShip.isReady()).forEach(emptyShip -> {
             emptyShip.loadCargo(emptyShip.getCapacity());
             shipsReadyToGo.add(emptyShip);
-        }
-        emptyShips.clear();
+
+        });
+        emptyShips.removeAll(shipsReadyToGo);
 
         for (IShip dockedShip : dockedShips) {
+            shipOut--;
             parkedShips.push(dockedShip);
             if (dockedShip.isHijacked())
                 Headquarters.getInstance().nextHijackedShip();

@@ -10,7 +10,7 @@ public class SmallTransportShip extends BaseShip implements ILoadable {
 
     private static final Logger log = Logger.getLogger(SmallTransportShip.class.getName());
 
-    private int capacity = 50000;
+    private int capacity = 5000000;
     private int cargo = 0;
 
     /**
@@ -33,7 +33,6 @@ public class SmallTransportShip extends BaseShip implements ILoadable {
     public void loadCargo(int mount) {
         cargo += mount;
         log.debug(String.format("Plním loď množstvím: %d", mount));
-        //System.out.println("Plním loď množstvím: " + mount);
     }
 
     /**
@@ -46,7 +45,6 @@ public class SmallTransportShip extends BaseShip implements ILoadable {
 
         cargo -= mount;
         log.debug(String.format("Vyprazdňuji loď množstvím: %d", mount));
-        //System.out.println("Vyprazdňuji loď množstvím: " + mount);
         return true;
     }
 

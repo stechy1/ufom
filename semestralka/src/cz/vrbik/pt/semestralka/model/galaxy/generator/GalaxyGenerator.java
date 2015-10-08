@@ -25,7 +25,7 @@ public abstract class GalaxyGenerator {
 
     protected static Galaxy galaxy;
 
-    protected static final Random r = new Random();
+    public static final Random r = new Random(10);
 
     protected static int width;
     protected static int height;

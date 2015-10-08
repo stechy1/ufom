@@ -1,8 +1,8 @@
 package cz.vrbik.pt.semestralka.model.galaxy;
 
 import cz.vrbik.pt.semestralka.model.IUpdatable;
+import cz.vrbik.pt.semestralka.model.galaxy.generator.GalaxyGenerator;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
-import cz.vrbik.pt.semestralka.model.galaxy.ship.BaseShip;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -69,7 +69,7 @@ public final class Path implements IUpdatable {
      */
     private boolean generatePirate(){
         pirateDetected = false;
-        return (int) (Math.random() * ((100) + 1)) < 21;
+        return GalaxyGenerator.r.nextInt(100)  <= 20;
     }
 
     /**
@@ -79,7 +79,7 @@ public final class Path implements IUpdatable {
      */
     private boolean hijack(){
 
-        return pirate && ((int) (Math.random() * ((100) + 1))) <= 10;
+        return pirate && GalaxyGenerator.r.nextInt(100) <= 10;
     }
 
     /**
@@ -139,14 +139,19 @@ public final class Path implements IUpdatable {
                 log.debug("Odebírám loď " + ship + "ze spojení: " + this);
                 removeShip(ship);
             }
+
+            if (ship.isChecked())
+                continue;
+
             if (hijack() && ship.isShipFullyLoaded() && !ship.isChecked()) {
                 log.info("Loď " + ship + " byla přepadena piráty");
-                ship.setChecked(true);
+                ship.setChecked(false);
                 pirateDetected = true;
                 ship.setHijacked(true);
                 removeShip(ship);
                 ship.turnBackToHome();
             }
+            ship.setChecked(true);
         }
 
         ships.removeAll(shipsToRemove);
@@ -154,6 +159,11 @@ public final class Path implements IUpdatable {
 
         shipsToAdd.clear();
         shipsToRemove.clear();
+
+
+        if(timestamp != 0 && (timestamp % (30*25)) == 0){
+            pirate = generatePirate();
+        }
     }
 
     /**
@@ -165,15 +175,16 @@ public final class Path implements IUpdatable {
     public void render(GraphicsContext g) {
 
         if (!visited && !pirate)
-            return;
-
-        if(pirate)
-            if ((shipCounter != 0) || visited)
-                g.setStroke(Color.ORANGE);
+            g.setStroke(Color.LIGHTGRAY);
+        else {
+            if (pirate)
+                if (visited)
+                    g.setStroke(Color.ORANGE);
+                else
+                    g.setStroke(Color.RED);
             else
-                g.setStroke(Color.RED);
-        else
-            g.setStroke(Color.YELLOW);
+                g.setStroke(Color.YELLOW);
+        }
 
         g.strokeLine(
                 a.getCenterX() + Galaxy.TRANSLATE_X, a.getCenterY() + Galaxy.TRANSLATE_Y,

@@ -4,14 +4,12 @@ import cz.vrbik.pt.semestralka.model.IUpdatable;
 import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.IGraphicalObject;
 import cz.vrbik.pt.semestralka.model.galaxy.Path;
-import cz.vrbik.pt.semestralka.model.galaxy.ship.BaseShip;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import javafx.scene.canvas.GraphicsContext;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Základní třída pro planetu
@@ -123,22 +121,7 @@ public abstract class BasePlanet
      */
     @Override
     public void update(int timestamp) {
-        shipsReadyToGo.forEach(IShip::continueTrip);
-        shipsReadyToGo.clear();
 
-        for (IShip emptyShip : emptyShips) {
-            emptyShip.schedule();
-            emptyShip.startTrip();
-        }
-
-        for (IShip dockedShip : dockedShips) {
-            dockedShip.unLoadCargo(dockedShip.getCargo());
-        }
-
-        emptyShips.clear();
-        emptyShips.addAll(dockedShips.stream().collect(Collectors.toList()));
-
-        dockedShips.removeAll(emptyShips);
     }
 
     /**
@@ -160,7 +143,7 @@ public abstract class BasePlanet
     public void dock(IShip ship) {
         if (ship.isEndOfTrip()) {
             dockedShips.add(ship);
-            log.info(String.format("Parkuji loď: %s na planetě: %s", ship, name));
+            //log.info(String.format("Parkuji loď: %s na planetě: %s", ship, name));
             //System.out.println("Parkuji loď: " + ship + " na planetě: " + this);
         }
         else {

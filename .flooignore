@@ -6,5 +6,6 @@ vendor
 out/
 *.iml
 *.ini
-logging.log
+*.log
 Standardní zadání semestrální práce pro PT 2015.pdf
+cviceni/

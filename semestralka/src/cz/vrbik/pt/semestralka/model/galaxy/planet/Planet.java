@@ -1,14 +1,22 @@
 package cz.vrbik.pt.semestralka.model.galaxy.planet;
 
-import cz.vrbik.pt.semestralka.model.galaxy.Path;
+import cz.vrbik.pt.semestralka.Headquarters;
+import cz.vrbik.pt.semestralka.model.galaxy.generator.GalaxyGenerator;
+import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import cz.vrbik.pt.semestralka.model.service.PlanetNames;
+import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import org.apache.log4j.Logger;
+
+import java.util.stream.Collectors;
 
 /**
  * Třída představující jednu planetu v galaxii
  */
 public class Planet extends BasePlanet {
+
+    private static final Logger log = Logger.getLogger(Planet.class.getName());
 
     public static final int DEFAULT_WIDTH = 2;
     public static final int DEFAULT_HEIGHT = 2;
@@ -20,7 +28,8 @@ public class Planet extends BasePlanet {
     private static final PlanetNames names = PlanetNames.getInstance();
 
     private int inhabitants;
-    private int selfResources;
+    private int production;
+    private int inhabitantsEndagered = 0;
 
     /**
      * Vyrestartuje počítadlo planet
@@ -73,14 +82,13 @@ public class Planet extends BasePlanet {
         this.id = id;
         this.name = name;
         this.inhabitants = inhabitants;
-        this.selfResources = generateSelfResources();
     }
 
     /**
      * Metoda pro generování počtu původních obyvatel
      */
     private static int generateInhabitants() {
-        return MIN_POPULATION + (int) (Math.random() * ((MAX_POPULATION - MIN_POPULATION) + 1));
+        return GalaxyGenerator.r.nextInt((MAX_POPULATION - MIN_POPULATION) + 1) + MIN_POPULATION;
     }
 
     /**
@@ -88,8 +96,8 @@ public class Planet extends BasePlanet {
      *
      * @return počet obyvatel o které se planeta umí postarat
      */
-    private int generateSelfResources() {
-        return (inhabitants / 100) * (20 + (int) (Math.random() * ((80 - 20) + 1)));
+    private int generateProduction() {
+        return GalaxyGenerator.r.nextInt((60) + 1) + 20;
     }
 
     /**
@@ -97,8 +105,8 @@ public class Planet extends BasePlanet {
      *
      * @return True, pokud je planeta jestě důležitá, jinak false
      */
-    private boolean isInteresting() {
-        return (inhabitants > INTERESTING_LIMIT);
+    public boolean isInteresting() {
+        return (inhabitants < INTERESTING_LIMIT);
     }
 
     /**
@@ -122,8 +130,66 @@ public class Planet extends BasePlanet {
         super.render(g);
     }
 
+    /**
+     * Pošle na velitelství požadavek, že chce nové zásoby
+     *
+     * @param amount Množství léků
+     */
+    public void sendRequest(int amount){
+        Headquarters.getInstance().makeRequest(new ResourceRequest(this, amount));
+    }
+
+    /**
+     * Metoda pro aktualizaci stavu planety
+     *
+     * @param timestamp Doba od spuštění simulace
+     */
+    @Override
+    public void update(int timestamp) {
+
+        if(timestamp % (30*25) == 0) {
+
+            if(inhabitantsEndagered > 0)
+                log.info("na planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + "lidí");
+
+
+            inhabitants = inhabitants - inhabitantsEndagered;
+            inhabitantsEndagered = 0;
+
+            production = generateProduction();
+            inhabitantsEndagered = inhabitants - ((inhabitants/100) * production);
+            sendRequest(inhabitantsEndagered);
+        }
+
+
+        shipsReadyToGo.forEach(IShip::continueTrip);
+        shipsReadyToGo.clear();
+
+        for (IShip emptyShip : emptyShips) {
+            emptyShip.schedule();
+            emptyShip.startTrip();
+        }
+        emptyShips.clear();
+
+        dockedShips.stream().filter(IShip::isReady).forEach(iShip -> {
+            inhabitantsEndagered = inhabitantsEndagered - iShip.getCargo();
+
+            if(inhabitantsEndagered < 0){inhabitantsEndagered = 0;}
+
+            log.info("na planetě " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + "zbyle ohrozeni je pro: " + inhabitantsEndagered );
+
+            iShip.unLoadCargo(iShip.getCargo());
+            emptyShips.add(iShip);
+        });
+
+        dockedShips.removeAll(emptyShips);
+    }
+
     @Override
     public String toString() {
         return String.format("%s; Inhabitants: %d", super.toString(), inhabitants);
     }
+
+
+
 }

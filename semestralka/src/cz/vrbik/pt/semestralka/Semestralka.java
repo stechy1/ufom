@@ -10,6 +10,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 
 import java.net.URL;
+import java.util.Objects;
 
 /**
  * Vstupní třída semestrální práce na PT
@@ -20,11 +21,29 @@ public class Semestralka extends Application {
 
     public static final URL PATH_TO_LOG4J_PROPERTIES = ClassLoader.getSystemResource("resources/config/log4j.properties");
 
+    private static boolean nogui = false;
+    private static String openFilePath = "";
+
     public static void main(String[] args) {
         PropertyConfigurator.configure(PATH_TO_LOG4J_PROPERTIES);
 
-        log.info("Spouštím grafického klienta galaxie...");
-        launch(args);
+        if (args.length != 0) {
+            for (int i = 0; i < args.length; i++) {
+                if (Objects.equals(args[i], "-nogui"))
+                    nogui = true;
+                if (Objects.equals(args[i], "-file")) {
+                    if ((i + 1) != args.length)
+                        openFilePath = args[i + 1];
+                }
+            }
+        }
+
+        if (nogui) {
+            log.info("Spouštím galaxii v konzoli...");
+        } else {
+            log.info("Spouštím grafického klienta galaxie...");
+            launch(args);
+        }
     }
 
     @Override
@@ -32,10 +51,6 @@ public class Semestralka extends Application {
         Parent p =  FXMLLoader.load(ClassLoader.getSystemResource("resources/fxml/main.fxml"));
 
         Scene scene = new Scene(p);
-        /*StringBuilder sb = new StringBuilder(ClassLoader.getSystemResource("resources/css/style.css").getPath());
-        sb.deleteCharAt(0);
-
-        scene.getStylesheets().add(sb.toString());*/
 
         primaryStage.setScene(scene);
         primaryStage.setTitle("UFO - Medical");

@@ -1,6 +1,5 @@
 package cz.vrbik.pt.semestralka.model.galaxy;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.IRestorable;
 import cz.vrbik.pt.semestralka.model.IUpdatable;

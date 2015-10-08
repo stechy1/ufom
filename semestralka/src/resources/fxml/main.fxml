@@ -91,12 +91,6 @@
         </Menu>
     </MenuBar>
     <ToolBar prefHeight="40.0">
-        <!--<Button text="Generate" onAction="#generateDataButtonHandler"/>
-        <Button text="Start" onAction="#startSimulationButtonHandler"/>
-        <Button text="Export" onAction="#exportGalaxyButtonHandler"/>
-        <Button text="Import" onAction="#importGalaxyButtonHandler"/>
-        <Button text="Make temp request" onAction="#makeTempRequestButtonHandler"/>
-        <Button text="Make update" onAction="#makeUpdateButtonHandler"/>-->
         <Button prefWidth="32" prefHeight="32" mnemonicParsing="false"
                 onAction="#generateGalaxyButtonHandler">
             <styleClass>
@@ -212,4 +206,17 @@
             <Canvas fx:id="canvas" width="900" height="900"/>
         </ScrollPane>
     </SplitPane>
+    <HBox spacing="10" prefHeight="40.0">
+        <padding>
+            <Insets left="10" top="10" right="10" bottom="10"/>
+        </padding>
+        <Label fx:id="labelYear" prefWidth="50" text="Rok: 0"/>
+        <Label fx:id="labelMonth" prefWidth="50" text="Měsíc: 0"/>
+        <Label fx:id="labelDay" prefWidth="50" text="Den: 0"/>
+        <HBox fx:id="hBoxProgressBarContainer" HBox.hgrow="ALWAYS">
+            <ProgressBar fx:id="progressBarGalaxyProgress"/>
+        </HBox>
+        <Label fx:id="labelRemaining" prefWidth="150" text="Zbývá: "/>
+
+    </HBox>
 </VBox>

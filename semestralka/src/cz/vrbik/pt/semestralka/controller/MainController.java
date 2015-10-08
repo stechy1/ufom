@@ -8,6 +8,8 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.beans.binding.Bindings;
+import javafx.beans.property.SimpleObjectProperty;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -15,6 +17,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.*;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.FileChooser;
@@ -59,6 +62,19 @@ public class MainController implements Initializable {
     @FXML
     private Canvas canvas;
 
+    @FXML
+    private Label labelDay;
+    @FXML
+    private Label labelMonth;
+    @FXML
+    private Label labelYear;
+    @FXML
+    private HBox hBoxProgressBarContainer;
+    @FXML
+    private ProgressBar progressBarGalaxyProgress;
+    @FXML
+    private Label labelRemaining;
+
     private final Duration duration = Duration.millis(100);
     private final KeyFrame oneFrame = new KeyFrame(duration, new MyHandler());
     private Timeline timeline;
@@ -66,6 +82,11 @@ public class MainController implements Initializable {
     private Galaxy galaxy;
     private int counter = 0;
     private File usedFile;
+    private int rok = 1200;
+    /*private final ObservableValue<Integer>
+            day = new SimpleObjectProperty<>(),
+            month = new SimpleObjectProperty<>(),
+            year = new SimpleObjectProperty<>();*/
     private int day = 0, month = 0, year = 0;
 
     private void draw() {
@@ -96,6 +117,8 @@ public class MainController implements Initializable {
         Bindings.bindBidirectional(spinnerPlanetSpacing.getValueFactory().valueProperty(), config.planetSpacing);
         Bindings.bindBidirectional(spinnerStationSpacing.getValueFactory().valueProperty(), config.stationSpacing);
 
+        hBoxProgressBarContainer.widthProperty().addListener((observable, oldValue, newValue) -> progressBarGalaxyProgress.setPrefWidth(newValue.doubleValue()));
+
         SplitPane.setResizableWithParent(propertyVBox, false);
 
         scrollPane.setPrefSize(300, 300);
@@ -125,6 +148,7 @@ public class MainController implements Initializable {
      * Reakce na tlačítko generovat galaxii
      */
     public void generateGalaxyButtonHandler() {
+        progressBarGalaxyProgress.setProgress(0);
         galaxy.generate();
         draw();
     }
@@ -260,16 +284,26 @@ public class MainController implements Initializable {
          */
         @Override
         public void handle(ActionEvent event) {
-            counter++;
+            galaxy.update(counter++);
+            draw();
 
-            if (counter % 24 == 0)
+            progressBarGalaxyProgress.setProgress(counter / 9000.0);
+            if (counter % 25 == 0) {
                 day++;
+                labelDay.setText("Den: " + day);
+                labelRemaining.setText("Zbývá: " + (--rok) + " dni.");
+                if(rok == 0){rok = 1200;}
+            }
 
-            if (day % 30 == 0 && day != 0)
+            if (day % 30 == 0 && day != 0) {
                 month++;
+                labelMonth.setText("Měsíc: " + month);
+            }
 
-            if (month % 12 == 0 && month != 0)
+            if (month % 12 == 0 && month != 0) {
                 year++;
+                labelYear.setText("Rok: " + year);
+            }
 
             if (day == 30)
                 day = 0;
@@ -277,9 +311,6 @@ public class MainController implements Initializable {
             if (month == 12)
                 month = 0;
 
-            //System.out.println("Rok: " + year + ", Měsíc: " + month + ", Den: " + day + ", Hodina: " + counter);
-            galaxy.update(counter);
-            draw();
         }
     }
 }

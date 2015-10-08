@@ -1,13 +1,13 @@
 package cz.vrbik.pt.semestralka.model.service;
 
-import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
+import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 
 /**
  * Třída představuje jeden požadavek planety
  */
 public final class ResourceRequest implements Comparable<ResourceRequest> {
 
-    public final BasePlanet requestPlanet;
+    public final Planet requestPlanet;
     public final int quantity;
 
     /**
@@ -16,7 +16,7 @@ public final class ResourceRequest implements Comparable<ResourceRequest> {
      * @param requestPlanet
      * @param quantity
      */
-    public ResourceRequest(BasePlanet requestPlanet, int quantity) {
+    public ResourceRequest(Planet requestPlanet, int quantity) {
         this.requestPlanet = requestPlanet;
         this.quantity = quantity;
     }
@@ -61,6 +61,24 @@ public final class ResourceRequest implements Comparable<ResourceRequest> {
      */
     @Override
     public int compareTo(ResourceRequest o) {
+
+
         return 0;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ResourceRequest request = (ResourceRequest) o;
+
+        return !(requestPlanet != null ? !requestPlanet.equals(request.requestPlanet) : request.requestPlanet != null);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return requestPlanet != null ? requestPlanet.hashCode() : 0;
     }
 }

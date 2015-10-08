@@ -17,6 +17,7 @@ public abstract class BaseShip implements IShip {
     protected static int ID_COUNTER = 0;
 
     private Iterator<BasePlanet> tripIterator;
+    private BasePlanet homePlanet;
     protected BasePlanet actualPlanet;
     protected BasePlanet nextPlanet;
 
@@ -26,8 +27,8 @@ public abstract class BaseShip implements IShip {
     protected int speed = 25;
     protected boolean hijacked;
     protected int id;
-
     protected boolean checked;
+    protected int loadingProgress = 0;
 
     /**
      * Konstruktor třídy {@link BaseShip}
@@ -37,7 +38,7 @@ public abstract class BaseShip implements IShip {
      * @param homePlanet Reference na domovskou planetu lodi
      */
     public BaseShip(BasePlanet homePlanet) {
-        actualPlanet = homePlanet;
+        this.homePlanet = homePlanet;
         id = ID_COUNTER++;
         log.debug(String.format("Vytvářím novou loď na planetě: %s. ID lodi: %d", homePlanet.getName(), id));
     }
@@ -157,7 +158,11 @@ public abstract class BaseShip implements IShip {
      */
     @Override
     public void schedule(List<BasePlanet> road) {
+        actualPlanet = homePlanet;
+        nextPlanet = null;
         totalProgress = 0;
+        hijacked = false;
+        checked = false;
         trip.clear();
         trip.addAll(road);
         tripIterator = trip.iterator();
@@ -252,5 +257,21 @@ public abstract class BaseShip implements IShip {
     @Override
     public String toString() {
         return String.format("Ship {%d}", id);
+    }
+
+    /**
+     * Metoda zjistí, zda-li je loď připravena k odletu
+     *
+     * @return True, pokud je loď připravena k odletu, jinak false
+     */
+    @Override
+    public boolean isReady(){
+        if(loadingProgress == 25) {
+            loadingProgress = 0;
+            return true;
+        }
+
+        loadingProgress++;
+        return false;
     }
 }
