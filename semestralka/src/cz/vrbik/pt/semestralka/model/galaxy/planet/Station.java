@@ -3,6 +3,7 @@ package cz.vrbik.pt.semestralka.model.galaxy.planet;
 import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.SmallTransportShip;
+import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import org.apache.log4j.Logger;
@@ -23,7 +24,7 @@ public class Station extends BasePlanet {
     private final Stack<IShip> parkedShips = new Stack<>();
 
     private static int ID_COUNTER = -1;
-    private static int MAX_SHIP_OUT = 10;
+    private static int MAX_SHIP_OUT = 250;
 
     private int shipOut = 0;
 
@@ -88,16 +89,15 @@ public class Station extends BasePlanet {
      *
      * @param road Spojový seznam představující jednu cestu
      */
-    public boolean sendShipToTrip(List<BasePlanet> road) {
+    public boolean sendShipToTrip(List<BasePlanet> road, ResourceRequest request) {
         if (shipOut == MAX_SHIP_OUT)
             return false;
 
         shipOut++;
-        //System.out.println("Posílám loď na cestu");
         IShip ship;
 
         ship = (parkedShips.size() != 0) ? parkedShips.pop() : new SmallTransportShip(this);
-
+        ship.setRequest(request);
         ship.schedule(road);
         emptyShips.add(ship);
 
@@ -120,8 +120,8 @@ public class Station extends BasePlanet {
         shipsReadyToGo.forEach(IShip::startTrip);
         shipsReadyToGo.clear();
 
-        emptyShips.stream().filter(emptyShip -> emptyShip.isReady()).forEach(emptyShip -> {
-            emptyShip.loadCargo(emptyShip.getCapacity());
+        emptyShips.stream().filter(IShip::isReady).forEach(emptyShip -> {
+            emptyShip.loadCargo(emptyShip.getRequest().quantity);
             shipsReadyToGo.add(emptyShip);
 
         });
@@ -130,13 +130,15 @@ public class Station extends BasePlanet {
         for (IShip dockedShip : dockedShips) {
             shipOut--;
             parkedShips.push(dockedShip);
-            if (dockedShip.isHijacked())
-                Headquarters.getInstance().nextHijackedShip();
+            if (dockedShip.isHijacked()){
+                dockedShip.setHijacked(false);
+                //TODO čištění lodi po příjezdu
+            }
         }
-        //dockedShips.forEach(parkedShips::push);
+
         dockedShips.clear();
 
-        //super.update(timestamp);
+
     }
 
     @Override

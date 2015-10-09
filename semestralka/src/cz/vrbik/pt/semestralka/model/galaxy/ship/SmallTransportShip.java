@@ -1,6 +1,7 @@
 package cz.vrbik.pt.semestralka.model.galaxy.ship;
 
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
+import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import org.apache.log4j.Logger;
 
 /**
@@ -75,7 +76,7 @@ public class SmallTransportShip extends BaseShip implements ILoadable {
      */
     @Override
     public boolean isShipFullyLoaded() {
-        return cargo == capacity;
+        return cargo > 0;
     }
 
     @Override

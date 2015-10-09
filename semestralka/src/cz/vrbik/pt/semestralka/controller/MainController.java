@@ -82,7 +82,7 @@ public class MainController implements Initializable {
     private Galaxy galaxy;
     private int counter = 0;
     private File usedFile;
-    private int rok = 1200;
+    private int rok = 360;
     /*private final ObservableValue<Integer>
             day = new SimpleObjectProperty<>(),
             month = new SimpleObjectProperty<>(),
@@ -135,13 +135,6 @@ public class MainController implements Initializable {
             timeline = new Timeline(oneFrame);
             timeline.setCycleCount(Animation.INDEFINITE);
         });
-    }
-
-    /**
-     * Reakce na tlačítko vytvořit dočasný request
-     */
-    public void makeTempRequestButtonHandler() {
-        Headquarters.getInstance().makeRequest();
     }
 
     /**
@@ -292,7 +285,7 @@ public class MainController implements Initializable {
                 day++;
                 labelDay.setText("Den: " + day);
                 labelRemaining.setText("Zbývá: " + (--rok) + " dni.");
-                if(rok == 0){rok = 1200;}
+                if(rok == 0){rok = 360;}
             }
 
             if (day % 30 == 0 && day != 0) {

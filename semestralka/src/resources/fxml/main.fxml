@@ -150,7 +150,6 @@
                 <Tooltip text="Umělý update"/>
             </tooltip>
         </Button>
-        <Button mnemonicParsing="false" text="Umělý request" onAction="#makeTempRequestButtonHandler"/>
         <Button mnemonicParsing="false" text="Přepočítat dijkstru" onAction="#recalculateDijkstraButtonHandler"/>
     </ToolBar>
 

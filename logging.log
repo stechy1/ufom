@@ -7541,3 +7541,101 @@
 2015-10-08 18:59:08 INFO  Headquarters:62 - Spouštím dijkstův algoritmus pro přepočítání tras...
 2015-10-08 18:59:08 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 1ms.
 2015-10-08 18:59:08 INFO  Galaxy:96 - Galaxie byla vygenerována za: 182 ms.
+2015-10-09 09:50:48 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 09:50:49 INFO  MainController:110 - Inicializuji grafické rozhraní...
+2015-10-09 09:51:06 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 09:51:07 INFO  MainController:110 - Inicializuji grafické rozhraní...
+2015-10-09 09:51:13 INFO  Galaxy:84 - Generuji novou galaxii..
+2015-10-09 09:51:13 INFO  Headquarters:92 - Dijkstra přepočítal trasy za: 16ms.
+2015-10-09 09:51:13 INFO  Galaxy:96 - Galaxie byla vygenerována za: 290 ms.
+2015-10-09 09:51:22 INFO  Path:147 - Loď SmallTransportShip{id: 43, capacity:5000000, cargo:2012869} byla přepadena piráty
+2015-10-09 09:51:22 INFO  Path:147 - Loď SmallTransportShip{id: 91, capacity:5000000, cargo:1666374} byla přepadena piráty
+2015-10-09 09:51:25 INFO  Path:147 - Loď SmallTransportShip{id: 101, capacity:5000000, cargo:1666374} byla přepadena piráty
+2015-10-09 09:51:26 INFO  Planet:178 - na planetě Dorotha dorazily zásoby: 1718174zbyle ohrozeni je pro: 0
+2015-10-09 09:51:28 INFO  Planet:178 - na planetě Adriana dorazily zásoby: 219834zbyle ohrozeni je pro: 0
+2015-10-09 09:51:29 INFO  Planet:178 - na planetě Shellie dorazily zásoby: 587214zbyle ohrozeni je pro: 0
+2015-10-09 09:51:29 INFO  Planet:178 - na planetě Dean dorazily zásoby: 251608zbyle ohrozeni je pro: 0
+2015-10-09 09:51:29 INFO  Planet:178 - na planetě Jared dorazily zásoby: 3538429zbyle ohrozeni je pro: 0
+2015-10-09 09:51:30 INFO  Planet:178 - na planetě Marva dorazily zásoby: 5069039zbyle ohrozeni je pro: 0
+2015-10-09 09:51:31 INFO  Planet:178 - na planetě Britteny dorazily zásoby: 2566820zbyle ohrozeni je pro: 0
+2015-10-09 09:51:31 INFO  Planet:178 - na planetě Jessika dorazily zásoby: 5540939zbyle ohrozeni je pro: 0
+2015-10-09 09:51:32 INFO  Planet:178 - na planetě Eduardo dorazily zásoby: 98359zbyle ohrozeni je pro: 0
+2015-10-09 09:51:32 INFO  Planet:178 - na planetě Hosea dorazily zásoby: 350597zbyle ohrozeni je pro: 0
+2015-10-09 09:51:33 INFO  Planet:178 - na planetě Iliana dorazily zásoby: 1820497zbyle ohrozeni je pro: 0
+2015-10-09 09:51:33 INFO  Planet:178 - na planetě Dortha dorazily zásoby: 736776zbyle ohrozeni je pro: 0
+2015-10-09 09:51:33 INFO  Planet:178 - na planetě Jorge dorazily zásoby: 3549432zbyle ohrozeni je pro: 0
+2015-10-09 09:51:34 INFO  Planet:178 - na planetě Junko dorazily zásoby: 320009zbyle ohrozeni je pro: 0
+2015-10-09 09:51:35 INFO  Planet:178 - na planetě Tiesha dorazily zásoby: 2012869zbyle ohrozeni je pro: 0
+2015-10-09 09:51:36 INFO  Path:147 - Loď SmallTransportShip{id: 44, capacity:5000000, cargo:2472440} byla přepadena piráty
+2015-10-09 09:51:36 INFO  Planet:178 - na planetě Corene dorazily zásoby: 1738796zbyle ohrozeni je pro: 0
+2015-10-09 09:51:36 INFO  Planet:178 - na planetě Lauren dorazily zásoby: 2563842zbyle ohrozeni je pro: 0
+2015-10-09 09:51:36 INFO  Planet:178 - na planetě Fredrick dorazily zásoby: 5438290zbyle ohrozeni je pro: 0
+2015-10-09 09:51:37 INFO  Planet:178 - na planetě Earlie dorazily zásoby: 594120zbyle ohrozeni je pro: 0
+2015-10-09 09:51:37 INFO  Planet:178 - na planetě Sherron dorazily zásoby: 3209912zbyle ohrozeni je pro: 0
+2015-10-09 09:51:37 INFO  Planet:178 - na planetě Armida dorazily zásoby: 2440742zbyle ohrozeni je pro: 0
+2015-10-09 09:51:38 INFO  Planet:178 - na planetě Sallie dorazily zásoby: 710400zbyle ohrozeni je pro: 0
+2015-10-09 09:51:39 INFO  Planet:178 - na planetě Angel dorazily zásoby: 4024842zbyle ohrozeni je pro: 0
+2015-10-09 09:51:39 INFO  Planet:178 - na planetě Ardella dorazily zásoby: 1220641zbyle ohrozeni je pro: 0
+2015-10-09 09:51:40 INFO  Planet:178 - na planetě Robbi dorazily zásoby: 2077195zbyle ohrozeni je pro: 0
+2015-10-09 09:51:40 INFO  Planet:178 - na planetě Kaylee dorazily zásoby: 549715zbyle ohrozeni je pro: 0
+2015-10-09 09:51:40 INFO  Planet:178 - na planetě Juliane dorazily zásoby: 1450198zbyle ohrozeni je pro: 0
+2015-10-09 09:51:40 INFO  Planet:178 - na planetě Darius dorazily zásoby: 373937zbyle ohrozeni je pro: 0
+2015-10-09 09:51:41 INFO  Planet:178 - na planetě Nakia dorazily zásoby: 2304307zbyle ohrozeni je pro: 0
+2015-10-09 09:51:41 INFO  Planet:178 - na planetě Ja dorazily zásoby: 3965525zbyle ohrozeni je pro: 0
+2015-10-09 09:51:41 INFO  Planet:178 - na planetě Francesca dorazily zásoby: 5840554zbyle ohrozeni je pro: 0
+2015-10-09 09:51:42 INFO  Planet:178 - na planetě Majorie dorazily zásoby: 117824zbyle ohrozeni je pro: 0
+2015-10-09 09:51:42 INFO  Planet:178 - na planetě Tempie dorazily zásoby: 4080015zbyle ohrozeni je pro: 0
+2015-10-09 09:51:42 INFO  Planet:178 - na planetě Terina dorazily zásoby: 1666374zbyle ohrozeni je pro: 0
+2015-10-09 09:51:43 INFO  Planet:178 - na planetě Adell dorazily zásoby: 1753201zbyle ohrozeni je pro: 0
+2015-10-09 09:51:43 INFO  Planet:178 - na planetě Elvina dorazily zásoby: 1133164zbyle ohrozeni je pro: 0
+2015-10-09 09:51:43 INFO  Planet:178 - na planetě Deirdre dorazily zásoby: 4436965zbyle ohrozeni je pro: 0
+2015-10-09 09:51:43 INFO  Planet:178 - na planetě Dion dorazily zásoby: 493380zbyle ohrozeni je pro: 0
+2015-10-09 09:51:43 INFO  Planet:178 - na planetě Ignacia dorazily zásoby: 2941420zbyle ohrozeni je pro: 0
+2015-10-09 09:51:43 INFO  Planet:178 - na planetě Reid dorazily zásoby: 1059284zbyle ohrozeni je pro: 0
+2015-10-09 09:51:44 INFO  Planet:178 - na planetě Carlene dorazily zásoby: 4852897zbyle ohrozeni je pro: 0
+2015-10-09 09:51:44 INFO  Planet:178 - na planetě Tamica dorazily zásoby: 3163681zbyle ohrozeni je pro: 0
+2015-10-09 09:51:44 INFO  Planet:178 - na planetě Phillip dorazily zásoby: 117291zbyle ohrozeni je pro: 0
+2015-10-09 09:51:45 INFO  Planet:178 - na planetě Harriett dorazily zásoby: 170169zbyle ohrozeni je pro: 0
+2015-10-09 09:51:45 INFO  Planet:178 - na planetě Domenic dorazily zásoby: 187527zbyle ohrozeni je pro: 0
+2015-10-09 09:51:46 INFO  Planet:178 - na planetě Mandi dorazily zásoby: 6586190zbyle ohrozeni je pro: 0
+2015-10-09 09:51:46 INFO  Planet:178 - na planetě Shanta dorazily zásoby: 2706146zbyle ohrozeni je pro: 0
+2015-10-09 09:51:46 INFO  Planet:178 - na planetě Genevieve dorazily zásoby: 1979050zbyle ohrozeni je pro: 0
+2015-10-09 09:51:47 INFO  Planet:178 - na planetě Liliana dorazily zásoby: 1420678zbyle ohrozeni je pro: 0
+2015-10-09 09:51:47 INFO  Planet:178 - na planetě Vicenta dorazily zásoby: 2652810zbyle ohrozeni je pro: 0
+2015-10-09 09:51:47 INFO  Planet:178 - na planetě Francina dorazily zásoby: 1138739zbyle ohrozeni je pro: 0
+2015-10-09 09:51:47 INFO  Planet:178 - na planetě Frederick dorazily zásoby: 1856286zbyle ohrozeni je pro: 0
+2015-10-09 09:51:48 INFO  Planet:178 - na planetě Rhonda dorazily zásoby: 1297244zbyle ohrozeni je pro: 0
+2015-10-09 09:51:48 INFO  Planet:178 - na planetě Samual dorazily zásoby: 1303443zbyle ohrozeni je pro: 0
+2015-10-09 09:51:49 INFO  Planet:178 - na planetě Maxine dorazily zásoby: 1887640zbyle ohrozeni je pro: 0
+2015-10-09 09:51:49 INFO  Planet:178 - na planetě Corrine dorazily zásoby: 1198032zbyle ohrozeni je pro: 0
+2015-10-09 09:51:49 INFO  Planet:178 - na planetě Claribel dorazily zásoby: 806004zbyle ohrozeni je pro: 0
+2015-10-09 09:51:49 INFO  Planet:178 - na planetě Dolly dorazily zásoby: 1363910zbyle ohrozeni je pro: 0
+2015-10-09 09:51:49 INFO  Planet:178 - na planetě Holley dorazily zásoby: 2063964zbyle ohrozeni je pro: 0
+2015-10-09 09:51:51 INFO  Planet:178 - na planetě Arlean dorazily zásoby: 1201550zbyle ohrozeni je pro: 0
+2015-10-09 09:51:51 INFO  Planet:178 - na planetě Melony dorazily zásoby: 6181533zbyle ohrozeni je pro: 0
+2015-10-09 09:51:52 INFO  Planet:178 - na planetě Herlinda dorazily zásoby: 1812454zbyle ohrozeni je pro: 0
+2015-10-09 09:51:52 INFO  Planet:178 - na planetě Dona dorazily zásoby: 4082276zbyle ohrozeni je pro: 0
+2015-10-09 09:51:52 INFO  Planet:178 - na planetě Inez dorazily zásoby: 543974zbyle ohrozeni je pro: 0
+2015-10-09 09:51:52 INFO  Planet:178 - na planetě Maurine dorazily zásoby: 5746525zbyle ohrozeni je pro: 0
+2015-10-09 09:51:52 INFO  Planet:178 - na planetě Jetta dorazily zásoby: 570807zbyle ohrozeni je pro: 0
+2015-10-09 09:51:53 INFO  Planet:178 - na planetě Loris dorazily zásoby: 2216236zbyle ohrozeni je pro: 0
+2015-10-09 09:51:54 INFO  Planet:178 - na planetě Mathilda dorazily zásoby: 3022974zbyle ohrozeni je pro: 0
+2015-10-09 09:51:55 INFO  Planet:178 - na planetě Aide dorazily zásoby: 4689072zbyle ohrozeni je pro: 0
+2015-10-09 09:51:55 INFO  Planet:178 - na planetě Antoine dorazily zásoby: 2241956zbyle ohrozeni je pro: 0
+2015-10-09 09:51:55 INFO  Planet:178 - na planetě Jayme dorazily zásoby: 2222901zbyle ohrozeni je pro: 0
+2015-10-09 09:51:56 INFO  Planet:178 - na planetě Agustina dorazily zásoby: 3136357zbyle ohrozeni je pro: 0
+2015-10-09 09:51:56 INFO  Planet:178 - na planetě Michal dorazily zásoby: 2135208zbyle ohrozeni je pro: 0
+2015-10-09 09:51:56 INFO  Planet:178 - na planetě Roselia dorazily zásoby: 3055967zbyle ohrozeni je pro: 0
+2015-10-09 09:51:57 INFO  Planet:178 - na planetě Cherie dorazily zásoby: 1232653zbyle ohrozeni je pro: 0
+2015-10-09 09:51:57 INFO  Planet:178 - na planetě Myra dorazily zásoby: 876750zbyle ohrozeni je pro: 0
+2015-10-09 09:51:57 INFO  Planet:178 - na planetě Sheri dorazily zásoby: 5117143zbyle ohrozeni je pro: 0
+2015-10-09 09:51:58 INFO  Planet:178 - na planetě Shirley dorazily zásoby: 322366zbyle ohrozeni je pro: 0
+2015-10-09 09:51:59 INFO  Planet:178 - na planetě Leonel dorazily zásoby: 5487181zbyle ohrozeni je pro: 0
+2015-10-09 09:51:59 INFO  Planet:178 - na planetě Mora dorazily zásoby: 6121685zbyle ohrozeni je pro: 0
+2015-10-09 09:51:59 INFO  Planet:178 - na planetě Larhonda dorazily zásoby: 1812136zbyle ohrozeni je pro: 0
+2015-10-09 09:52:00 INFO  Planet:178 - na planetě Edwardo dorazily zásoby: 3073887zbyle ohrozeni je pro: 0
+2015-10-09 09:52:00 INFO  Planet:178 - na planetě Lily dorazily zásoby: 812512zbyle ohrozeni je pro: 0
+2015-10-09 09:52:01 INFO  Planet:178 - na planetě Rhiannon dorazily zásoby: 2397761zbyle ohrozeni je pro: 0
+2015-10-09 09:52:02 INFO  Planet:178 - na planetě Derick dorazily zásoby: 5406205zbyle ohrozeni je pro: 0
+2015-10-09 09:52:02 INFO  Planet:178 - na planetě Kandis dorazily zásoby: 57181zbyle ohrozeni je pro: 0
+2015-10-09 09:52:02 INFO  Planet:178 - na planetě Carolina dorazily zásoby: 569599zbyle ohrozeni je pro: 0

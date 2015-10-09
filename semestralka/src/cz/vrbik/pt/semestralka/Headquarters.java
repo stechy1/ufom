@@ -19,6 +19,7 @@ public class Headquarters {
     private static final Logger log = Logger.getLogger(Headquarters.class.getName());
 
     public static final int CRICITAL_HIJACKED_SHIP = 10;
+    private static final int TIME_RESERVE = 60;
 
     private static Headquarters INSTANCE;
     private List<Station> stations = new ArrayList<>();
@@ -29,7 +30,11 @@ public class Headquarters {
     private final Set<ResourceRequest> pendingRequests = new HashSet<>();
     private final Map<BasePlanet, Prepravka> mapa = new HashMap<>();
 
+
+    private int ticksToEndOfMonth;
     private int hijackedShips = 0;
+
+
 
     /**
      * Vrátí referenci na {@link Headquarters}
@@ -45,22 +50,10 @@ public class Headquarters {
      */
     private Headquarters() {}
 
-    //    Dočasná metoda pro vytvoření testovacího requestu
-    public void makeRequest() {
-        for (int i = 0; i < 1; i++) {
-            makeRequest(new ResourceRequest(planets.get(i), 60000));
-        }
-        /*ResourceRequest request = new ResourceRequest(planets.get(256), 60000);
-        makeRequest(request);*/
-
-    }
-
     /**
      * Spustí dijkstrův algoritmus a ohodnotí graf
      */
     public void runDijkstra() {
-
-        log.info("Spouštím dijkstův algoritmus pro přepočítání tras...");
         long start = System.currentTimeMillis();
 
         mapa.clear();
@@ -106,7 +99,6 @@ public class Headquarters {
      */
     public void nextHijackedShip() {
         hijackedShips++;
-        log.debug("Přidávám další záznam o napadené lodi piráty");
     }
 
     /**
@@ -115,13 +107,21 @@ public class Headquarters {
      * @param request Reference na požadavek
      */
     public void makeRequest(ResourceRequest request) {
-        if (request.requestPlanet.isInteresting()) {
-            log.info(String.format("Odmítám požadavek planety: %s, protože už je nezajímavá...", request.requestPlanet.getName()));
+
+        //FIREWALL proti už nevalidním requestům
+
+        if (request.requestPlanet.isInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) {
+            log.info("Odmitnuti požadavku na léky planety " + request.requestPlanet.getName() + " nedostatek obyvatel|nedostatek času k doručení \n" +
+                    "" + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs " + ticksToEndOfMonth +
+                    "");
             return;
         }
 
+
+        /* už není potřeba
         if (requests.contains(request))
-            requests.remove(request);
+            requests.remove(request);*/
+
 
         requests.add(request);
 
@@ -154,13 +154,33 @@ public class Headquarters {
         this.paths = paths;
     }
 
+    private void monthUpdate(){
+
+        int deaths = 0;
+
+        for(Planet a : planets){
+            deaths += a.graves;
+        }
+
+
+        log.info("----------MĚSÍČNÍ HLÁŠENÍ----------\n" +
+                "počet přepadení piráty: " + hijackedShips + "\n" +
+                "počet mrtvých celkově: " + deaths);
+
+        hijackedShips = 0;
+
+    }
+
     public void update(int timestamp) {
+         ticksToEndOfMonth = ((30*25) - (timestamp % (30*25)));
 
+        if((timestamp % (30*25)) == 0 && timestamp != 0){
+            requests.clear();
+        }
 
-        /*if (hijackedShips >= CRICITAL_HIJACKED_SHIP) {
-            hijackedShips = 0;
-            runDijkstra();
-        }*/
+        if((timestamp % (30*25 + 1)) == 0 && timestamp != 0){
+            monthUpdate();
+        }
 
         if (requests.size() == 0)
             return;
@@ -173,18 +193,15 @@ public class Headquarters {
                 break;
 
             ResourceRequest request = requestIterator.next();
+                Prepravka p = mapa.get(request.requestPlanet);
 
-            Prepravka p = mapa.get(request.requestPlanet);
-
-
-            //podmínka jestli se na planetu dostaneme do konce měsíce
-            if((p.weight + 10) < ((30*25) - (timestamp % (30*25)))) {
                 Station s = (Station) p.source;
-                if (s.sendShipToTrip(p.path))
-                    pendingRequests.add(request);
+                if (s.sendShipToTrip(p.path, request))
                     requestIterator.remove();
+
                 i++;
             }
+
         }
     }
-}
+

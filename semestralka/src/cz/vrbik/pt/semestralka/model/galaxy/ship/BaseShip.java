@@ -1,6 +1,8 @@
 package cz.vrbik.pt.semestralka.model.galaxy.ship;
 
+import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
+import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import org.apache.log4j.Logger;
 
 import java.util.*;
@@ -17,7 +19,7 @@ public abstract class BaseShip implements IShip {
     protected static int ID_COUNTER = 0;
 
     private Iterator<BasePlanet> tripIterator;
-    private BasePlanet homePlanet;
+    private final BasePlanet homePlanet;
     protected BasePlanet actualPlanet;
     protected BasePlanet nextPlanet;
 
@@ -26,13 +28,14 @@ public abstract class BaseShip implements IShip {
     protected int connectionProgress = 0;
     protected int speed = 25;
     protected boolean hijacked;
-    protected int id;
+    protected final int id;
     protected boolean checked;
     protected int loadingProgress = 0;
+    protected ResourceRequest request;
 
     /**
      * Konstruktor třídy {@link BaseShip}
-     *
+     * <p>
      * Vytvoří novou vesmírnou loď
      *
      * @param homePlanet Reference na domovskou planetu lodi
@@ -75,7 +78,7 @@ public abstract class BaseShip implements IShip {
      */
     @Override
     public void turnBackToHome() {
-        while(tripIterator.hasNext()) {
+        while (tripIterator.hasNext()) {
             tripIterator.next();
             tripIterator.remove();
         }
@@ -176,6 +179,11 @@ public abstract class BaseShip implements IShip {
      */
     @Override
     public void setHijacked(boolean hijacked) {
+        if (hijacked) {
+            Headquarters.getInstance().makeRequest(request);
+            Headquarters.getInstance().nextHijackedShip();
+            System.out.println("--- posilam request protože mě chytli pirátí " + request.requestPlanet.getName());
+        }
         this.hijacked = hijacked;
     }
 
@@ -265,13 +273,23 @@ public abstract class BaseShip implements IShip {
      * @return True, pokud je loď připravena k odletu, jinak false
      */
     @Override
-    public boolean isReady(){
-        if(loadingProgress == 25) {
+    public boolean isReady() {
+        if (loadingProgress == 25) {
             loadingProgress = 0;
             return true;
         }
 
         loadingProgress++;
         return false;
+    }
+
+    @Override
+    public void setRequest(ResourceRequest request) {
+        this.request = request;
+    }
+
+    @Override
+    public ResourceRequest getRequest() {
+        return request;
     }
 }

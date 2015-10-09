@@ -1,5 +1,6 @@
 package cz.vrbik.pt.semestralka.model.service;
 
+import com.sun.istack.internal.NotNull;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 
 /**
@@ -13,8 +14,8 @@ public final class ResourceRequest implements Comparable<ResourceRequest> {
     /**
      * Konstruktor třídy {@link ResourceRequest}
      *
-     * @param requestPlanet
-     * @param quantity
+     * @param requestPlanet Reference na planetu, která vytvořila request
+     * @param quantity Počet léků, které planeta chce
      */
     public ResourceRequest(Planet requestPlanet, int quantity) {
         this.requestPlanet = requestPlanet;
@@ -76,6 +77,8 @@ public final class ResourceRequest implements Comparable<ResourceRequest> {
         return !(requestPlanet != null ? !requestPlanet.equals(request.requestPlanet) : request.requestPlanet != null);
 
     }
+
+
 
     @Override
     public int hashCode() {

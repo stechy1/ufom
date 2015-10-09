@@ -175,7 +175,7 @@ public final class Path implements IUpdatable {
     public void render(GraphicsContext g) {
 
         if (!visited && !pirate)
-            g.setStroke(Color.LIGHTGRAY);
+            g.setStroke(Color.DARKGRAY);
         else {
             if (pirate)
                 if (visited)

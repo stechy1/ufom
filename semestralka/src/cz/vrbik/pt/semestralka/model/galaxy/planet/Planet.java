@@ -28,6 +28,7 @@ public class Planet extends BasePlanet {
     private static final PlanetNames names = PlanetNames.getInstance();
 
     private int inhabitants;
+    public int graves = 0;
     private int production;
     private int inhabitantsEndagered = 0;
 
@@ -147,11 +148,11 @@ public class Planet extends BasePlanet {
     @Override
     public void update(int timestamp) {
 
-        if(timestamp % (30*25) == 0) {
+        if(timestamp % (30*25) == 0) { //provede se při timestamp 0
 
             if(inhabitantsEndagered > 0)
                 log.info("na planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + "lidí");
-
+                graves += inhabitantsEndagered;
 
             inhabitants = inhabitants - inhabitantsEndagered;
             inhabitantsEndagered = 0;
@@ -173,8 +174,6 @@ public class Planet extends BasePlanet {
 
         dockedShips.stream().filter(IShip::isReady).forEach(iShip -> {
             inhabitantsEndagered = inhabitantsEndagered - iShip.getCargo();
-
-            if(inhabitantsEndagered < 0){inhabitantsEndagered = 0;}
 
             log.info("na planetě " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + "zbyle ohrozeni je pro: " + inhabitantsEndagered );
 
