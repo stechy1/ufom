@@ -7639,3 +7639,2476 @@
 2015-10-09 09:52:02 INFO  Planet:178 - na planetě Derick dorazily zásoby: 5406205zbyle ohrozeni je pro: 0
 2015-10-09 09:52:02 INFO  Planet:178 - na planetě Kandis dorazily zásoby: 57181zbyle ohrozeni je pro: 0
 2015-10-09 09:52:02 INFO  Planet:178 - na planetě Carolina dorazily zásoby: 569599zbyle ohrozeni je pro: 0
+2015-10-09 11:47:09 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 11:47:10 INFO  MainController:110 - Inicializuji grafické rozhraní...
+2015-10-09 11:51:02 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 11:51:03 INFO  MainController:106 - Inicializuji grafické rozhraní...
+2015-10-09 12:15:03 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 12:15:05 INFO  MainController:108 - Inicializuji grafické rozhraní...
+2015-10-09 12:15:09 INFO  Galaxy:96 - Generuji novou galaxii..
+2015-10-09 12:15:10 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 39ms.
+2015-10-09 12:15:10 INFO  Galaxy:108 - Galaxie byla vygenerována za: 902 ms.
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Debbi zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Divina zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Chery zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Jacqui zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Hope zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Tamiko zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Karena zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lanny zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Quintin zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Birdie zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Cheryl zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Odette zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Leoma zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Ronda zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Ara zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Tessie zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Muoi zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Mechelle zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Arlean zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Dolores zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Else zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Rory zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lai zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Rolande zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Madelyn zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lloyd zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Bethel zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Gregoria zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Edison zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Ashanti zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Caroline zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Davida zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Allyn zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Hilary zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Cecille zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Nick zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Rodney zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Sadye zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Tommy zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Roselee zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Goldie zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Janeen zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Sheridan zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Giuseppina zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Raeann zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Shelly zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Sharen zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Clarine zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Ayanna zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Love zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Duane zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Rochell zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Sylvia zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Barney zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Mark zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Crystle zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Carson zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Alonso zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Kenisha zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lyn zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Vincenzo zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Elden zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Fernanda zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Larhonda zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Carina zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Maisie zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Sophia zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Leticia zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lizabeth zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Teodora zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Karl zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Kisha zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Dale zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lamar zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Shirely zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Bradley zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Ilona zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Clinton zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Destiny zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Alvaro zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Nada zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Tanya zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Sybil zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Tequila zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Chi zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Katheleen zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lashawna zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Iva zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Maryjane zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Everette zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Vita zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Shana zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Marylee zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Darcie zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Arcelia zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Malinda zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Matthew zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Leda zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Muriel zbylo: 0 lidí
+2015-10-09 12:16:01 INFO  Planet:160 - na planetě Lula zbylo: 0 lidí
+2015-10-09 12:16:08 INFO  Planet:181 - na planetu Lai dorazily zásoby: 1718174, jeste zbyva dovezt: 0
+2015-10-09 12:16:10 INFO  Planet:181 - na planetu Dale dorazily zásoby: 219834, jeste zbyva dovezt: 0
+2015-10-09 12:16:11 INFO  Planet:181 - na planetu Tanya dorazily zásoby: 587214, jeste zbyva dovezt: 0
+2015-10-09 12:16:11 INFO  Planet:181 - na planetu Fernanda dorazily zásoby: 251608, jeste zbyva dovezt: 0
+2015-10-09 12:16:11 INFO  Planet:181 - na planetu Ronda dorazily zásoby: 3538429, jeste zbyva dovezt: 0
+2015-10-09 12:16:12 INFO  Planet:181 - na planetu Muoi dorazily zásoby: 5000000, jeste zbyva dovezt: 69039
+2015-10-09 12:16:12 INFO  Planet:181 - na planetu Muoi dorazily zásoby: 69039, jeste zbyva dovezt: 0
+2015-10-09 12:16:12 INFO  Planet:181 - na planetu Shana dorazily zásoby: 2566820, jeste zbyva dovezt: 0
+2015-10-09 12:16:13 INFO  Planet:181 - na planetu Cheryl dorazily zásoby: 540939, jeste zbyva dovezt: 5000000
+2015-10-09 12:16:13 INFO  Planet:181 - na planetu Cheryl dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:16:14 INFO  Planet:181 - na planetu Tommy dorazily zásoby: 2012869, jeste zbyva dovezt: 0
+2015-10-09 12:16:14 INFO  Planet:181 - na planetu Janeen dorazily zásoby: 98359, jeste zbyva dovezt: 0
+2015-10-09 12:16:14 INFO  Planet:181 - na planetu Sybil dorazily zásoby: 350597, jeste zbyva dovezt: 0
+2015-10-09 12:16:15 INFO  Planet:181 - na planetu Teodora dorazily zásoby: 1820497, jeste zbyva dovezt: 0
+2015-10-09 12:16:15 INFO  Planet:181 - na planetu Shirely dorazily zásoby: 736776, jeste zbyva dovezt: 0
+2015-10-09 12:16:15 INFO  Planet:181 - na planetu Ashanti dorazily zásoby: 3549432, jeste zbyva dovezt: 0
+2015-10-09 12:16:16 INFO  Planet:181 - na planetu Birdie dorazily zásoby: 320009, jeste zbyva dovezt: 0
+2015-10-09 12:16:17 INFO  Planet:181 - na planetu Arcelia dorazily zásoby: 1738796, jeste zbyva dovezt: 0
+2015-10-09 12:16:18 INFO  Planet:181 - na planetu Caroline dorazily zásoby: 438290, jeste zbyva dovezt: 5000000
+2015-10-09 12:16:18 INFO  Planet:181 - na planetu Katheleen dorazily zásoby: 2563842, jeste zbyva dovezt: 0
+2015-10-09 12:16:18 INFO  Planet:181 - na planetu Caroline dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:16:19 INFO  Planet:181 - na planetu Iva dorazily zásoby: 594120, jeste zbyva dovezt: 0
+2015-10-09 12:16:19 INFO  Planet:181 - na planetu Leda dorazily zásoby: 3209912, jeste zbyva dovezt: 0
+2015-10-09 12:16:19 INFO  Planet:181 - na planetu Larhonda dorazily zásoby: 2440742, jeste zbyva dovezt: 0
+2015-10-09 12:16:20 INFO  Planet:181 - na planetu Carson dorazily zásoby: 710400, jeste zbyva dovezt: 0
+2015-10-09 12:16:21 INFO  Planet:181 - na planetu Debbi dorazily zásoby: 4024842, jeste zbyva dovezt: 0
+2015-10-09 12:16:21 INFO  Planet:181 - na planetu Crystle dorazily zásoby: 1220641, jeste zbyva dovezt: 0
+2015-10-09 12:16:21 INFO  Planet:181 - na planetu Kenisha dorazily zásoby: 1666374, jeste zbyva dovezt: 0
+2015-10-09 12:16:22 INFO  Planet:181 - na planetu Hope dorazily zásoby: 2077195, jeste zbyva dovezt: 0
+2015-10-09 12:16:22 INFO  Planet:181 - na planetu Lyn dorazily zásoby: 549715, jeste zbyva dovezt: 0
+2015-10-09 12:16:22 INFO  Planet:181 - na planetu Quintin dorazily zásoby: 1450198, jeste zbyva dovezt: 0
+2015-10-09 12:16:22 INFO  Planet:181 - na planetu Giuseppina dorazily zásoby: 373937, jeste zbyva dovezt: 0
+2015-10-09 12:16:23 INFO  Planet:181 - na planetu Sharen dorazily zásoby: 3965525, jeste zbyva dovezt: 0
+2015-10-09 12:16:23 INFO  Planet:181 - na planetu Lula dorazily zásoby: 5000000, jeste zbyva dovezt: 840554
+2015-10-09 12:16:23 INFO  Planet:181 - na planetu Lula dorazily zásoby: 840554, jeste zbyva dovezt: 0
+2015-10-09 12:16:24 INFO  Planet:181 - na planetu Chi dorazily zásoby: 4080015, jeste zbyva dovezt: 0
+2015-10-09 12:16:24 INFO  Planet:181 - na planetu Maisie dorazily zásoby: 117824, jeste zbyva dovezt: 0
+2015-10-09 12:16:24 INFO  Planet:181 - na planetu Else dorazily zásoby: 1753201, jeste zbyva dovezt: 0
+2015-10-09 12:16:25 INFO  Planet:181 - na planetu Mechelle dorazily zásoby: 493380, jeste zbyva dovezt: 0
+2015-10-09 12:16:25 INFO  Planet:181 - na planetu Rodney dorazily zásoby: 1133164, jeste zbyva dovezt: 0
+2015-10-09 12:16:25 INFO  Planet:181 - na planetu Alonso dorazily zásoby: 4436965, jeste zbyva dovezt: 0
+2015-10-09 12:16:25 INFO  Planet:181 - na planetu Tequila dorazily zásoby: 1059284, jeste zbyva dovezt: 0
+2015-10-09 12:16:25 INFO  Planet:181 - na planetu Destiny dorazily zásoby: 2941420, jeste zbyva dovezt: 0
+2015-10-09 12:16:25 INFO  Planet:181 - na planetu Arlean dorazily zásoby: 2304307, jeste zbyva dovezt: 0
+2015-10-09 12:16:26 INFO  Planet:181 - na planetu Bradley dorazily zásoby: 4852897, jeste zbyva dovezt: 0
+2015-10-09 12:16:27 INFO  Planet:181 - na planetu Tamiko dorazily zásoby: 117291, jeste zbyva dovezt: 0
+2015-10-09 12:16:27 INFO  Planet:181 - na planetu Rory dorazily zásoby: 187527, jeste zbyva dovezt: 0
+2015-10-09 12:16:27 INFO  Planet:181 - na planetu Edison dorazily zásoby: 170169, jeste zbyva dovezt: 0
+2015-10-09 12:16:28 INFO  Planet:181 - na planetu Bethel dorazily zásoby: 1586190, jeste zbyva dovezt: 5000000
+2015-10-09 12:16:28 INFO  Planet:181 - na planetu Carina dorazily zásoby: 2706146, jeste zbyva dovezt: 0
+2015-10-09 12:16:28 INFO  Planet:181 - na planetu Bethel dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:16:28 INFO  Planet:181 - na planetu Matthew dorazily zásoby: 1979050, jeste zbyva dovezt: 0
+2015-10-09 12:16:28 INFO  Planet:181 - na planetu Vita dorazily zásoby: 1420678, jeste zbyva dovezt: 0
+2015-10-09 12:16:29 INFO  Planet:181 - na planetu Ilona dorazily zásoby: 2652810, jeste zbyva dovezt: 0
+2015-10-09 12:16:29 INFO  Planet:181 - na planetu Lloyd dorazily zásoby: 1138739, jeste zbyva dovezt: 0
+2015-10-09 12:16:29 INFO  Planet:181 - na planetu Allyn dorazily zásoby: 1856286, jeste zbyva dovezt: 0
+2015-10-09 12:16:30 INFO  Planet:181 - na planetu Vincenzo dorazily zásoby: 1297244, jeste zbyva dovezt: 0
+2015-10-09 12:16:31 INFO  Planet:181 - na planetu Davida dorazily zásoby: 1887640, jeste zbyva dovezt: 0
+2015-10-09 12:16:31 INFO  Planet:181 - na planetu Odette dorazily zásoby: 806004, jeste zbyva dovezt: 0
+2015-10-09 12:16:31 INFO  Planet:181 - na planetu Lamar dorazily zásoby: 1198032, jeste zbyva dovezt: 0
+2015-10-09 12:16:31 INFO  Planet:181 - na planetu Clarine dorazily zásoby: 1363910, jeste zbyva dovezt: 0
+2015-10-09 12:16:31 INFO  Planet:181 - na planetu Darcie dorazily zásoby: 2063964, jeste zbyva dovezt: 0
+2015-10-09 12:16:32 INFO  Planet:181 - na planetu Marylee dorazily zásoby: 1201550, jeste zbyva dovezt: 0
+2015-10-09 12:16:33 INFO  Planet:181 - na planetu Leoma dorazily zásoby: 5000000, jeste zbyva dovezt: 1181533
+2015-10-09 12:16:33 INFO  Planet:181 - na planetu Leoma dorazily zásoby: 1181533, jeste zbyva dovezt: 0
+2015-10-09 12:16:33 INFO  Planet:181 - na planetu Karl dorazily zásoby: 1812454, jeste zbyva dovezt: 0
+2015-10-09 12:16:34 INFO  Planet:181 - na planetu Sadye dorazily zásoby: 4082276, jeste zbyva dovezt: 0
+2015-10-09 12:16:34 INFO  Planet:181 - na planetu Everette dorazily zásoby: 746525, jeste zbyva dovezt: 5000000
+2015-10-09 12:16:34 INFO  Planet:181 - na planetu Rolande dorazily zásoby: 543974, jeste zbyva dovezt: 0
+2015-10-09 12:16:34 INFO  Planet:181 - na planetu Everette dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:16:35 INFO  Planet:181 - na planetu Cecille dorazily zásoby: 2216236, jeste zbyva dovezt: 0
+2015-10-09 12:16:35 INFO  Planet:181 - na planetu Clinton dorazily zásoby: 3022974, jeste zbyva dovezt: 0
+2015-10-09 12:16:36 INFO  Planet:181 - na planetu Maryjane dorazily zásoby: 4689072, jeste zbyva dovezt: 0
+2015-10-09 12:16:36 INFO  Planet:181 - na planetu Gregoria dorazily zásoby: 2241956, jeste zbyva dovezt: 0
+2015-10-09 12:16:37 INFO  Planet:181 - na planetu Raeann dorazily zásoby: 2222901, jeste zbyva dovezt: 0
+2015-10-09 12:16:37 INFO  Planet:181 - na planetu Sophia dorazily zásoby: 3163681, jeste zbyva dovezt: 0
+2015-10-09 12:16:37 INFO  Planet:181 - na planetu Ayanna dorazily zásoby: 570807, jeste zbyva dovezt: 0
+2015-10-09 12:16:38 INFO  Planet:181 - na planetu Alvaro dorazily zásoby: 3136357, jeste zbyva dovezt: 0
+2015-10-09 12:16:38 INFO  Planet:181 - na planetu Mark dorazily zásoby: 3055967, jeste zbyva dovezt: 0
+2015-10-09 12:16:38 INFO  Planet:181 - na planetu Love dorazily zásoby: 2135208, jeste zbyva dovezt: 0
+2015-10-09 12:16:38 INFO  Planet:181 - na planetu Elden dorazily zásoby: 1232653, jeste zbyva dovezt: 0
+2015-10-09 12:16:44 INFO  Galaxy:96 - Generuji novou galaxii..
+2015-10-09 12:16:45 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 6ms.
+2015-10-09 12:16:45 INFO  Galaxy:108 - Galaxie byla vygenerována za: 540 ms.
+2015-10-09 12:16:55 INFO  Galaxy:96 - Generuji novou galaxii..
+2015-10-09 12:16:56 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 6ms.
+2015-10-09 12:16:56 INFO  Galaxy:108 - Galaxie byla vygenerována za: 559 ms.
+2015-10-09 12:19:07 INFO  Galaxy:96 - Generuji novou galaxii..
+2015-10-09 12:19:08 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 234ms.
+2015-10-09 12:19:08 INFO  Galaxy:108 - Galaxie byla vygenerována za: 999 ms.
+2015-10-09 12:21:48 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 12:21:49 INFO  MainController:108 - Inicializuji grafické rozhraní...
+2015-10-09 12:21:53 INFO  Galaxy:96 - Generuji novou galaxii..
+2015-10-09 12:21:55 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 413ms.
+2015-10-09 12:21:55 INFO  Galaxy:108 - Galaxie byla vygenerována za: 1640 ms.
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Christopher zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marcie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nenita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Susanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arianne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Velia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deedra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Terrance zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dionna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Priscila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vannessa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Royal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thao zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Treasa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jame zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jule zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kittie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dotty zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kristofer zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Seth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shawnee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kristle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cassaundra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dyan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Christeen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ronda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ada zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gerald zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jamaal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jammie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keshia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Taisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carlotta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Penni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fredrick zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angeles zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Esther zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rolf zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cecil zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sanjuana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Renae zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fabian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bryanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jasmine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kayla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mariam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stephaine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sheena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dale zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daniele zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Antoinette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacquie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Frederick zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lashanda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Florine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dario zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Virgilio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gale zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leonila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maurine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Britany zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lashaun zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sybil zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fern zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charlyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Inez zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Enedina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leighann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ettie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mahalia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Burma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dinorah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rossie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jenifer zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alycia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maribeth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Von zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jaymie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sammie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Geraldine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michaele zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Federico zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nova zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacques zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Oren zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ginny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Allena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Myrta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Santana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Oleta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darwin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Porsche zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hortencia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charolette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sandee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Olimpia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kazuko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Klara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jani zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Terri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shonta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Colin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eliza zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ethelyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Judi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tula zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kiyoko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Iona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bernadette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorethea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lonna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bev zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Linda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rodger zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vasiliki zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sheba zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jayna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Teresita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cassy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leroy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Enola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Johanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ike zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacqueline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Johnna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joya zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lakendra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Myrl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lisette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aletha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ocie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jocelyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edward zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě James zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bobette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deandre zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alverta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lauran zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sonia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bridgette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lulu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Natasha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Franklin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathern zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gertie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darrin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Abe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Liberty zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evonne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherlene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elidia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Heike zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elmer zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charity zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maire zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Salena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeannie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gabriela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Grisel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isaias zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Santa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kiley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Paulette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Audrie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sage zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noemi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Octavia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katherine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Terresa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jose zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tiesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maricruz zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ludie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Malia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Quinn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loyd zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Candra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eun zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jill zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trudie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Suzette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Masako zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Julianne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Suzanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Many zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rikki zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Barbera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karima zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jung zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mitchell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leslie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edyth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noble zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Porfirio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Althea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Agustin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jone zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arnetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fredric zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tiara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Earleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mercedez zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cristobal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maynard zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Crissy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dahlia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elinore zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carolina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Verdell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ching zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stefany zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Miguelina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Peggie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shawna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Renna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kallie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maribel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brandi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marx zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gearldine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Harriett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Randolph zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hilton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jerry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Krystle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Buffy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kourtney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Octavio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cyrus zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Latosha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dessie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jonelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Judith zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Penney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Miriam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tori zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patience zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Liana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dinah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ophelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Magnolia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tambra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Johna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jesusita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bruno zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Camellia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Claudio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leigh zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Khadijah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dollie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jennie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Blair zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delfina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Milissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Debbi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sari zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kum zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tiana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bertie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ghislaine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Catrina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Honey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carolyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annabelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mayra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rubin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosario zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emelda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arnette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pamula zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Craig zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Efren zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Savanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Serita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lavette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Guy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arletta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryjane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sheryl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Earlie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Britteny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sylvia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shawn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathrine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dion zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mitchel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karlyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Olivia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Providencia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Florrie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ozella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Malena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeneva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Frieda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Twila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Monty zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tessa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Starr zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keely zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kyra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alex zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Syreeta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sumiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Don zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chadwick zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Andre zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Illa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Idella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shantel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Terisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Coralee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cleotilde zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Goldie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Breana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Terese zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Otto zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chuck zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Filiberto zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Regan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Porter zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Odessa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Caridad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roseline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fernande zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě April zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isabella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sophia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elliott zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Matilde zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Helene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Soledad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Debbra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Awilda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ressie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mammie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ulrike zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karren zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rocco zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Conception zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Susannah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lucy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ludivina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chasity zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bettyann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lawanda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Macy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Floy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bebe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shelby zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mirta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Abel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shelly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jessika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marcus zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tomas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adeline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elke zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ollie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Reiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Florencia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michelina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Remona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kimberely zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Samuel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Len zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edelmira zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hang zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Markita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brande zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tierra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cristie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nicky zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Andrea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Diane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patrica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charlette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dacia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eduardo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Destiny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Linn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shanta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeff zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dustin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Millard zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trista zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shenika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carolann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Quinton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Josphine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melvina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eleanore zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Niki zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elayne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Venita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clayton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tonja zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tonisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lynelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lawanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Krysta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lavona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Wade zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Myrle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Benito zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maritza zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nickolas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marg zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carmella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Candace zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marcelino zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brittani zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Berta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Milton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Audie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mauro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elizebeth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sonya zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gonzalo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stuart zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kori zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Milan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dusti zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cyrstal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eloy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Freeda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tricia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Celsa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alyce zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lakisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Estell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Britni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patrice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lizette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Berneice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Christinia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mallory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anjanette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clare zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vernia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annalee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dani zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Allan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katherina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isreal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denese zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Virgina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jerrell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Silvana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Era zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Merissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Floyd zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emmy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hershel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marty zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Antoine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chantal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shannan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Viviana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cathleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mamie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Essie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marylouise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elisabeth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Polly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Della zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lasandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thomas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rico zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shakira zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kayleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sondra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Porsha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amalia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bettye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chasidy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sebastian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pat zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ramiro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dong zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nakesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Madge zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rudolf zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Phillis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deandrea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Orville zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karrie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fabiola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arlinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ozell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Li zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Benedict zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Paz zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Reita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nikole zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alyson zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Harriet zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luciana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eleonora zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marlys zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stephen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marybelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melonie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Berry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Meghann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Addie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ileen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brenna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rayna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorcas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Caryl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noreen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Odis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danielle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cynthia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sanda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ellis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isobel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brock zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Del zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alysa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lidia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noriko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryellen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clement zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Latrice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tatiana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melony zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Serafina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jovita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Corrinne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dwight zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clint zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Temika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Doria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sol zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nelson zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amada zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chantel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Concepcion zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Olen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patrick zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chante zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cassey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ezekiel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ka zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Oretha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joellen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deb zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rochell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Enid zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aldo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hong zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rebeca zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Agnes zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luther zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amber zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Coleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maximina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Valentin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rebbecca zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Micah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cheyenne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cody zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gilberte zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dwana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ivonne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Victor zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Olga zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Soila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Susanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosalyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rozanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arlie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sung zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Julianna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beverlee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cherise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Orval zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ned zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adrianne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bethel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elaina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rudolph zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laurel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nichelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clarissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nakita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hyo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deloris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arthur zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ginger zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Allie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rheba zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Micheline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rufina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Monika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anamaria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alease zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Florance zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lawana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isabell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Candice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Reinaldo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Veda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Liliana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Niesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Herman zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adelina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nery zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Magen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Veronika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Giovanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cecille zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anabel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Drew zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ken zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fran zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alonzo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delora zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marilou zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Phyllis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lyndia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Barton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Opal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kristel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marietta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mickie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kelley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eryn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mandie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katheleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maurice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Greta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cathryn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Juanita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beryl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jasper zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Muoi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cristopher zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hassie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chang zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shaniqua zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nanette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rhona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leota zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nichole zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Olin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Justin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dot zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lazaro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Martha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tashina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tiffaney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aimee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacqulyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daniella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ciera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cleo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Camie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ariel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hayley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cierra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melvin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ilse zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Belkis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Margart zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stephenie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charlesetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Latonia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Theo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Palma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rudy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Inocencia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Song zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lakia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Prudence zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lenore zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Teri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Belle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Donn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Franklyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sallie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dulcie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jenna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Meagan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Junko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stefanie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marge zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Douglas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maricela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherlyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kai zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mei zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lyla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darrell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Iesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ranae zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Venessa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Starla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Antonietta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mavis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clorinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raphael zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Donte zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tammara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hyun zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alejandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jillian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elenora zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tanika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Julian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carmela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dung zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daniel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Camilla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ernestine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mike zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Renate zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charlsie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tangela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Manual zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gaynelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alfreda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maile zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trang zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bernie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Moshe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chantell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danille zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jerrica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sasha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nelda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cherrie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Agueda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Robert zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shanelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Abraham zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stanley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Timothy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joesph zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Domitila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ardath zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stefania zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roland zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annmarie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lanita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cherlyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emerson zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tyler zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherill zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rema zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ammie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lynette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vernell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Claudie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Peggy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Talisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jenelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tarsha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jonna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Verda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Livia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deidra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Venice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Francoise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Morton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cassidy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marlon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Todd zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Silva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michael zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Desire zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Coy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Harriette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Teodoro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roxie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lacy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lenard zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lanelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Micha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charlena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dudley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryln zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Damaris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rocio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gwenn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tuyet zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Richard zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marcia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jaqueline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Garnett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Conchita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tressa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Estefana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Micheal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pinkie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alix zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Neely zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Burton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evangelina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fredda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joeann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tawny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eliz zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bart zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edwin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pearlie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lesli zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Helen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Myra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arletha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kala zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Markus zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lizabeth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Augustina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ebonie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dewey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Margareta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Barbara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thresa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Miranda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Letty zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roslyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lemuel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lindsay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sacha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Belia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kirsten zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lakeshia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mittie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stepanie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Josue zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Garret zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gary zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Harris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alecia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lucretia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Salley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Miles zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jenae zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elfriede zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Virginia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shawnda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gertrudis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hilda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carmine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosalva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Howard zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laurence zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laurena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marhta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Apolonia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Florene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laverna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Berniece zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Newton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Analisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shantell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Miss zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gavin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elaine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aleida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anneliese zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roseann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Selene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Etsuko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tracee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stefani zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Erik zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Toby zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laveta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Herminia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Debroah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tanja zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Twana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Reyes zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kymberly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lashay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě In zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bob zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clark zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Abbie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nerissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ehtel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elwood zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kenny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fernanda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Renata zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evelyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chery zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Candance zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Diego zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kirby zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sterling zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherrie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Samella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roscoe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lincoln zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bertram zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ashlyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sharla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Osvaldo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marti zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mercy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Florentino zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Matthew zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jae zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trinidad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jennefer zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Selina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ervin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Paige zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alexander zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Christia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lelah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brandy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cherelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Richie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nelida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nickie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherron zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denver zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kortney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jc zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nieves zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Paula zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ling zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Monte zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Israel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lou zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vernon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vanetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shenita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lynell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isabelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beverly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aracely zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Margie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Letitia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Talia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maragret zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorilee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lucille zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jamika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ciara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Doretta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sonja zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angelique zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jamal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hoa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eden zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Simonne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thomasine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ardell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cornelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Armand zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Celina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fransisca zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Guillermina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Enda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leif zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cornelius zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Domenica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marilu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loura zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Santiago zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darrel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nannette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ivana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Neva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cathrine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alvin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Madalyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Preston zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Claribel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Callie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aaron zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ellen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Blanch zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Huey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marc zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kelvin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ranee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tawanda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Samantha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cindi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hannelore zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thuy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lashell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Doyle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bettina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shakita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ngoc zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cinthia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jama zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shanice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cordie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shakia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Claude zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edmundo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lavera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Val zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carmelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ivette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Inge zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sharda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dianna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arvilla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Han zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roselee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fredricka zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Taren zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Monroe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Asha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Meryl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sang zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sandi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kelsey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fidela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beaulah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darci zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vicenta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Virgie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kylie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patricia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ouida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Garland zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Doug zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Riva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Olevia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raquel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lyndsay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eustolia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ossie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacqui zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Selma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stephani zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Camelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tommie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mellie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Enriqueta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Germaine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hugo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kasandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lavonda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Randal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Horacio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Susan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kary zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aretha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Erwin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryland zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lyda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jackeline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dottie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ardith zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Timika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leeann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jayme zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosaura zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Martina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loyce zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hortensia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rae zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shaneka zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jesusa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laurie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Randall zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ericka zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Glynis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Frances zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jennette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alvaro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nilda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Damon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tyrell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Regine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Glory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Erlinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elois zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lynna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Quincy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosalba zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Erica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě So zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Abram zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ellena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chase zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kendal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sarina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Theron zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raymundo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hilaria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Benny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dominick zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angelyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mervin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě King zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dusty zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clarita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Candelaria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deedee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sixta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Coretta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katharyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beatris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Graciela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carmel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lai zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Misha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leslee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Minna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carolyne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jason zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Andreas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brittaney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Avril zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Malik zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shaquana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nicolle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tawana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trudi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keeley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Basil zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gudrun zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeremy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lanie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Magaly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jackie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vincenzo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chelsey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Euna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gregoria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Francesca zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lucie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rutha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shani zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathleen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Colette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cyril zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marvin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Parthenia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raymond zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Takako zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nathanael zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daysi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katharina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Monica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brunilda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carson zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jarod zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hettie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tonie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brenda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Margot zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Missy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jessia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fawn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mikki zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Billie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Larae zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evelina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hedwig zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Diana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bula zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sindy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lessie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joseph zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brittny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Celia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kira zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jesse zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryrose zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anitra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Glynda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isabel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sunny zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ligia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Michell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dwayne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nydia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Valeria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Billye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kieth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Norah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Katelynn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nohemi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eugenie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Akilah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chara zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lovetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leatrice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Boyd zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Terina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Morris zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mirella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maud zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sharie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Linette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Felix zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Harold zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nannie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Grayce zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Virgen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dennis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alethea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pauline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stacie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sharice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cruz zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elsa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jerlene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ahmad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Natividad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dagmar zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jess zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Coleman zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Omega zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fermin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lesa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Iraida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Annamarie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Geoffrey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lauri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cindie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maxwell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lettie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gretchen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lourdes zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lilla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Skye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sharan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Christian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amiee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marylou zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beula zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jackelyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leoma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tabatha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Patsy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Minnie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ariane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryalice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elroy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Necole zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nickole zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roosevelt zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marvella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Effie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cheree zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Agnus zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosalina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosalinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sachiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Avis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Oda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Diann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marceline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sade zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maggie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Julie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kasi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Idalia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nicol zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shantay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arcelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tony zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Magaret zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jannie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Saul zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Armandina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě January zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vania zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Violet zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tobias zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danyell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roselle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tova zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fredericka zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gema zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maya zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Reed zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgiana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maybell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raguel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bennett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě India zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Myrtle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vivan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joanie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joshua zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elicia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lianne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Luci zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maegan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeannetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Babette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Corey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karoline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lady zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thanh zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mirtha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Catherin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dede zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Myung zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Francesco zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ted zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Calandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Floria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tyson zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Timmy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emmaline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lachelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lynn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leeanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marquis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Detra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shanti zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Robin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edison zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jolie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kaye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Raleigh zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adrienne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ashlie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Debrah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vashti zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Season zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stanford zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Antione zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Racquel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eufemia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Natalie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cesar zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jack zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daren zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marlin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chrystal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Renay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brian zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Verdie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mario zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Donnetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dillon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mui zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cortney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ladonna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alejandro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lanette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tempie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Harry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lavonne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Larue zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kristin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Savannah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Salina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eddie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Latasha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mohammad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Collene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mckenzie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Duane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeffie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laureen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tiffany zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nancey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Randee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tonya zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elvina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Viki zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nevada zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marsha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Freeman zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ruthann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clyde zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aliza zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cherryl zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Berenice zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ceola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Demetra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cristen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Teresa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clemente zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bari zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tod zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hilma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lloyd zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eleanor zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Faustina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Erline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tran zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Heather zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Caroyln zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Donnie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Belen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kasie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alexandria zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ardis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shenna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edwardo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bronwyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sharen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Astrid zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jamel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mariko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tashia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gregory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dwain zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jarrod zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sandy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Larisa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janyce zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shawnna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamica zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Consuelo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cordell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Teofila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jonathan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rodrigo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Iliana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Garrett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Artie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Traci zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jewel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Veronique zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Randi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darlene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bao zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thurman zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Brittany zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laurine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delphia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alfredia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pete zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Claudine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Francene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Classie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Charlotte zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Abbey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Matt zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dominique zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genaro zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fannie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mazie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gaynell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ileana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hedy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgeanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Manda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tobie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Velma zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elba zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Karri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marisela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Veola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Judy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hazel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maureen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Richelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Na zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Iva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Quiana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jared zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fatimah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Angle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hope zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hermine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marlyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kerstin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tawnya zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leopoldo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bridgett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shu zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clarence zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edwina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cyndi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Larraine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marcell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Serena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Breann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Byron zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nicole zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Diedre zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amberly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Josef zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorriane zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě David zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cary zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Flora zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melva zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eddy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Reba zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Felisha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fernando zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Celestine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rickey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Quentin zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Aleshia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Drusilla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jadwiga zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Esta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dante zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stephanie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Regenia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gaylene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Oralee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tanesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bibi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nanci zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosalia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nicola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tillie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emmanuel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genevive zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stewart zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tosha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Armanda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melany zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shoshana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Taryn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darius zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Christena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Miesha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laure zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Barbie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Retta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Wai zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Clemmie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eugenio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Stacee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kristal zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vinita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Les zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Meta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Thaddeus zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Allen zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jenniffer zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tennie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kaley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Debra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Arnulfo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carlota zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dorthey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Magdalena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Agustina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elmira zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kathyrn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tomeka zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elvera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ralph zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emerita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Latoyia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Frida zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pamala zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dean zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Humberto zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Roman zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Daniela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Emilia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Modesta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delois zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ethan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gilbert zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danial zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alessandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gertrud zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Napoleon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Levi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kim zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elias zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Randy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Darcey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Felicitas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Izola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherley zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tristan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lizbeth zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maren zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kaci zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vern zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carlita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maryam zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Janee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dalia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Valencia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lucilla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adolfo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Meridith zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Huong zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Celesta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anthony zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marilynn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Freda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chiquita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Larissa zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rupert zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Philomena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Robt zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kym zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Johnetta zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lionel zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Laree zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dave zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shayla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Simon zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Denisse zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Briana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Heidi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sydney zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shamika zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shiela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Filomena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tommye zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacquiline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trenton zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Noe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dick zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Isela zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Golden zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Malcom zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Juliet zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Genesis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dallas zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Donella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Beau zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ryann zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Casey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Twanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Simona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Collette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Judie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dodie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deanne zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sheridan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lura zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Madison zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deangelo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Pamella zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tanna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jerri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Paola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lauralee zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dewitt zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vertie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hisako zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evangeline zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delaine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kaila zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ashleigh zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Particia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Josiah zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hubert zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tomoko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanett zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Erna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Keith zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Natosha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Deandra zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jacquelynn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Hipolito zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leontine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Susana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rosendo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Edythe zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Crystle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elvis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgianna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Trish zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Linwood zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Evalyn zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Demetrius zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Princess zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Domonique zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jannet zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kasey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Felicidad zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Faviola zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eloise zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Marlana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jay zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Robbie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elden zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mariette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Barry zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dione zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kristi zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Loree zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Melba zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nelle zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Eboni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lorri zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cory zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Georgene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě May zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Santina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Leanora zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Cecelia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Golda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Danette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Adrianna zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Altha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Vivien zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dimple zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Jeanette zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mireya zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamar zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Delinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Josefine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Sherly zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Shaun zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě My zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tabitha zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Elfreda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Azucena zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lashaunda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lamar zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Mose zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Gregg zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Rasheeda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Amina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Torie zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Bo zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Margherita zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Meredith zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Anglea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Russell zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Phyliss zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lester zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Andera zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Percy zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Tamekia zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Irina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Dana zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carmelina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Chau zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lyndsey zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Maxine zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Min zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Fumiko zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Celinda zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Valene zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Joni zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Heriberto zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kaleigh zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Kyla zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Audrea zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě America zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Carina zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Lucio zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Ilona zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Nathan zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Alexis zbylo: 0 lidí
+2015-10-09 12:22:07 INFO  Planet:160 - na planetě Palmira zbylo: 0 lidí
+2015-10-09 12:22:13 INFO  Planet:181 - na planetu Clark dorazily zásoby: 5000000, jeste zbyva dovezt: 1067239
+2015-10-09 12:22:14 INFO  Planet:181 - na planetu Clark dorazily zásoby: 1067239, jeste zbyva dovezt: 0
+2015-10-09 12:22:14 INFO  Planet:181 - na planetu Gabriela dorazily zásoby: 4240552, jeste zbyva dovezt: 0
+2015-10-09 12:22:14 INFO  Planet:181 - na planetu Florrie dorazily zásoby: 1537894, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Sheba dorazily zásoby: 1973097, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Fumiko dorazily zásoby: 1715589, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Stephenie dorazily zásoby: 5000000, jeste zbyva dovezt: 1396220
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Isaias dorazily zásoby: 1159806, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Karan dorazily zásoby: 5000000, jeste zbyva dovezt: 1046195
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Jerrica dorazily zásoby: 5000000, jeste zbyva dovezt: 210688
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Vivien dorazily zásoby: 63676, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Milton dorazily zásoby: 1663277, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Stuart dorazily zásoby: 2664770, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Joellen dorazily zásoby: 717550, jeste zbyva dovezt: 0
+2015-10-09 12:22:15 INFO  Planet:181 - na planetu Abbey dorazily zásoby: 110931, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Anabel dorazily zásoby: 3622271, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Alix dorazily zásoby: 1292042, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Illa dorazily zásoby: 2206108, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Lanita dorazily zásoby: 2019804, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Edwin dorazily zásoby: 2534117, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Lynna dorazily zásoby: 2016408, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Pearlie dorazily zásoby: 2483985, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Letitia dorazily zásoby: 3525601, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Elfreda dorazily zásoby: 2107369, jeste zbyva dovezt: 0
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Dong dorazily zásoby: 5000000, jeste zbyva dovezt: 291607
+2015-10-09 12:22:16 INFO  Planet:181 - na planetu Chang dorazily zásoby: 829403, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Melony dorazily zásoby: 487008, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Donnetta dorazily zásoby: 1726663, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Golda dorazily zásoby: 3286431, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Keith dorazily zásoby: 1308472, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Morris dorazily zásoby: 1894951, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Thomasine dorazily zásoby: 4527263, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Nannie dorazily zásoby: 273654, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Klara dorazily zásoby: 284457, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Macy dorazily zásoby: 2390758, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Nevada dorazily zásoby: 184527, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Nevada dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Ashleigh dorazily zásoby: 721913, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Garret dorazily zásoby: 1852558, jeste zbyva dovezt: 0
+2015-10-09 12:22:17 INFO  Planet:181 - na planetu Moshe dorazily zásoby: 2045761, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Dorris dorazily zásoby: 714389, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Terri dorazily zásoby: 197972, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Susannah dorazily zásoby: 1518838, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Federico dorazily zásoby: 4163861, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Hyo dorazily zásoby: 2980936, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Stacie dorazily zásoby: 2250112, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Thao dorazily zásoby: 3785759, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Dario dorazily zásoby: 136122, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Randal dorazily zásoby: 757928, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Daysi dorazily zásoby: 2637519, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu In dorazily zásoby: 4521479, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Erlinda dorazily zásoby: 2060089, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Fern dorazily zásoby: 403006, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Teresita dorazily zásoby: 1248401, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Thuy dorazily zásoby: 4277854, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Dessie dorazily zásoby: 85641, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Regenia dorazily zásoby: 4116081, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Melva dorazily zásoby: 3733657, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Deloris dorazily zásoby: 1089060, jeste zbyva dovezt: 0
+2015-10-09 12:22:18 INFO  Planet:181 - na planetu Sydney dorazily zásoby: 1771672, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Loni dorazily zásoby: 1993111, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Evon dorazily zásoby: 2293621, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Laureen dorazily zásoby: 3794963, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Nichole dorazily zásoby: 902139, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Micheal dorazily zásoby: 5000000, jeste zbyva dovezt: 2141090
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Lelah dorazily zásoby: 254424, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Monroe dorazily zásoby: 3134670, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Rosalyn dorazily zásoby: 1174644, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Fran dorazily zásoby: 2107837, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Kendal dorazily zásoby: 4855444, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Leontine dorazily zásoby: 1846145, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Talisha dorazily zásoby: 1686842, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Claribel dorazily zásoby: 2845899, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Season dorazily zásoby: 5000000, jeste zbyva dovezt: 1534947
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Elly dorazily zásoby: 685115, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Katherina dorazily zásoby: 1727871, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Ranee dorazily zásoby: 1723005, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Pat dorazily zásoby: 2147634, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Renata dorazily zásoby: 2605163, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Tillie dorazily zásoby: 1617204, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Iona dorazily zásoby: 1523686, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Josphine dorazily zásoby: 1967449, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Dennis dorazily zásoby: 3590419, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Shea dorazily zásoby: 299157, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Reba dorazily zásoby: 310302, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Tula dorazily zásoby: 137009, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Latonia dorazily zásoby: 1245608, jeste zbyva dovezt: 0
+2015-10-09 12:22:19 INFO  Planet:181 - na planetu Mavis dorazily zásoby: 2425424, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Kourtney dorazily zásoby: 384163, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Ranee dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Geoffrey dorazily zásoby: 3632468, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Harry dorazily zásoby: 2291058, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Loyd dorazily zásoby: 1252834, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Tamara dorazily zásoby: 2283878, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Chelsey dorazily zásoby: 1180100, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Season dorazily zásoby: 1534947, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Hope dorazily zásoby: 1172081, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Nicola dorazily zásoby: 2610981, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Dinorah dorazily zásoby: 3374881, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Jerrell dorazily zásoby: 4473703, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Phillis dorazily zásoby: 2204059, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Carmela dorazily zásoby: 1745518, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Denver dorazily zásoby: 594241, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Madge dorazily zásoby: 442228, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Gilberte dorazily zásoby: 2698725, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Riva dorazily zásoby: 5000000, jeste zbyva dovezt: 2149258
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Hettie dorazily zásoby: 2004726, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Consuelo dorazily zásoby: 1653145, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Elisha dorazily zásoby: 1895589, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Katharyn dorazily zásoby: 1691713, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Eugenie dorazily zásoby: 4302758, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Aida dorazily zásoby: 1346635, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Mila dorazily zásoby: 2291064, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Terina dorazily zásoby: 675503, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Daren dorazily zásoby: 608120, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Renay dorazily zásoby: 116498, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Alane dorazily zásoby: 3688180, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Hope dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Carry dorazily zásoby: 4200199, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Natasha dorazily zásoby: 1051991, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Elidia dorazily zásoby: 3471407, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Jenelle dorazily zásoby: 153007, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Laurena dorazily zásoby: 622340, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Randee dorazily zásoby: 1155539, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Belen dorazily zásoby: 482943, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Demetrius dorazily zásoby: 3517981, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Twila dorazily zásoby: 2019026, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Tamiko dorazily zásoby: 4565108, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Bart dorazily zásoby: 3611605, jeste zbyva dovezt: 0
+2015-10-09 12:22:20 INFO  Planet:181 - na planetu Beula dorazily zásoby: 145100, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Laurine dorazily zásoby: 875219, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Judie dorazily zásoby: 1790488, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Gena dorazily zásoby: 1469022, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Brandi dorazily zásoby: 3834602, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Florencia dorazily zásoby: 3612070, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Joesph dorazily zásoby: 2957546, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Laurena dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Clay dorazily zásoby: 1080301, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Ashlie dorazily zásoby: 900958, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Kyra dorazily zásoby: 3411347, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Orville dorazily zásoby: 1532604, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Allie dorazily zásoby: 3950878, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Richie dorazily zásoby: 4060144, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Hettie dorazily zásoby: 5000000, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Vern dorazily zásoby: 286663, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Mose dorazily zásoby: 365353, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Beverlee dorazily zásoby: 4248015, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Adena dorazily zásoby: 3881617, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Cornelius dorazily zásoby: 1520701, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Jeremy dorazily zásoby: 2752905, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Iraida dorazily zásoby: 2425017, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Earleen dorazily zásoby: 3650833, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Carly dorazily zásoby: 2125086, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Misha dorazily zásoby: 468080, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Arcelia dorazily zásoby: 1863111, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Rema dorazily zásoby: 4313761, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Basil dorazily zásoby: 5000000, jeste zbyva dovezt: 657655
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Calandra dorazily zásoby: 5000000, jeste zbyva dovezt: 340344
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Delois dorazily zásoby: 1941113, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Dionna dorazily zásoby: 392453, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Regan dorazily zásoby: 222922, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Edwardo dorazily zásoby: 1957718, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Candra dorazily zásoby: 5000000, jeste zbyva dovezt: 231373
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Bettina dorazily zásoby: 525719, jeste zbyva dovezt: 0
+2015-10-09 12:22:21 INFO  Planet:181 - na planetu Eloise dorazily zásoby: 322178, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Addie dorazily zásoby: 2924780, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Cherlyn dorazily zásoby: 1083784, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Han dorazily zásoby: 1839169, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Emmaline dorazily zásoby: 948669, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Reyes dorazily zásoby: 2165920, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Roseann dorazily zásoby: 5000000, jeste zbyva dovezt: 241351
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Samantha dorazily zásoby: 2560992, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Joanne dorazily zásoby: 2097772, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Marhta dorazily zásoby: 2101092, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Fredricka dorazily zásoby: 2021966, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Calandra dorazily zásoby: 340344, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Samuel dorazily zásoby: 5000000, jeste zbyva dovezt: 294791
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Tanja dorazily zásoby: 1785110, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Ehtel dorazily zásoby: 3084018, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Keeley dorazily zásoby: 2256886, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Tobias dorazily zásoby: 1998207, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Alexis dorazily zásoby: 3937129, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Demetra dorazily zásoby: 1440727, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Bobette dorazily zásoby: 5000000, jeste zbyva dovezt: 2799485
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Jack dorazily zásoby: 388565, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Adolfo dorazily zásoby: 530107, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Heidi dorazily zásoby: 2926492, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Delaine dorazily zásoby: 697020, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Caryl dorazily zásoby: 2924515, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Olga dorazily zásoby: 3782088, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Hilton dorazily zásoby: 5000000, jeste zbyva dovezt: 1295143
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Joeann dorazily zásoby: 2055216, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Allena dorazily zásoby: 2689931, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Jessika dorazily zásoby: 1148419, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Viviana dorazily zásoby: 1242551, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Kira dorazily zásoby: 3638151, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Bridgett dorazily zásoby: 2105773, jeste zbyva dovezt: 0
+2015-10-09 12:22:22 INFO  Planet:181 - na planetu Rosendo dorazily zásoby: 180727, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Michiko dorazily zásoby: 3647009, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Rosena dorazily zásoby: 1010515, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Arnulfo dorazily zásoby: 1412835, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Anthony dorazily zásoby: 3952819, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Kristi dorazily zásoby: 3207533, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Keiko dorazily zásoby: 787644, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Lou dorazily zásoby: 4944090, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Sandi dorazily zásoby: 1646219, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Drusilla dorazily zásoby: 3358029, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Frederick dorazily zásoby: 1789642, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Sage dorazily zásoby: 3201365, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Jerri dorazily zásoby: 2484219, jeste zbyva dovezt: 5000000
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Charlyn dorazily zásoby: 296663, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Gudrun dorazily zásoby: 1692348, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Dean dorazily zásoby: 5000000, jeste zbyva dovezt: 1870386
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Alonzo dorazily zásoby: 1908913, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Jetta dorazily zásoby: 2438739, jeste zbyva dovezt: 0
+2015-10-09 12:22:23 INFO  Planet:181 - na planetu Joanie dorazily zásoby: 3551858, jeste zbyva dovezt: 0
+2015-10-09 12:28:52 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 12:28:53 INFO  MainController:106 - Inicializuji grafické rozhraní...
+2015-10-09 12:28:57 INFO  Galaxy:96 - Generuji novou galaxii..
+2015-10-09 12:28:58 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 383ms.
+2015-10-09 12:28:58 INFO  Galaxy:108 - Galaxie byla vygenerována za: 1756 ms.
+2015-10-09 12:32:32 INFO  Semestralka:44 - Spouštím grafického klienta galaxie...
+2015-10-09 12:32:33 INFO  MainController:106 - Inicializuji grafické rozhraní...
+2015-10-09 12:32:43 INFO  Galaxy:98 - Generuji novou galaxii..
+2015-10-09 12:32:45 INFO  Headquarters:88 - Dijkstra přepočítal trasy za: 575ms.
+2015-10-09 12:32:45 INFO  Galaxy:110 - Galaxie byla vygenerována za: 1942 ms.

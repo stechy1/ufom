@@ -136,7 +136,7 @@ public final class Path implements IUpdatable {
         for (IShip ship : ships) {
             ship.decrementConnectionProgress();
             if (ship.isEndOfConnection()) {
-                log.debug("Odebírám loď " + ship + "ze spojení: " + this);
+                //log.debug("Odebírám loď " + ship + "ze spojení: " + this);
                 removeShip(ship);
             }
 
@@ -144,7 +144,6 @@ public final class Path implements IUpdatable {
                 continue;
 
             if (hijack() && ship.isShipFullyLoaded() && !ship.isChecked()) {
-                log.info("Loď " + ship + " byla přepadena piráty");
                 ship.setChecked(false);
                 pirateDetected = true;
                 ship.setHijacked(true);

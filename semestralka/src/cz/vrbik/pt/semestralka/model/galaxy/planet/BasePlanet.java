@@ -147,8 +147,7 @@ public abstract class BasePlanet
             //System.out.println("Parkuji loď: " + ship + " na planetě: " + this);
         }
         else {
-            log.debug("Připravuji loď " + ship + " na další cestu");
-            //System.out.println("Připravuji loď na další cestu");
+            //log.debug("Připravuji loď " + ship + " na další cestu");
             shipsReadyToGo.add(ship);
         }
     }
@@ -179,7 +178,7 @@ public abstract class BasePlanet
         ship.setConnectionProgress((int) myPath.weight);
         ship.setChecked(false);
         myPath.addShip(ship);
-        log.debug(String.format("Posílám loď %s na cestu: %s. Cíl cesty: %s", ship, myPath, endPoint.getName()));
+        //log.debug(String.format("Posílám loď %s na cestu: %s. Cíl cesty: %s", ship, myPath, endPoint.getName()));
         //System.out.println("Posílám loď na cestu: " + paths + "\nCíl cesty: " + endPoint);
     }
 

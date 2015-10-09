@@ -24,17 +24,6 @@ public class StationGenerator extends GalaxyGenerator {
     }
 
     /**
-     * Konstruktor třídy {@link GalaxyGenerator}
-     *
-     * @param w      Šířka galaxie využitelná generátorem
-     * @param h      Výška galaxie využitelná generátorem
-     * @param galaxy Reference na galaxii
-     */
-    public StationGenerator(int w, int h, Galaxy galaxy) {
-        super(w, h, galaxy);
-    }
-
-    /**
      * Vygeneruje objekty galaxie
      *
      * @param count   Počet objektů

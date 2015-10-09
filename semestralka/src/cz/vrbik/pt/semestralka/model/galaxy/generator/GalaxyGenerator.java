@@ -5,6 +5,8 @@ import cz.vrbik.pt.semestralka.model.galaxy.Path;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import java.util.*;
 import java.util.stream.Stream;
@@ -23,16 +25,18 @@ public abstract class GalaxyGenerator {
     private static boolean[][] occupation;
     private static BasePlanet[][] objectOccupation;
 
-    protected static Galaxy galaxy;
 
     public static final Random r = new Random(10);
 
     protected static int width;
     protected static int height;
 
-    protected static final List<Station> stations = new ArrayList<>();
+    protected static ObservableList<Station> stations = FXCollections.observableArrayList();
+    protected static ObservableList<Planet> planets = FXCollections.observableArrayList();
+    protected static ObservableList<Path> paths = FXCollections.observableArrayList();
+    /*protected static final List<Station> stations = new ArrayList<>();
     protected static final List<Planet> planets = new ArrayList<>();
-    protected static final List<Path> paths = new ArrayList<>();
+    protected static final List<Path> paths = new ArrayList<>();*/
 
     /**
      * Nastaví šířku pro celý generátor
@@ -52,13 +56,16 @@ public abstract class GalaxyGenerator {
         height = h;
     }
 
-    /**
-     * Nastaví generátoru galaxii, pro kterou generátor pracuje
-     *
-     * @param galaxy Reference na galaxii
-     */
-    public static void setGalaxy(Galaxy galaxy) {
-        GalaxyGenerator.galaxy = galaxy;
+    public static void bindStations(ObservableList<Station> stations) {
+        GalaxyGenerator.stations = stations;
+    }
+
+    public static void bindPlanets(ObservableList<Planet> planets) {
+        GalaxyGenerator.planets = planets;
+    }
+
+    public static void bindPaths(ObservableList<Path> paths) {
+        GalaxyGenerator.paths = paths;
     }
 
     /**
@@ -73,20 +80,8 @@ public abstract class GalaxyGenerator {
      * @param h Výška galaxie využitelná generátorem
      */
     public GalaxyGenerator(int w, int h) {
-        this(w, h, null);
-    }
-
-    /**
-     * Konstruktor třídy {@link GalaxyGenerator}
-     *
-     * @param w Šířka galaxie využitelná generátorem
-     * @param h Výška galaxie využitelná generátorem
-     * @param galaxy Reference na galaxii
-     */
-    public GalaxyGenerator(int w, int h, Galaxy galaxy) {
         setWidth(w);
         setHeight(h);
-        setGalaxy(galaxy);
 
         clear();
     }

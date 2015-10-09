@@ -24,7 +24,7 @@ public class Station extends BasePlanet {
     private final Stack<IShip> parkedShips = new Stack<>();
 
     private static int ID_COUNTER = -1;
-    private static int MAX_SHIP_OUT = 250;
+    private static int MAX_SHIP_OUT = 300;
 
     private int shipOut = 0;
 

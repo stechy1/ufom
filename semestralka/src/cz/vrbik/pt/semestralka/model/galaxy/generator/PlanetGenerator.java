@@ -23,16 +23,6 @@ public class PlanetGenerator extends GalaxyGenerator {
         super(w, h);
     }
 
-    /**
-     * Konstruktor třídy {@link GalaxyGenerator}
-     *
-     * @param w      Šířka galaxie využitelná generátorem
-     * @param h      Výška galaxie využitelná generátorem
-     * @param galaxy Reference na galaxii
-     */
-    public PlanetGenerator(int w, int h, Galaxy galaxy) {
-        super(w, h, galaxy);
-    }
 
     /**
      * Vygeneruje objekty galaxie

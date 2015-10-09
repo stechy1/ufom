@@ -7,6 +7,8 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
 import cz.vrbik.pt.semestralka.model.service.Prepravka;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 
 import java.util.*;
@@ -20,11 +22,15 @@ public class Headquarters {
 
     public static final int CRICITAL_HIJACKED_SHIP = 10;
     private static final int TIME_RESERVE = 60;
+    private static final int MAX_CARGO = 5000000;
 
     private static Headquarters INSTANCE;
-    private List<Station> stations = new ArrayList<>();
+    /*private List<Station> stations = new ArrayList<>();
     private List<Planet> planets = new ArrayList<>();
-    private List<Path> paths = new ArrayList<>();
+    private List<Path> paths = new ArrayList<>();*/
+    private ObservableList<Station> stations = FXCollections.observableArrayList();
+    private ObservableList<Planet> planets = FXCollections.observableArrayList();
+    private ObservableList<Path> paths = FXCollections.observableArrayList();
 
     private final Set<ResourceRequest> requests = new HashSet<>();
     private final Set<ResourceRequest> pendingRequests = new HashSet<>();
@@ -110,18 +116,20 @@ public class Headquarters {
 
         //FIREWALL proti už nevalidním requestům
 
-        if (request.requestPlanet.isInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) {
+        if (request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) {
             log.info("Odmitnuti požadavku na léky planety " + request.requestPlanet.getName() + " nedostatek obyvatel|nedostatek času k doručení \n" +
-                    "" + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs " + ticksToEndOfMonth +
-                    "");
+                    "požadovana delka: " + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs zbyly cas" + ticksToEndOfMonth);
+
+            log.info("STAV POPULACE : "  + request.quantity + " isnpteinteresting=" + request.requestPlanet.isNotInteresting());
+
+
             return;
         }
 
-
-        /* už není potřeba
-        if (requests.contains(request))
-            requests.remove(request);*/
-
+        if(request.quantity > MAX_CARGO){
+            requests.add(new ResourceRequest(request.requestPlanet, (request.quantity - MAX_CARGO)));
+            request.quantity = MAX_CARGO;
+        }
 
         requests.add(request);
 
@@ -132,7 +140,7 @@ public class Headquarters {
      *
      * @param stations Reference na stanice
      */
-    public void bindStations(List<Station> stations) {
+    public void bindStations(ObservableList<Station> stations) {
         this.stations = stations;
     }
 
@@ -141,7 +149,7 @@ public class Headquarters {
      *
      * @param planets Reference na seznam planet
      */
-    public void bindPlanets(List<Planet> planets) {
+    public void bindPlanets(ObservableList<Planet> planets) {
         this.planets = planets;
     }
 
@@ -150,13 +158,13 @@ public class Headquarters {
      *
      * @param paths Reference na seznam cest
      */
-    public void bindPaths(List<Path> paths) {
+    public void bindPaths(ObservableList<Path> paths) {
         this.paths = paths;
     }
 
     private void monthUpdate(){
 
-        int deaths = 0;
+        long deaths = 0;
 
         for(Planet a : planets){
             deaths += a.graves;
@@ -182,6 +190,11 @@ public class Headquarters {
             monthUpdate();
         }
 
+        /*
+        if((hijackedShips % 10) == 0 && hijackedShips != 0) {
+            runDijkstra();
+        }*/
+
         if (requests.size() == 0)
             return;
 
@@ -193,13 +206,17 @@ public class Headquarters {
                 break;
 
             ResourceRequest request = requestIterator.next();
+
+
+
                 Prepravka p = mapa.get(request.requestPlanet);
 
                 Station s = (Station) p.source;
-                if (s.sendShipToTrip(p.path, request))
+                if (s.sendShipToTrip(p.path, request)) {
                     requestIterator.remove();
+                }
+                    i++;
 
-                i++;
             }
 
         }

@@ -2,6 +2,8 @@ package cz.vrbik.pt.semestralka.controller;
 
 import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
+import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
+import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.service.Config;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
@@ -55,7 +57,7 @@ public class MainController implements Initializable {
     private Spinner<Number> spinnerStationSpacing;
 
     @FXML
-    private ComboBox comboboxPlanets;
+    private ComboBox<Planet> comboboxPlanets;
 
     @FXML
     private ScrollPane scrollPane;
@@ -80,14 +82,8 @@ public class MainController implements Initializable {
     private Timeline timeline;
     private Config config;
     private Galaxy galaxy;
-    private int counter = 0;
     private File usedFile;
-    private int rok = 360;
-    /*private final ObservableValue<Integer>
-            day = new SimpleObjectProperty<>(),
-            month = new SimpleObjectProperty<>(),
-            year = new SimpleObjectProperty<>();*/
-    private int day = 0, month = 0, year = 0;
+    private int counter, day, month, year, rok;
 
     private void draw() {
         GraphicsContext g = canvas.getGraphicsContext2D();
@@ -128,7 +124,8 @@ public class MainController implements Initializable {
         scrollPane.setStyle("-fx-focus-color: transparent;");
 
         galaxy = new Galaxy(config);
-
+        comboboxPlanets.setItems(galaxy.getPlanets());
+        //comboboxPlanets.fac
 
         Platform.runLater(() -> {
             canvas.requestFocus();
@@ -142,6 +139,8 @@ public class MainController implements Initializable {
      */
     public void generateGalaxyButtonHandler() {
         progressBarGalaxyProgress.setProgress(0);
+        counter = day = month = year = 0;
+        rok = 360;
         galaxy.generate();
         draw();
     }

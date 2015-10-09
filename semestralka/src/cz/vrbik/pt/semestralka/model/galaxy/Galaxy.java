@@ -10,6 +10,8 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
 import cz.vrbik.pt.semestralka.model.service.Config;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.canvas.GraphicsContext;
 import org.apache.log4j.Logger;
 
@@ -33,6 +35,10 @@ public class Galaxy implements IUpdatable, IRestorable {
     private final GalaxyGenerator planetGenerator;
     private final Headquarters headquarters = Headquarters.getInstance();
 
+    private final ObservableList<Station> stations = FXCollections.observableArrayList();
+    private final ObservableList<Planet> planets = FXCollections.observableArrayList();
+    private final ObservableList<Path> paths = FXCollections.observableArrayList();
+
     public int PLANET_COUNT = 5000;
     public int GALAXY_WIDTH = 800;
     public int GALAXY_HEIGHT = 800;
@@ -48,12 +54,18 @@ public class Galaxy implements IUpdatable, IRestorable {
     public Galaxy(Config config) {
         this.config = config;
 
-        stationGenerator = new StationGenerator(GALAXY_WIDTH, GALAXY_HEIGHT, this);
+        GalaxyGenerator.setWidth(GALAXY_WIDTH);
+        GalaxyGenerator.setHeight(GALAXY_HEIGHT);
+        GalaxyGenerator.bindStations(stations);
+        GalaxyGenerator.bindPlanets(planets);
+        GalaxyGenerator.bindPaths(paths);
+
+        stationGenerator = new StationGenerator();
         planetGenerator = new PlanetGenerator();
 
-        headquarters.bindStations(stationGenerator.getStations());
-        headquarters.bindPlanets(planetGenerator.getPlanets());
-        headquarters.bindPaths(planetGenerator.getPaths());
+        headquarters.bindStations(stations);
+        headquarters.bindPlanets(planets);
+        headquarters.bindPaths(paths);
     }
 
     /**
@@ -66,6 +78,8 @@ public class Galaxy implements IUpdatable, IRestorable {
         PLANET_SPACING = config.getPlanetSpacing();
         STATION_SPACING = config.getStationSpacing();
         STATION_COUNT = config.getStationCount();
+        GalaxyGenerator.setWidth(GALAXY_WIDTH);
+        GalaxyGenerator.setHeight(GALAXY_HEIGHT);
     }
 
     /**
@@ -262,5 +276,32 @@ public class Galaxy implements IUpdatable, IRestorable {
         }
 
         return true;
+    }
+
+    /**
+     * Metoda získá referenci na list stanic
+     *
+     * @return Referenci na list stanic
+     */
+    public ObservableList<Station> getStations() {
+        return stations;
+    }
+
+    /**
+     * Metoda získá referenci na list planet
+     *
+     * @return Referenci na list planet
+     */
+    public ObservableList<Planet> getPlanets() {
+        return planets;
+    }
+
+    /**
+     * Metoda získá referenci na list cest
+     *
+     * @return Referenci na list cest
+     */
+    public ObservableList<Path> getPaths() {
+        return paths;
     }
 }

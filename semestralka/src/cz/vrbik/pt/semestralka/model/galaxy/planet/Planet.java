@@ -106,7 +106,7 @@ public class Planet extends BasePlanet {
      *
      * @return True, pokud je planeta jestě důležitá, jinak false
      */
-    public boolean isInteresting() {
+    public boolean isNotInteresting() {
         return (inhabitants < INTERESTING_LIMIT);
     }
 
@@ -151,10 +151,14 @@ public class Planet extends BasePlanet {
         if(timestamp % (30*25) == 0) { //provede se při timestamp 0
 
             if(inhabitantsEndagered > 0)
-                log.info("na planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + "lidí");
+                log.info("\nna planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + " lidí");
                 graves += inhabitantsEndagered;
 
             inhabitants = inhabitants - inhabitantsEndagered;
+
+
+            log.info("na planetě " + this.getName() + " zbylo: " + inhabitants + " lidí");
+            log.info("na planetě " + this.getName() + " je mrtvych: " + graves + " lidí\n");
             inhabitantsEndagered = 0;
 
             production = generateProduction();
@@ -175,7 +179,7 @@ public class Planet extends BasePlanet {
         dockedShips.stream().filter(IShip::isReady).forEach(iShip -> {
             inhabitantsEndagered = inhabitantsEndagered - iShip.getCargo();
 
-            log.info("na planetě " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + "zbyle ohrozeni je pro: " + inhabitantsEndagered );
+            log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", jeste zbyva dovezt: " + inhabitantsEndagered );
 
             iShip.unLoadCargo(iShip.getCargo());
             emptyShips.add(iShip);
@@ -188,7 +192,4 @@ public class Planet extends BasePlanet {
     public String toString() {
         return String.format("%s; Inhabitants: %d", super.toString(), inhabitants);
     }
-
-
-
 }

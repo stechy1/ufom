@@ -4,6 +4,7 @@ import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import org.apache.log4j.Logger;
+import org.apache.log4j.lf5.util.Resource;
 
 import java.util.*;
 
@@ -19,7 +20,7 @@ public abstract class BaseShip implements IShip {
     protected static int ID_COUNTER = 0;
 
     private Iterator<BasePlanet> tripIterator;
-    private final BasePlanet homePlanet;
+    private BasePlanet homePlanet;
     protected BasePlanet actualPlanet;
     protected BasePlanet nextPlanet;
 
@@ -28,7 +29,7 @@ public abstract class BaseShip implements IShip {
     protected int connectionProgress = 0;
     protected int speed = 25;
     protected boolean hijacked;
-    protected final int id;
+    protected int id;
     protected boolean checked;
     protected int loadingProgress = 0;
     protected ResourceRequest request;
@@ -182,7 +183,8 @@ public abstract class BaseShip implements IShip {
         if (hijacked) {
             Headquarters.getInstance().makeRequest(request);
             Headquarters.getInstance().nextHijackedShip();
-            System.out.println("--- posilam request protože mě chytli pirátí " + request.requestPlanet.getName());
+
+            log.debug("loď byla přepadena piráty, posílá nový dotaz aby byla nahrazena");
         }
         this.hijacked = hijacked;
     }

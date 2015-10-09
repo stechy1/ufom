@@ -190,7 +190,7 @@
                     </TitledPane>
                     <TitledPane text="Zásilky">
                         <VBox>
-                            <ComboBox fx:id="comboboxPlanets"/>
+                            <ComboBox fx:id="comboboxPlanets" HBox.hgrow="ALWAYS"/>
                         </VBox>
                     </TitledPane>
                 </panes>
