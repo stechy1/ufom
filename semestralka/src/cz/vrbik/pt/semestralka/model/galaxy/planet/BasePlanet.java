@@ -1,7 +1,6 @@
 package cz.vrbik.pt.semestralka.model.galaxy.planet;
 
 import cz.vrbik.pt.semestralka.model.IUpdatable;
-import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.IGraphicalObject;
 import cz.vrbik.pt.semestralka.model.galaxy.Path;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
@@ -115,29 +114,19 @@ public abstract class BasePlanet
     }
 
     /**
-     * Metoda aktualizující logiku objektu
-     *
-     * @param timestamp Doba od spuštění simulace
-     */
-    @Override
-    public void update(int timestamp) {
-
-    }
-
-    /**
      * Metoda vykreslující objekt
      *
      * @param g Reference na grafický kontext
      */
     @Override
     public void render(GraphicsContext g) {
-        g.fillRect(x + Galaxy.TRANSLATE_X, y + Galaxy.TRANSLATE_Y, width, height);
+        g.fillRect(x - width / 2, y - height / 2, width, height);
     }
 
     /**
      * Nadokuje loď
      *
-     * @param ship
+     * @param ship Reference na loď, která se má nadokovat
      */
     @Override
     public void dock(IShip ship) {
@@ -155,7 +144,7 @@ public abstract class BasePlanet
     /**
      * Vyšle loď správným smerem
      *
-     * @param ship
+     * @param ship Reference na loď, kterou má poslat
      */
     @Override
     public void send(IShip ship) {

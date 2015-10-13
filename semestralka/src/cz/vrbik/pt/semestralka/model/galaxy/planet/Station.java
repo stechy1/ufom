@@ -1,6 +1,5 @@
 package cz.vrbik.pt.semestralka.model.galaxy.planet;
 
-import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.SmallTransportShip;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
@@ -18,13 +17,13 @@ public class Station extends BasePlanet {
 
     private static final Logger log = Logger.getLogger(Station.class.getName());
 
-    public static final int DEFAULT_WIDTH = 8;
-    public static final int DEFAULT_HEIGHT = 8;
+    public static final int DEFAULT_WIDTH = 10;
+    public static final int DEFAULT_HEIGHT = 10;
+    public static final int MAX_SHIP_OUT = 2000;
 
     private final Stack<IShip> parkedShips = new Stack<>();
 
     private static int ID_COUNTER = -1;
-    private static int MAX_SHIP_OUT = 300;
 
     private int shipOut = 0;
 
@@ -143,7 +142,7 @@ public class Station extends BasePlanet {
 
     @Override
     public void render(GraphicsContext g) {
-        g.setFill(Color.LIME);
+        g.setFill(Color.LAWNGREEN);
         super.render(g);
     }
 }

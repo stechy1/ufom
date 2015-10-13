@@ -1,6 +1,5 @@
 package cz.vrbik.pt.semestralka.model.service;
 
-import com.sun.istack.internal.NotNull;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 
 /**

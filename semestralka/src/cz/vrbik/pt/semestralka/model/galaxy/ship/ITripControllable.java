@@ -55,6 +55,13 @@ public interface ITripControllable {
     void setConnectionProgress(int value);
 
     /**
+     * Zjistí, kolik zbývá do konce cesty
+     *
+     * @return Číslo udávající zbývající dobu na cestě
+     */
+    int getConnectionProgress();
+
+    /**
      * Vrátí list s naplánovanou cestou
      */
     List<BasePlanet> getTrip();

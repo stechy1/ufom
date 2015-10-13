@@ -1,6 +1,5 @@
 package cz.vrbik.pt.semestralka.model.galaxy.generator;
 
-import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
 
 /**

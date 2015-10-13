@@ -26,8 +26,7 @@ public class PlanetNames {
     }
 
     /**
-     * Vrátí jedinou instanci jmen planet
-     * @return
+     * @return Jedinou instanci jmen planet
      */
     public static PlanetNames getInstance(){
         if (instance == null)

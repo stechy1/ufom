@@ -1,5 +1,7 @@
 package cz.vrbik.pt.semestralka.model.galaxy;
 
+import javafx.scene.canvas.GraphicsContext;
+
 /**
  * Rozhraní definující metody pro dvourozměrný objekt
  */
@@ -71,4 +73,5 @@ public interface IGraphicalObject {
      */
     void setHeight(double height);
 
+    void render(GraphicsContext g);
 }

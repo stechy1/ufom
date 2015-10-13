@@ -9,14 +9,12 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 public interface INavigable {
 
     /**
-     * Vrátí referenci na další cíl
-     * @return
+     *@return Referenci na další cíl
      */
     BasePlanet getNextDestination();
 
     /**
-     * Vrátí referenci na poslední cílovou planetu
-     * @return
+     * @return Referenci na poslední cílovou planetu
      */
     BasePlanet getTotalDestination();
 }

@@ -2,7 +2,9 @@ package cz.vrbik.pt.semestralka.model.dijkstra;
 
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 /**
  * Třída představující dijkstrův algoritmus.

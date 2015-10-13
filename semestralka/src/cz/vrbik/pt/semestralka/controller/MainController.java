@@ -1,21 +1,20 @@
 package cz.vrbik.pt.semestralka.controller;
 
-import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
-import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.service.Config;
+import cz.vrbik.pt.semestralka.model.service.TextAreaAdapter;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.beans.binding.Bindings;
-import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Camera;
+import javafx.scene.PerspectiveCamera;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.*;
@@ -37,6 +36,8 @@ import java.util.ResourceBundle;
 public class MainController implements Initializable {
 
     private static final Logger log = Logger.getLogger(MainController.class.getName());
+    private static final int CANVAS_PADDING = 100;
+    private static final int MAP_MARGIN = 50;
 
     @FXML
     private VBox container;
@@ -63,6 +64,8 @@ public class MainController implements Initializable {
     private ScrollPane scrollPane;
     @FXML
     private Canvas canvas;
+    @FXML
+    private TextArea textAreaLog;
 
     @FXML
     private Label labelDay;
@@ -83,14 +86,28 @@ public class MainController implements Initializable {
     private Config config;
     private Galaxy galaxy;
     private File usedFile;
+    private Camera camera;
     private int counter, day, month, year, rok;
+    private double translateX, translateY;
 
-    private void draw() {
-        GraphicsContext g = canvas.getGraphicsContext2D();
+    private void draw(GraphicsContext g) {
         g.setFill(Color.BLACK);
-        g.fillRect(0, 0, canvas.getWidth(), canvas.getHeight());
+        g.fillRect(-translateX, -translateY, canvas.getWidth(), canvas.getHeight());
+        //g.clearRect(-translateX, -translateY, canvas.getWidth(), canvas.getHeight());
 
         galaxy.render(g);
+    }
+
+    private void scale(GraphicsContext g) {
+        g.restore();
+        g.save();
+        double scaleX = (canvas.getWidth() - CANVAS_PADDING) / config.getGalaxyWidth();
+        double scaleY = (canvas.getHeight() - CANVAS_PADDING) / config.getGalaxyHeight();
+        g.scale(scaleX, scaleY);
+        translateX = (int) (config.getGalaxyWidth() / (canvas.getWidth() - CANVAS_PADDING / scaleX) + MAP_MARGIN / scaleX);
+        translateY = (int) (config.getGalaxyHeight() / (canvas.getHeight() - CANVAS_PADDING / scaleY) + MAP_MARGIN / scaleY);
+        System.out.println("scaleX: " + scaleX + ", scaleY: " + scaleY + ", translateX: " + translateX + ", translateY: " + translateY);
+        g.translate(translateX, translateY);
     }
 
     /**
@@ -103,8 +120,11 @@ public class MainController implements Initializable {
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        TextAreaAdapter.ta = textAreaLog;
         log.info("Inicializuji grafické rozhraní...");
         config = new Config();
+        canvas.getGraphicsContext2D().save();
+
 
         Bindings.bindBidirectional(spinnerGalaxyWidth.getValueFactory().valueProperty(), config.galaxyWidth);
         Bindings.bindBidirectional(spinnerGalaxyHeight.getValueFactory().valueProperty(), config.galaxyHeight);
@@ -142,7 +162,9 @@ public class MainController implements Initializable {
         counter = day = month = year = 0;
         rok = 360;
         galaxy.generate();
-        draw();
+        GraphicsContext g = canvas.getGraphicsContext2D();
+        scale(g);
+        draw(g);
     }
 
     /**
@@ -160,7 +182,8 @@ public class MainController implements Initializable {
                 a.setTitle("Informace");
                 a.setContentText("Galaxie byla úspěšně načtena");
                 a.showAndWait();
-                draw();
+                scale(canvas.getGraphicsContext2D());
+                draw(canvas.getGraphicsContext2D());
             } else {
                 log.error("Import galaxie nebyl úspěšný");
                 Alert a = new Alert(Alert.AlertType.ERROR);
@@ -259,11 +282,7 @@ public class MainController implements Initializable {
     public void makeUpdateButtonHandler() {
         galaxy.update(counter++);
 
-        draw();
-    }
-
-    public void recalculateDijkstraButtonHandler() {
-        Headquarters.getInstance().runDijkstra();
+        draw(canvas.getGraphicsContext2D());
     }
 
     class MyHandler implements EventHandler<ActionEvent> {
@@ -277,7 +296,7 @@ public class MainController implements Initializable {
         @Override
         public void handle(ActionEvent event) {
             galaxy.update(counter++);
-            draw();
+            draw(canvas.getGraphicsContext2D());
 
             progressBarGalaxyProgress.setProgress(counter / 9000.0);
             if (counter % 25 == 0) {

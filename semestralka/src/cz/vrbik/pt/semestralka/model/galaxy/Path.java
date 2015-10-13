@@ -67,9 +67,9 @@ public final class Path implements IUpdatable {
      *
      * @return True, pokud je cesta obsazena piráty o hrozí přepadení, jinak false
      */
-    private boolean generatePirate(){
+    private boolean generatePirate() {
         pirateDetected = false;
-        return GalaxyGenerator.r.nextInt(100)  <= 20;
+        return GalaxyGenerator.r.nextInt(100) <= 20;
     }
 
     /**
@@ -77,21 +77,21 @@ public final class Path implements IUpdatable {
      *
      * @return True, pokud proběhne útok, jinak false
      */
-    private boolean hijack(){
+    private boolean hijack() {
 
         return pirate && GalaxyGenerator.r.nextInt(100) <= 10;
     }
 
     /**
      * Metoda zjistí opačnou planetu spojení
+     *
      * @param x Reference na planetu, ke které se hledá soused
      * @return Soused zadané planety
      */
     public BasePlanet getNeighbour(BasePlanet x) {
-        if(x == a) {
+        if (x == a) {
             return b;
-        }
-        else if(x == b) {
+        } else if (x == b) {
             return a;
         }
 
@@ -160,7 +160,7 @@ public final class Path implements IUpdatable {
         shipsToRemove.clear();
 
 
-        if(timestamp != 0 && (timestamp % (30*25)) == 0){
+        if (timestamp != 0 && (timestamp % (30 * 25)) == 0) {
             pirate = generatePirate();
         }
     }
@@ -172,27 +172,62 @@ public final class Path implements IUpdatable {
      */
     @Override
     public void render(GraphicsContext g) {
-
-        if (!visited && !pirate)
-            g.setStroke(Color.DARKGRAY);
+        if (isPirateDetected()) {
+            g.setStroke(Color.RED);
+        }
+        else if(pirate){
+            g.setStroke(Color.PALEVIOLETRED);
+        }
         else {
-            if (pirate)
-                if (visited)
-                    g.setStroke(Color.ORANGE);
-                else
-                    g.setStroke(Color.RED);
-            else
-                g.setStroke(Color.YELLOW);
+            g.setStroke(Color.DARKSLATEGREY);
         }
 
-        g.strokeLine(
-                a.getCenterX() + Galaxy.TRANSLATE_X, a.getCenterY() + Galaxy.TRANSLATE_Y,
-                b.getCenterX() + Galaxy.TRANSLATE_X, b.getCenterY() + Galaxy.TRANSLATE_Y
-        );
+        g.strokeLine(a.getX(), a.getY(), b.getX(), b.getY());
+        renderShips(g);
+    }
+
+    /**
+     * Pomocná metoda pro vyrenderování lodí
+     * Vypočítá nové pozice a vykresíl lodě
+     *
+     * @param g Reference na grafický kontext
+     */
+    private void renderShips(GraphicsContext g) {
+        double x1, y1, x2, y2, sx, sy, dv;
+        BasePlanet sourcePlanet, destinationPlanet;
+
+        for (IShip ship : ships) {
+            destinationPlanet = ship.getNextDestination();
+            if (destinationPlanet == a)
+                sourcePlanet = b;
+            else
+                sourcePlanet = a;
+
+            x1 = sourcePlanet.getX();
+            y1 = sourcePlanet.getY();
+            x2 = destinationPlanet.getX();
+            y2 = destinationPlanet.getY();
+
+            sx = x2 - x1;
+            sy = y2 - y1;
+
+            dv = Math.sqrt(sx * sx + sy * sy);
+
+            sx /= dv;
+            sy /= dv;
+
+            int shipProgress = ship.getConnectionProgress();
+            double progress = (weight - shipProgress);
+
+            ship.setX(x1 + sx * progress);
+            ship.setY(y1 + sy * progress);
+            ship.render(g);
+        }
     }
 
     /**
      * Nastaví stav zabezpečení cesty
+     *
      * @param pirateDetected stav bezpečnosti cesty
      */
     public void setPirateDetected(boolean pirateDetected) {
@@ -201,6 +236,7 @@ public final class Path implements IUpdatable {
 
     /**
      * Získá zabezpečení cesty
+     *
      * @return zapezpečení cesty
      */
     public boolean isPirateDetected() {

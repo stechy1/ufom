@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.canvas.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<?import javafx.scene.text.Font?>
 <?import javafx.geometry.Insets?>
-<?import java.lang.String?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.image.Image?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.*?>
+<?import javafx.scene.PerspectiveCamera?>
+
 <VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
       stylesheets="@../css/style.css"
       fx:id="container"
@@ -150,15 +150,15 @@
                 <Tooltip text="Umělý update"/>
             </tooltip>
         </Button>
-        <Button mnemonicParsing="false" text="Přepočítat dijkstru" onAction="#recalculateDijkstraButtonHandler"/>
     </ToolBar>
 
-    <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" orientation="HORIZONTAL">
-        <SplitPane dividerPositions="0.9" orientation="VERTICAL">
-            <Accordion>
+    <SplitPane dividerPositions="0.9" VBox.vgrow="ALWAYS" orientation="VERTICAL">
+        <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" orientation="HORIZONTAL">
+        <Accordion>
                 <panes>
-                    <TitledPane text="Properties">
-                        <VBox fx:id="propertyVBox" alignment="BASELINE_CENTER" spacing="5.0">
+                    <TitledPane text="Properties" alignment="CENTER">
+                        <ScrollPane fitToWidth="true">
+                        <VBox fx:id="propertyVBox" alignment="CENTER" spacing="5.0">
                             <Label textFill="RED">Properties:
                                 <font>
                                     <Font size="24.0"/>
@@ -174,7 +174,7 @@
                             <Spinner fx:id="spinnerPlanetCount" min="50" max="10000" initialValue="5000"
                                      editable="true"/>
                             <Label>Station count</Label>
-                            <Spinner fx:id="spinnerStationCount" min="5" max="20" initialValue="5000" editable="true"/>
+                            <Spinner fx:id="spinnerStationCount" min="1" max="20" initialValue="5000" editable="true"/>
                             <Label>Planet spacing</Label>
                             <Spinner fx:id="spinnerPlanetSpacing" min="1" max="20" initialValue="2" editable="true"/>
                             <Label>Station spacing</Label>
@@ -187,23 +187,24 @@
                             </Button>
 
                         </VBox>
+                        </ScrollPane>
                     </TitledPane>
-                    <TitledPane text="Zásilky">
+                    <TitledPane text="Zásilky" alignment="CENTER">
                         <VBox>
                             <ComboBox fx:id="comboboxPlanets" HBox.hgrow="ALWAYS"/>
                         </VBox>
                     </TitledPane>
                 </panes>
             </Accordion>
-            <AnchorPane>
-                <TextArea AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                          AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"
-                          editable="false"/>
-            </AnchorPane>
-        </SplitPane>
         <ScrollPane fx:id="scrollPane" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS" pannable="true">
             <Canvas fx:id="canvas" width="900" height="900"/>
         </ScrollPane>
+        </SplitPane>
+        <AnchorPane>
+            <TextArea fx:id="textAreaLog" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"
+                      editable="false"/>
+        </AnchorPane>
     </SplitPane>
     <HBox spacing="10" prefHeight="40.0">
         <padding>
@@ -218,4 +219,5 @@
         <Label fx:id="labelRemaining" prefWidth="150" text="Zbývá: "/>
 
     </HBox>
+
 </VBox>

@@ -3,8 +3,9 @@ package cz.vrbik.pt.semestralka.model.galaxy.ship;
 import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.paint.Color;
 import org.apache.log4j.Logger;
-import org.apache.log4j.lf5.util.Resource;
 
 import java.util.*;
 
@@ -14,6 +15,8 @@ import java.util.*;
 public abstract class BaseShip implements IShip {
 
     private static final Logger log = Logger.getLogger(BaseShip.class.getName());
+    public static final int DEFAULT_WIDTH = 5;
+    public static final int DEFAULT_HEIGHT = 5;
 
     public final LinkedList<BasePlanet> trip = new LinkedList<>();
 
@@ -24,6 +27,7 @@ public abstract class BaseShip implements IShip {
     protected BasePlanet actualPlanet;
     protected BasePlanet nextPlanet;
 
+    protected double x, y, width = DEFAULT_WIDTH, height = DEFAULT_HEIGHT;
     protected boolean endConnection = false;
     protected int totalProgress = 0;
     protected int connectionProgress = 0;
@@ -141,6 +145,16 @@ public abstract class BaseShip implements IShip {
         /*if (value > 4)
             value /= 2;*/
         connectionProgress = value;
+    }
+
+    /**
+     * Zjistí, kolik zbývá do konce cesty
+     *
+     * @return Číslo udávající zbývající dobu na cestě
+     */
+    @Override
+    public int getConnectionProgress() {
+        return connectionProgress;
     }
 
     /**
@@ -293,5 +307,90 @@ public abstract class BaseShip implements IShip {
     @Override
     public ResourceRequest getRequest() {
         return request;
+    }
+
+    @Override
+    public void render(GraphicsContext g) {
+        if (isHijacked()) {
+            g.setFill(Color.RED);
+        } else if (getCargo() == 0) {
+            g.setFill(Color.BLUE);
+        } else {
+            g.setFill(Color.LIGHTGRAY);
+        }
+
+        g.fillRect(x - width / 2, y - height / 2, width, height);
+    }
+
+    /**
+     * Vrátí vodorovnou pozici objektu
+     */
+    @Override
+    public double getX() {
+        return x;
+    }
+
+    /**
+     * Nastaví vodorovnou pozici objektu
+     *
+     * @param x vodorovná pozice objektu
+     */
+    @Override
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    /**
+     * Vrátí svislou pozici objektu
+     */
+    @Override
+    public double getY() {
+        return y;
+    }
+
+    /**
+     * Nastaví svislou pozici objektu
+     *
+     * @param y svislá pozice objektu
+     */
+    @Override
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    /**
+     * Vrátí šířku objektu
+     */
+    @Override
+    public double getWidth() {
+        return width;
+    }
+
+    /**
+     * Nastaví šířku objektu
+     *
+     * @param width šířku objektu
+     */
+    @Override
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    /**
+     * Vrátí výšku objektu
+     */
+    @Override
+    public double getHeight() {
+        return height;
+    }
+
+    /**
+     * Nastaví výšku objektu
+     *
+     * @param height Výška
+     */
+    @Override
+    public void setHeight(double height) {
+        this.height = height;
     }
 }

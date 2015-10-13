@@ -9,7 +9,8 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import org.apache.log4j.Logger;
 
-import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Třída představující jednu planetu v galaxii
@@ -27,9 +28,12 @@ public class Planet extends BasePlanet {
     private static final int MIN_POPULATION = 100000;
     private static final PlanetNames names = PlanetNames.getInstance();
 
-    private int inhabitants;
+    public List<Integer> inhabitantStatistics = new ArrayList<>();
+    public List<Integer> deliversStatistics = new ArrayList<>();
+
+    private int lastDeliver = 0;
+    public int inhabitants;
     public int graves = 0;
-    private int production;
     private int inhabitantsEndagered = 0;
 
     /**
@@ -126,8 +130,13 @@ public class Planet extends BasePlanet {
      */
     @Override
     public void render(GraphicsContext g) {
-        g.setStroke(Color.RED);
-        g.setFill(Color.WHITE);
+        if(isNotInteresting()){
+            g.setFill(Color.BLACK);
+        }
+        else{
+            g.setFill(Color.AQUA);//to sou nazvy barev :D napiču hele když umře bude černá jako negr jj
+        }
+
         super.render(g);
     }
 
@@ -141,6 +150,17 @@ public class Planet extends BasePlanet {
     }
 
     /**
+     * Metoda pro zapsání statistiky za uplynulý měsíc pro konkrétní planetu
+     */
+    private void monthStatistics(){
+        inhabitantStatistics.add(inhabitants);
+        deliversStatistics.add(lastDeliver);
+
+        lastDeliver = 0;
+    }
+
+
+    /**
      * Metoda pro aktualizaci stavu planety
      *
      * @param timestamp Doba od spuštění simulace
@@ -151,21 +171,19 @@ public class Planet extends BasePlanet {
         if(timestamp % (30*25) == 0) { //provede se při timestamp 0
 
             if(inhabitantsEndagered > 0)
-                log.info("\nna planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + " lidí");
+                //log.info("\nna planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + " lidí");
                 graves += inhabitantsEndagered;
 
             inhabitants = inhabitants - inhabitantsEndagered;
-
-
-            log.info("na planetě " + this.getName() + " zbylo: " + inhabitants + " lidí");
-            log.info("na planetě " + this.getName() + " je mrtvych: " + graves + " lidí\n");
             inhabitantsEndagered = 0;
 
-            production = generateProduction();
+            int production = generateProduction();
             inhabitantsEndagered = inhabitants - ((inhabitants/100) * production);
             sendRequest(inhabitantsEndagered);
-        }
 
+            monthStatistics();
+
+        }
 
         shipsReadyToGo.forEach(IShip::continueTrip);
         shipsReadyToGo.clear();
@@ -178,6 +196,8 @@ public class Planet extends BasePlanet {
 
         dockedShips.stream().filter(IShip::isReady).forEach(iShip -> {
             inhabitantsEndagered = inhabitantsEndagered - iShip.getCargo();
+
+            lastDeliver += iShip.getCargo();
 
             log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", jeste zbyva dovezt: " + inhabitantsEndagered );
 

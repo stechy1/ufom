@@ -1,7 +1,6 @@
 package cz.vrbik.pt.semestralka;
 
 import cz.vrbik.pt.semestralka.model.dijkstra.DijkstraAlgorithm;
-import cz.vrbik.pt.semestralka.model.galaxy.Path;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
@@ -11,6 +10,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 
+import java.text.DecimalFormat;
 import java.util.*;
 
 /**
@@ -21,16 +21,13 @@ public class Headquarters {
     private static final Logger log = Logger.getLogger(Headquarters.class.getName());
 
     public static final int CRICITAL_HIJACKED_SHIP = 10;
-    private static final int TIME_RESERVE = 60;
+    private static final int TIME_RESERVE = 70;
     private static final int MAX_CARGO = 5000000;
 
     private static Headquarters INSTANCE;
-    /*private List<Station> stations = new ArrayList<>();
-    private List<Planet> planets = new ArrayList<>();
-    private List<Path> paths = new ArrayList<>();*/
     private ObservableList<Station> stations = FXCollections.observableArrayList();
     private ObservableList<Planet> planets = FXCollections.observableArrayList();
-    private ObservableList<Path> paths = FXCollections.observableArrayList();
+    //private ObservableList<Path> paths = FXCollections.observableArrayList();
 
     private final Set<ResourceRequest> requests = new HashSet<>();
     private final Set<ResourceRequest> pendingRequests = new HashSet<>();
@@ -39,7 +36,7 @@ public class Headquarters {
 
     private int ticksToEndOfMonth;
     private int hijackedShips = 0;
-
+    private int monthCounter = 0;
 
 
     /**
@@ -54,7 +51,8 @@ public class Headquarters {
     /**
      * Konstruktor třídy {@link Headquarters}
      */
-    private Headquarters() {}
+    private Headquarters() {
+    }
 
     /**
      * Spustí dijkstrův algoritmus a ohodnotí graf
@@ -69,11 +67,11 @@ public class Headquarters {
 
             for (Planet planet : planets) {
 
-                if(planet.minDistance == Double.POSITIVE_INFINITY)
+                if (planet.minDistance == Double.POSITIVE_INFINITY)
                     continue;
 
                 Prepravka nova = new Prepravka(station, da.getShortestPathTo(planet), planet.minDistance);
-                    if (mapa.get(planet) != null) {
+                if (mapa.get(planet) != null) {
                     Prepravka tmp = mapa.get(planet);
                     if (nova.weight < tmp.weight)
                         mapa.put(planet, nova);
@@ -115,18 +113,19 @@ public class Headquarters {
     public void makeRequest(ResourceRequest request) {
 
         //FIREWALL proti už nevalidním requestům
+        if (!mapa.containsKey(request.requestPlanet))
+            return;
 
         if (request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) {
-            log.info("Odmitnuti požadavku na léky planety " + request.requestPlanet.getName() + " nedostatek obyvatel|nedostatek času k doručení \n" +
-                    "požadovana delka: " + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs zbyly cas" + ticksToEndOfMonth);
+            //log.info("Odmitnuti požadavku na léky planety " + request.requestPlanet.getName() + " nedostatek obyvatel|nedostatek času k doručení \n" +
+            //        "požadovana delka: " + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs zbyly cas" + ticksToEndOfMonth);
 
-            log.info("STAV POPULACE : "  + request.quantity + " isnpteinteresting=" + request.requestPlanet.isNotInteresting());
-
+            //log.info("STAV POPULACE : "  + request.requestPlanet.inhabitants + " isnpteinteresting=" + request.requestPlanet.isNotInteresting());
 
             return;
         }
 
-        if(request.quantity > MAX_CARGO){
+        if (request.quantity > MAX_CARGO) {
             requests.add(new ResourceRequest(request.requestPlanet, (request.quantity - MAX_CARGO)));
             request.quantity = MAX_CARGO;
         }
@@ -153,47 +152,58 @@ public class Headquarters {
         this.planets = planets;
     }
 
-    /**
-     * Nabinduje referenci na cesty
-     *
-     * @param paths Reference na seznam cest
-     */
-    public void bindPaths(ObservableList<Path> paths) {
-        this.paths = paths;
-    }
-
-    private void monthUpdate(){
+    private void monthUpdate() {
 
         long deaths = 0;
+        long alives = 0;
+        int deathPlanets = 0;
 
-        for(Planet a : planets){
+        for (Planet a : planets) {
             deaths += a.graves;
+            alives += a.inhabitants;
+            if (a.isNotInteresting()) {
+                deathPlanets++;
+            }
         }
 
+        DecimalFormat formatter = new DecimalFormat("#,###");
 
-        log.info("----------MĚSÍČNÍ HLÁŠENÍ----------\n" +
+        log.info("\n---------- " + monthCounter + ". MĚSÍČNÍ HLÁŠENÍ----------\n" +
                 "počet přepadení piráty: " + hijackedShips + "\n" +
-                "počet mrtvých celkově: " + deaths);
+                "počet živých celkově: " + formatter.format(alives) + "\n" +
+                "počet mrtvých celkově: " + formatter.format(deaths) + "\n" +
+                "počet nezajímavých planet < 40k: " + deathPlanets + "\n");
 
         hijackedShips = 0;
+        deathPlanets = 0;
+
+        /*
+        if (monthCounter == 12) {
+            for (Planet a : planets) {
+                log.info("historie populace na planetě: " + a.getName() + " " + a.inhabitantStatistics);
+                log.info("historie dodávek na planetě: " + a.getName() + " " + a.deliversStatistics + "\n");
+            }
+        }*/
+
 
     }
 
     public void update(int timestamp) {
-         ticksToEndOfMonth = ((30*25) - (timestamp % (30*25)));
+        ticksToEndOfMonth = ((30 * 25) - (timestamp % (30 * 25)));
 
-        if((timestamp % (30*25)) == 0 && timestamp != 0){
+        if ((timestamp % (30 * 25)) == 0 && timestamp != 0) {
             requests.clear();
+            monthCounter++;
         }
 
-        if((timestamp % (30*25 + 1)) == 0 && timestamp != 0){
+        if ((timestamp % (30 * 25 + 1)) == 0) {
             monthUpdate();
         }
 
-        /*
-        if((hijackedShips % 10) == 0 && hijackedShips != 0) {
+
+        if ((hijackedShips % 10) == 0 && hijackedShips != 0) {
             runDijkstra();
-        }*/
+        }
 
         if (requests.size() == 0)
             return;
@@ -202,23 +212,23 @@ public class Headquarters {
         Iterator<ResourceRequest> requestIterator = requests.iterator();
         int i = 0;
         while (requestIterator.hasNext()) {
-            if (i == 50)
+            if (i == 300)
                 break;
 
             ResourceRequest request = requestIterator.next();
 
-
-
-                Prepravka p = mapa.get(request.requestPlanet);
-
+            Prepravka p = mapa.get(request.requestPlanet);
+            if (p != null) {
                 Station s = (Station) p.source;
-                if (s.sendShipToTrip(p.path, request)) {
+                if (s.sendShipToTrip(p.path, request))
                     requestIterator.remove();
-                }
-                    i++;
-
+            } else {
+                log.warn("Nalezena nedosažitelná planeta: " + request.requestPlanet.getName());
             }
+            i++;
 
         }
+
     }
+}
 

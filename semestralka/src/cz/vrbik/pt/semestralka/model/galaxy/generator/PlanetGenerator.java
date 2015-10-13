@@ -1,6 +1,5 @@
 package cz.vrbik.pt.semestralka.model.galaxy.generator;
 
-import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 
 /**
@@ -41,9 +40,10 @@ public class PlanetGenerator extends GalaxyGenerator {
     }
 
     /**
+     * Vygeneruje novou planetu se zadaným minimálním prázdným okolím
      *
-     * @param spacing
-     * @return
+     * @param spacing Velikost okolí, ve kterém se nesmí nic nacházet
+     * @return Novou referenci na planetu
      */
     private Planet generatePlanet(int spacing) {
 

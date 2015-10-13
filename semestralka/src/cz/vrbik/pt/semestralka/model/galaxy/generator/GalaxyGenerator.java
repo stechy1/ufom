@@ -1,6 +1,5 @@
 package cz.vrbik.pt.semestralka.model.galaxy.generator;
 
-import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.Path;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
@@ -26,7 +25,7 @@ public abstract class GalaxyGenerator {
     private static BasePlanet[][] objectOccupation;
 
 
-    public static final Random r = new Random(10);
+    public static final Random r = new Random();
 
     protected static int width;
     protected static int height;

@@ -26,8 +26,8 @@ public class Galaxy implements IUpdatable, IRestorable {
 
     private static final Logger log = Logger.getLogger(Galaxy.class.getName());
 
-    public static final int TRANSLATE_X = 50;
-    public static final int TRANSLATE_Y = 50;
+    public static int TRANSLATE_X = 50;
+    public static int TRANSLATE_Y = 50;
 
     public final Config config;
 
@@ -65,7 +65,6 @@ public class Galaxy implements IUpdatable, IRestorable {
 
         headquarters.bindStations(stations);
         headquarters.bindPlanets(planets);
-        headquarters.bindPaths(paths);
     }
 
     /**
@@ -108,6 +107,7 @@ public class Galaxy implements IUpdatable, IRestorable {
 
         long delta = System.currentTimeMillis() - start;
         log.info(String.format("Galaxie byla vygenerována za: %d ms.", delta));
+
     }
 
     /**
@@ -118,20 +118,11 @@ public class Galaxy implements IUpdatable, IRestorable {
     @Override
     public void update(int timestamp) {
         log.debug(String.format("Update číslo: %d", timestamp));
-        //System.out.println("Update číslo: " + timestamp);
         headquarters.update(timestamp);
 
-        for (Path path : planetGenerator.getPaths()) {
-            path.update(timestamp);
-        }
-
-        for (Planet planet : planetGenerator.getPlanets()) {
-            planet.update(timestamp);
-        }
-
-        for (Station station : stationGenerator.getStations()) {
-            station.update(timestamp);
-        }
+        paths.forEach(path -> path.update(timestamp));
+        planets.forEach(planet -> planet.update(timestamp));
+        stations.forEach(station -> station.update(timestamp));
     }
 
     /**
@@ -141,17 +132,10 @@ public class Galaxy implements IUpdatable, IRestorable {
      */
     @Override
     public void render(GraphicsContext g) {
-        for (Station station : stationGenerator.getStations()) {
-            station.render(g);
-        }
 
-        for (Path path : planetGenerator.getPaths()) {
-            path.render(g);
-        }
-
-        for (Planet planet : planetGenerator.getPlanets()) {
-            planet.render(g);
-        }
+        paths.forEach(path -> path.render(g));
+        planets.forEach(planet -> planet.render(g));
+        stations.forEach(station -> station.render(g));
     }
 
     /**

@@ -9,13 +9,13 @@ public interface IShipControll {
 
     /**
      * Nadokuje loď
-     * @param ship
+     * @param ship Reference na loď, která se má nadokovat
      */
     void dock(IShip ship);
 
     /**
      * Vyšle loď správným smerem
-     * @param ship
+     * @param ship Reference na loď, kterou má poslat
      */
     void send(IShip ship);
 }

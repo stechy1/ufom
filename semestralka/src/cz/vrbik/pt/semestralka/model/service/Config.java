@@ -258,17 +258,7 @@ public class Config {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-
-        sb.append(getGalaxyWidth()).append(";");
-        sb.append(getGalaxyHeight()).append(";");
-        sb.append(getPlanetCount()).append(";");
-        sb.append(getStationCount()).append(";");
-        sb.append(getPlanetSpacing()).append(";");
-        sb.append(getStationCount());
-
-        return sb.toString();
-
+        return String.format("%s;%d;%d;%d;%d;%d", String.valueOf(getGalaxyWidth()), getGalaxyHeight(), getPlanetCount(), getStationCount(), getPlanetSpacing(), getStationCount());
     }
 
 }

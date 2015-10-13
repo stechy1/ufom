@@ -1,7 +1,6 @@
 package cz.vrbik.pt.semestralka.model.galaxy.ship;
 
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
-import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import org.apache.log4j.Logger;
 
 /**
