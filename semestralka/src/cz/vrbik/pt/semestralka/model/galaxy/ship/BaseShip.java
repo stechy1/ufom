@@ -5,6 +5,7 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
 import org.apache.log4j.Logger;
 
 import java.util.*;
@@ -320,6 +321,11 @@ public abstract class BaseShip implements IShip {
         }
 
         g.fillRect(x - width / 2, y - height / 2, width, height);
+
+        g.setStroke(Color.WHITE);
+        g.setFont(new Font("Verdana", 6));
+        g.strokeText(Integer.toString(this.id), x, y);
+
     }
 
     /**

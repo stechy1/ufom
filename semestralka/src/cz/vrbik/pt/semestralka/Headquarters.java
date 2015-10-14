@@ -171,7 +171,6 @@ public class Headquarters {
                 "počet nezajímavých planet < 40k: " + deathPlanets + "\n");
 
         hijackedShips = 0;
-        deathPlanets = 0;
 
         /*
         if (monthCounter == 12) {

@@ -47,7 +47,8 @@ public class Planet extends BasePlanet {
 
     public static Planet restorePlanet(String line) {
         String[] data = line.split(";");
-        return new Planet(Double.parseDouble(data[0]), Double.parseDouble(data[1]), DEFAULT_WIDTH, DEFAULT_HEIGHT, Integer.parseInt(data[2]), data[3], Integer.parseInt(data[4]));
+        return new Planet(Double.parseDouble(data[0]), Double.parseDouble(data[1]), DEFAULT_WIDTH, DEFAULT_HEIGHT,
+                Integer.parseInt(data[2]), data[3], Integer.parseInt(data[4]));
     }
 
     /**
@@ -149,7 +150,7 @@ public class Planet extends BasePlanet {
      * @param amount Množství léků
      */
     public void sendRequest(int amount){
-        //Headquarters.getInstance().makeRequest(new ResourceRequest(this, amount));
+        Headquarters.getInstance().makeRequest(new ResourceRequest(this, amount));
     }
 
     /**
