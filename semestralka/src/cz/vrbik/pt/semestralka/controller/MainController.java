@@ -82,7 +82,7 @@ public class MainController implements Initializable {
     private Label labelRemaining;
 
     private final Duration duration = Duration.millis(100);
-    private final KeyFrame oneFrame = new KeyFrame(duration, new MyHandler());
+    private final KeyFrame oneFrame = new KeyFrame(duration, event -> update());
     private Timeline timeline;
     private Config config;
     private Galaxy galaxy;
@@ -285,9 +285,7 @@ public class MainController implements Initializable {
      * Reakce na tlačítko manuální update
      */
     public void makeUpdateButtonHandler() {
-        galaxy.update(counter++);
-
-        draw(canvas.getGraphicsContext2D());
+        update();
     }
 
     public void newRequestButtonHandle() {
@@ -295,43 +293,32 @@ public class MainController implements Initializable {
             selectedPlanet.makeManualRequest();
     }
 
-    class MyHandler implements EventHandler<ActionEvent> {
+    protected void update(){
+        galaxy.update(counter++);
+        draw(canvas.getGraphicsContext2D());
 
-        /**
-         * Invoked when a specific event of the type for which this handler is
-         * registered happens.
-         *
-         * @param event the event which occurred
-         */
-        @Override
-        public void handle(ActionEvent event) {
-            galaxy.update(counter++);
-            draw(canvas.getGraphicsContext2D());
-
-            progressBarGalaxyProgress.setProgress(counter / 9000.0);
-            if (counter % 25 == 0) {
-                day++;
-                labelDay.setText("Den: " + day);
-                labelRemaining.setText("Zbývá: " + (--rok) + " dni.");
-                if(rok == 0){rok = 360;}
-            }
-
-            if (day % 30 == 0 && day != 0) {
-                month++;
-                labelMonth.setText("Měsíc: " + month);
-            }
-
-            if (month % 12 == 0 && month != 0) {
-                year++;
-                labelYear.setText("Rok: " + year);
-            }
-
-            if (day == 30)
-                day = 0;
-
-            if (month == 12)
-                month = 0;
-
+        progressBarGalaxyProgress.setProgress(counter / 9000.0);
+        if (counter % 25 == 0) {
+            day++;
+            labelDay.setText("Den: " + day);
+            labelRemaining.setText("Zbývá: " + (--rok) + " dni.");
+            if(rok == 0){rok = 360;}
         }
+
+        if (day % 30 == 0 && day != 0) {
+            month++;
+            labelMonth.setText("Měsíc: " + month);
+        }
+
+        if (month % 12 == 0 && month != 0) {
+            year++;
+            labelYear.setText("Rok: " + year);
+        }
+
+        if (day == 30)
+            day = 0;
+
+        if (month == 12)
+            month = 0;
     }
 }
