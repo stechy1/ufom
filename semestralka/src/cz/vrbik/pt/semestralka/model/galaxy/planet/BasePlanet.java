@@ -133,7 +133,6 @@ public abstract class BasePlanet
         if (ship.isEndOfTrip()) {
             dockedShips.add(ship);
             //log.info(String.format("Parkuji loď: %s na planetě: %s", ship, name));
-            //System.out.println("Parkuji loď: " + ship + " na planetě: " + this);
         }
         else {
             //log.debug("Připravuji loď " + ship + " na další cestu");
@@ -168,7 +167,6 @@ public abstract class BasePlanet
         ship.setChecked(false);
         myPath.addShip(ship);
         //log.debug(String.format("Posílám loď %s na cestu: %s. Cíl cesty: %s", ship, myPath, endPoint.getName()));
-        //System.out.println("Posílám loď na cestu: " + paths + "\nCíl cesty: " + endPoint);
     }
 
     /**

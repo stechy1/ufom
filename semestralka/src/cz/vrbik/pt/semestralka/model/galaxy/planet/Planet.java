@@ -138,9 +138,8 @@ public class Planet extends BasePlanet {
             g.setFill(Color.BLACK);
         }
         else{
-            g.setFill(Color.AQUA);//to sou nazvy barev :D napiču hele když umře bude černá jako negr jj
+            g.setFill(Color.AQUA);
         }
-
         super.render(g);
     }
 
@@ -172,21 +171,20 @@ public class Planet extends BasePlanet {
     @Override
     public void update(int timestamp) {
 
-        if(timestamp % (30*25) == 0) { //provede se při timestamp 0
+        if(timestamp % (30*25) == 0) {
 
-            if(inhabitantsEndagered > 0)
-                //log.info("\nna planetě " + this.getName() + " zemřelo " + inhabitantsEndagered + " lidí");
+            if(inhabitantsEndagered > 0){
                 graves += inhabitantsEndagered;
-
-            inhabitants = inhabitants - inhabitantsEndagered;
+            }
+            inhabitants = (inhabitants - inhabitantsEndagered);
             inhabitantsEndagered = 0;
+
 
             int production = generateProduction();
             inhabitantsEndagered = inhabitants - ((inhabitants/100) * production);
             sendRequest(inhabitantsEndagered);
 
             monthStatistics();
-
         }
 
         shipsReadyToGo.forEach(IShip::continueTrip);
@@ -199,8 +197,7 @@ public class Planet extends BasePlanet {
         emptyShips.clear();
 
         dockedShips.stream().filter(IShip::isReady).forEach(iShip -> {
-            inhabitantsEndagered = inhabitantsEndagered - iShip.getCargo();
-
+            inhabitantsEndagered = (inhabitantsEndagered - iShip.getCargo());
             lastDeliver += iShip.getCargo();
 
             log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", jeste zbyva dovezt: " + inhabitantsEndagered );

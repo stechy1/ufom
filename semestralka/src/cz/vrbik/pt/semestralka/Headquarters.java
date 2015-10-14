@@ -84,7 +84,7 @@ public class Headquarters {
         }
 
         long delta = System.currentTimeMillis() - start;
-        log.info("Dijkstra přepočítal trasy za: " + delta + "ms.");
+        log.debug("Dijkstra přepočítal trasy za: " + delta + "ms.");
     }
 
     public void setDefaults() {
@@ -113,16 +113,12 @@ public class Headquarters {
      */
     public void makeRequest(ResourceRequest request) {
 
-        //FIREWALL proti už nevalidním requestům
+        //podmínka existence cesty k planetě
         if (!mapa.containsKey(request.requestPlanet))
             return;
 
+        //FIREWALL proti už nevalidním requestům
         if ((request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) && request.priority == RequestPriority.NORMAL) {
-            //log.info("Odmitnuti požadavku na léky planety " + request.requestPlanet.getName() + " nedostatek obyvatel|nedostatek času k doručení \n" +
-            //        "požadovana delka: " + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs zbyly cas" + ticksToEndOfMonth);
-
-            //log.info("STAV POPULACE : "  + request.requestPlanet.inhabitants + " isnpteinteresting=" + request.requestPlanet.isNotInteresting());
-
             return;
         }
 
@@ -130,7 +126,6 @@ public class Headquarters {
             requests.add(new ResourceRequest(request.requestPlanet, (request.quantity - MAX_CARGO), request.priority));
             request.quantity = MAX_CARGO;
         }
-
         requests.add(request);
 
     }
