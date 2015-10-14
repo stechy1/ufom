@@ -190,8 +190,9 @@
                         </ScrollPane>
                     </TitledPane>
                     <TitledPane text="Zásilky" alignment="CENTER">
-                        <VBox>
+                        <VBox fx:id="vBoxInspector">
                             <ComboBox fx:id="comboboxPlanets" HBox.hgrow="ALWAYS"/>
+                            <Button text="Nový požadavek" onAction="#newRequestButtonHandle"/>
                         </VBox>
                     </TitledPane>
                 </panes>

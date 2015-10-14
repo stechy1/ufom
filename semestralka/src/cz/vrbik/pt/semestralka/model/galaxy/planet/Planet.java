@@ -4,6 +4,7 @@ import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.generator.GalaxyGenerator;
 import cz.vrbik.pt.semestralka.model.galaxy.ship.IShip;
 import cz.vrbik.pt.semestralka.model.service.PlanetNames;
+import cz.vrbik.pt.semestralka.model.service.RequestPriority;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -34,7 +35,7 @@ public class Planet extends BasePlanet {
     private int lastDeliver = 0;
     public int inhabitants;
     public int graves = 0;
-    private int inhabitantsEndagered = 0;
+    public int inhabitantsEndagered = 0;
 
     /**
      * Vyrestartuje počítadlo planet
@@ -122,6 +123,9 @@ public class Planet extends BasePlanet {
         return x + ";" + y + ";" + id + ";" + name + ";" + inhabitants;
     }
 
+    public void makeManualRequest() {
+        Headquarters.getInstance().makeRequest(new ResourceRequest(this, inhabitantsEndagered, RequestPriority.HIGH));
+    }
 
     /**
      * Metoda vykreslující objekt
@@ -146,7 +150,7 @@ public class Planet extends BasePlanet {
      * @param amount Množství léků
      */
     public void sendRequest(int amount){
-        Headquarters.getInstance().makeRequest(new ResourceRequest(this, amount));
+        //Headquarters.getInstance().makeRequest(new ResourceRequest(this, amount));
     }
 
     /**

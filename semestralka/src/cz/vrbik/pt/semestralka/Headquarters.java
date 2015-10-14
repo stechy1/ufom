@@ -5,6 +5,7 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
 import cz.vrbik.pt.semestralka.model.service.Prepravka;
+import cz.vrbik.pt.semestralka.model.service.RequestPriority;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -116,7 +117,7 @@ public class Headquarters {
         if (!mapa.containsKey(request.requestPlanet))
             return;
 
-        if (request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) {
+        if ((request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) && request.priority == RequestPriority.NORMAL) {
             //log.info("Odmitnuti požadavku na léky planety " + request.requestPlanet.getName() + " nedostatek obyvatel|nedostatek času k doručení \n" +
             //        "požadovana delka: " + (mapa.get(request.requestPlanet).weight + TIME_RESERVE) + " vs zbyly cas" + ticksToEndOfMonth);
 
@@ -126,7 +127,7 @@ public class Headquarters {
         }
 
         if (request.quantity > MAX_CARGO) {
-            requests.add(new ResourceRequest(request.requestPlanet, (request.quantity - MAX_CARGO)));
+            requests.add(new ResourceRequest(request.requestPlanet, (request.quantity - MAX_CARGO), request.priority));
             request.quantity = MAX_CARGO;
         }
 

@@ -1,5 +1,6 @@
 package cz.vrbik.pt.semestralka.controller;
 
+import cz.vrbik.pt.semestralka.model.control.PlanetInspector;
 import cz.vrbik.pt.semestralka.model.galaxy.Galaxy;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.Planet;
 import cz.vrbik.pt.semestralka.model.service.Config;
@@ -13,8 +14,6 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Camera;
-import javafx.scene.PerspectiveCamera;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.*;
@@ -58,6 +57,8 @@ public class MainController implements Initializable {
     private Spinner<Number> spinnerStationSpacing;
 
     @FXML
+    private VBox vBoxInspector;
+    @FXML
     private ComboBox<Planet> comboboxPlanets;
 
     @FXML
@@ -86,9 +87,10 @@ public class MainController implements Initializable {
     private Config config;
     private Galaxy galaxy;
     private File usedFile;
-    private Camera camera;
+    private final PlanetInspector planetInspector = new PlanetInspector();
     private int counter, day, month, year, rok;
     private double translateX, translateY;
+    private Planet selectedPlanet;
 
     private void draw(GraphicsContext g) {
         g.setFill(Color.BLACK);
@@ -125,7 +127,6 @@ public class MainController implements Initializable {
         config = new Config();
         canvas.getGraphicsContext2D().save();
 
-
         Bindings.bindBidirectional(spinnerGalaxyWidth.getValueFactory().valueProperty(), config.galaxyWidth);
         Bindings.bindBidirectional(spinnerGalaxyHeight.getValueFactory().valueProperty(), config.galaxyHeight);
         Bindings.bindBidirectional(spinnerPlanetCount.getValueFactory().valueProperty(), config.planetCount);
@@ -145,9 +146,13 @@ public class MainController implements Initializable {
 
         galaxy = new Galaxy(config);
         comboboxPlanets.setItems(galaxy.getPlanets());
-        //comboboxPlanets.fac
+        comboboxPlanets.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+            selectedPlanet = newValue;
+            planetInspector.setPlanet(newValue);
+        });
 
         Platform.runLater(() -> {
+            vBoxInspector.getChildren().add(1, planetInspector.getContainer());
             canvas.requestFocus();
             timeline = new Timeline(oneFrame);
             timeline.setCycleCount(Animation.INDEFINITE);
@@ -283,6 +288,11 @@ public class MainController implements Initializable {
         galaxy.update(counter++);
 
         draw(canvas.getGraphicsContext2D());
+    }
+
+    public void newRequestButtonHandle() {
+        if (selectedPlanet != null)
+            selectedPlanet.makeManualRequest();
     }
 
     class MyHandler implements EventHandler<ActionEvent> {
