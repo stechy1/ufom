@@ -17,7 +17,6 @@ import java.util.Properties;
 public class Config {
 
     private static final URL CONFIG_FILE = ClassLoader.getSystemResource("resources/config/galaxy.properties");
-    //private static final String CONFIG_FILE_PATH= "src/resources/config/galaxy.properties";
     private static final String CONFIG_HEADER = "Konfiguracni soubor pro galaxii";
 
     private static final String PROP_GALAXY_WIDTH = "galaxy_width";
@@ -284,6 +283,19 @@ public class Config {
     public void setShipCount(int property) {
         p.setProperty(PROP_STATION_SHIP_COUNT, String.valueOf(property));
     }
+
+    public void setDefault() {
+        setGalaxyHeight(DEF_GALAXY_HEIGHT);
+        setGalaxyWidth(DEF_GALAXY_WIDTH);
+        setPlanetCount(DEF_PLANET_COUNT);
+        setPlanetSpacing(DEF_PLANET_SPACING);
+        setStationCount(DEF_STATION_COUNT);
+        setShipCount(DEF_STATION_SHIP_COUNT);
+        setStationSpacing(DEF_STATION_SPACING);
+
+        setValues();
+    }
+
 
     @Override
     public String toString() {

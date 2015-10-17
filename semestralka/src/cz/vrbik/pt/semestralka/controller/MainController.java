@@ -329,6 +329,6 @@ public class MainController implements Initializable {
     }
 
     public void defaultButtonHandler() {
-
+        config.setDefault();
     }
 }
