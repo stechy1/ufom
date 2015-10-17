@@ -7,10 +7,13 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
 import cz.vrbik.pt.semestralka.model.service.Prepravka;
 import cz.vrbik.pt.semestralka.model.service.RequestPriority;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -97,6 +100,8 @@ public class Headquarters {
             a.minDistance = Double.POSITIVE_INFINITY;
             a.previous = null;
         }
+
+        requests.clear();
     }
 
     /**
@@ -172,15 +177,28 @@ public class Headquarters {
 
         hijackedShips = 0;
 
-        /*
         if (monthCounter == 12) {
+            yearStatistic();
+        }
+    }
+
+    private void yearStatistic() {
+        try (PrintWriter pw = new PrintWriter("yearLog.log")) {
+
+            log.info("\n ---Roční statistika--- \n(stav populace a dodávky na jednotlivých planetách) byla vygenerován do souboru yearLog\n" +
+                    "včetně nultého měsíce\n");
+
             for (Planet a : planets) {
-                log.info("historie populace na planetě: " + a.getName() + " " + a.inhabitantStatistics);
-                log.info("historie dodávek na planetě: " + a.getName() + " " + a.deliversStatistics + "\n");
+                pw.println("historie populace na planetě: " + a.getName() + " " + a.inhabitantStatistics);
+                pw.println("historie dodávek na planetě:  " + a.getName() + " " + a.deliversStatistics);
+                pw.println("");
             }
-        }*/
 
+            pw.close();
 
+        } catch (FileNotFoundException e) {
+            log.error("Nepodařilo se zapsat do souboru");
+        }
     }
 
     public void update(int timestamp) {
@@ -196,8 +214,8 @@ public class Headquarters {
         }
 
 
-        if ((hijackedShips % 10) == 0 && hijackedShips != 0) {
-            runDijkstra();
+        if ((hijackedShips % 100) == 0 && hijackedShips != 0) {
+            Platform.runLater(this::runDijkstra);
         }
 
         if (requests.size() == 0)

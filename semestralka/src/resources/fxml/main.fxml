@@ -72,7 +72,7 @@
                 </graphic>
             </MenuItem>
             <SeparatorMenuItem mnemonicParsing="false"/>
-            <MenuItem mnemonicParsing="false" text="Umělý update" onAction="#makeUpdateButtonHandler">
+            <MenuItem mnemonicParsing="false" text="Umělý update (po hodině 1/25 dne)" onAction="#makeUpdateButtonHandler">
                 <graphic>
                     <ImageView>
                         <Image url="@../icon/16/step.png"/>
@@ -176,11 +176,13 @@
                             <Label>Station count</Label>
                             <Spinner fx:id="spinnerStationCount" min="1" max="20" initialValue="5000" editable="true"/>
                             <Label>Planet spacing</Label>
-                            <Spinner fx:id="spinnerPlanetSpacing" min="1" max="20" initialValue="2" editable="true"/>
+                            <Spinner fx:id="spinnerPlanetSpacing" min="1" max="8" initialValue="2" editable="true"/>
                             <Label>Station spacing</Label>
-                            <Spinner fx:id="spinnerStationSpacing" min="5" max="50" initialValue="10" editable="true"/>
+                            <Spinner fx:id="spinnerStationSpacing" min="5" max="20" initialValue="10" editable="true"/>
+                            <Label>Ships per Station</Label>
+                            <Spinner fx:id="spinnerShipsPerStation" min="10" max="1500" initialValue="1000" editable="true"/>
 
-                            <Button text="Default" textFill="RED">
+                            <Button text="Default" textFill="RED" onAction="#defaultButtonHandler">
                                 <VBox.margin>
                                     <Insets top="10.0"/>
                                 </VBox.margin>

@@ -201,7 +201,7 @@ public class Planet extends BasePlanet {
             inhabitantsEndagered = (inhabitantsEndagered - iShip.getCargo());
             lastDeliver += iShip.getCargo();
 
-            log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", jeste zbyva dovezt: " + inhabitantsEndagered );
+            log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", ještě zbývá dovézt: " + inhabitantsEndagered );
 
             iShip.unLoadCargo(iShip.getCargo());
             emptyShips.add(iShip);

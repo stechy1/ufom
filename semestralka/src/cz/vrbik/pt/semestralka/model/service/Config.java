@@ -26,6 +26,8 @@ public class Config {
     private static final String PROP_STATION_COUNT = "station_count";
     private static final String PROP_PLANET_SPACING = "planet_spacing";
     private static final String PROP_STATION_SPACING = "station_spacing";
+    private static final String PROP_STATION_SHIP_COUNT = "station_ship_count";
+
 
     private static final int DEF_GALAXY_WIDTH = 800;
     private static final int DEF_GALAXY_HEIGHT = 800;
@@ -33,6 +35,7 @@ public class Config {
     private static final int DEF_STATION_COUNT = 5;
     private static final int DEF_PLANET_SPACING = 3;
     private static final int DEF_STATION_SPACING = 10;
+    private static final int DEF_STATION_SHIP_COUNT = 1000;
 
     public final ObjectProperty<Number> galaxyWidth = new SimpleObjectProperty<>();
     public final ObjectProperty<Number> galaxyHeight = new SimpleObjectProperty<>();
@@ -40,6 +43,7 @@ public class Config {
     public final ObjectProperty<Number> stationCount = new SimpleObjectProperty<>();
     public final ObjectProperty<Number> planetSpacing = new SimpleObjectProperty<>();
     public final ObjectProperty<Number> stationSpacing = new SimpleObjectProperty<>();
+    public final ObjectProperty<Number> shipCount = new SimpleObjectProperty<>();
 
     private Properties p;
     private File configFile;
@@ -59,6 +63,7 @@ public class Config {
                 p.setProperty(PROP_STATION_COUNT, String.valueOf(DEF_STATION_COUNT));
                 p.setProperty(PROP_PLANET_SPACING, String.valueOf(DEF_PLANET_SPACING));
                 p.setProperty(PROP_STATION_SPACING, String.valueOf(DEF_PLANET_SPACING));
+                p.setProperty(PROP_STATION_SHIP_COUNT, String.valueOf(DEF_STATION_SHIP_COUNT));
 
                 p.store(new FileOutputStream(configFile), CONFIG_HEADER);
             } else {
@@ -82,6 +87,7 @@ public class Config {
         stationCount.setValue(getStationCount());
         planetSpacing.setValue(getPlanetSpacing());
         stationSpacing.setValue(getStationSpacing());
+        shipCount.setValue(getShipCount());
     }
 
     /**
@@ -94,6 +100,7 @@ public class Config {
         stationCount.addListener((observable, oldValue, newValue) -> setStationCount(newValue.intValue()));
         planetSpacing.addListener((observable, oldValue, newValue) -> setPlanetSpacing(newValue.intValue()));
         stationSpacing.addListener((observable, oldValue, newValue) -> setStationSpacing(newValue.intValue()));
+        shipCount.addListener((observable, oldValue, newValue) -> setShipCount(newValue.intValue()));
     }
 
     /**
@@ -109,7 +116,7 @@ public class Config {
         p.setProperty(PROP_STATION_COUNT, data[3]);
         p.setProperty(PROP_PLANET_SPACING, data[4]);
         p.setProperty(PROP_STATION_SPACING, data[5]);
-
+        p.setProperty(PROP_STATION_SHIP_COUNT, data[6]);
         setValues();
     }
 
@@ -256,9 +263,31 @@ public class Config {
         p.setProperty(PROP_STATION_SPACING, String.valueOf(property));
     }
 
+    /**
+     * Metoda vrací počet lodí pro jednu stancii
+     *
+     * @return Počet lodí pro jednu stanici
+     */
+    public int getShipCount() {
+        String property = p.getProperty(PROP_STATION_SHIP_COUNT);
+        if (property == null || property.isEmpty() || property.equals(""))
+            return DEF_STATION_SHIP_COUNT;
+
+        return Integer.valueOf(property);
+    }
+
+    /**
+     * Metoda pro nastavení počtu lodí na jednu stanici
+     *
+     * @param property Počet lodí
+     */
+    public void setShipCount(int property) {
+        p.setProperty(PROP_STATION_SHIP_COUNT, String.valueOf(property));
+    }
+
     @Override
     public String toString() {
-        return String.format("%s;%d;%d;%d;%d;%d", String.valueOf(getGalaxyWidth()), getGalaxyHeight(), getPlanetCount(), getStationCount(), getPlanetSpacing(), getStationCount());
+        return String.format("%s;%d;%d;%d;%d;%d;%d", String.valueOf(getGalaxyWidth()), getGalaxyHeight(), getPlanetCount(), getStationCount(), getPlanetSpacing(), getStationCount(), getShipCount());
     }
 
 }

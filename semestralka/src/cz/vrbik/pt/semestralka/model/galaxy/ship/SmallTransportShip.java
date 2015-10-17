@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 /**
  * Třída představuje malou transportní loď
  */
-public class SmallTransportShip extends BaseShip implements ILoadable {
+public class SmallTransportShip extends BaseShip {
 
     private static final Logger log = Logger.getLogger(SmallTransportShip.class.getName());
 
@@ -32,7 +32,6 @@ public class SmallTransportShip extends BaseShip implements ILoadable {
     @Override
     public void loadCargo(int mount) {
         cargo += mount;
-        log.debug(String.format("Plním loď množstvím: %d", mount));
     }
 
     /**
@@ -44,7 +43,6 @@ public class SmallTransportShip extends BaseShip implements ILoadable {
             return false;
 
         cargo -= mount;
-        log.debug(String.format("Vyprazdňuji loď množstvím: %d", mount));
         return true;
     }
 
