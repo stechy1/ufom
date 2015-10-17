@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      stylesheets="@../css/style.css"
+      fx:id="container"
+      fx:controller="cz.vrbik.pt.semestralka.controller.MainController">
+
+    <MenuBar>
+        <Menu mnemonicParsing="false" text="Galaxie">
+            <MenuItem mnemonicParsing="false" text="Nová"
+                      onAction="#generateGalaxyButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/new.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+            <SeparatorMenuItem mnemonicParsing="false"/>
+            <MenuItem mnemonicParsing="false" text="Otevřít" onAction="#importGalaxyButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/open.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+            <SeparatorMenuItem mnemonicParsing="false"/>
+            <MenuItem mnemonicParsing="false" text="Uložit" onAction="#exportGalaxyButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/save.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Uložit jako..." onAction="#exportAsGalaxyButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/save_as.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+            <SeparatorMenuItem mnemonicParsing="false"/>
+            <MenuItem mnemonicParsing="false" text="Zavřít" onAction="#exitButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/close.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Akce">
+            <MenuItem mnemonicParsing="false" text="Spustit simulaci" onAction="#runSimulationButtonHanler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/start.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Zastavit simulaci" onAction="#stopSimulationButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/stop.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+            <SeparatorMenuItem mnemonicParsing="false"/>
+            <MenuItem mnemonicParsing="false" text="Umělý update (po hodině 1/25 dne)" onAction="#makeUpdateButtonHandler">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/step.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Nápověda">
+            <MenuItem mnemonicParsing="false" text="About">
+                <graphic>
+                    <ImageView>
+                        <Image url="@../icon/16/about.png"/>
+                    </ImageView>
+                </graphic>
+            </MenuItem>
+        </Menu>
+    </MenuBar>
+    <ToolBar prefHeight="40.0">
+        <Button prefWidth="32" prefHeight="32" mnemonicParsing="false"
+                onAction="#generateGalaxyButtonHandler">
+            <styleClass>
+                <String fx:value="toolbar-button"/>
+                <String fx:value="icon-new"/>
+            </styleClass>
+            <tooltip>
+                <Tooltip text="Nová galaxie"/>
+            </tooltip>
+        </Button>
+        <Button prefWidth="32" prefHeight="32" mnemonicParsing="false"
+                onAction="#importGalaxyButtonHandler">
+            <styleClass>
+                <String fx:value="toolbar-button"/>
+                <String fx:value="icon-open"/>
+            </styleClass>
+            <tooltip>
+                <Tooltip text="Načíst galaxii"/>
+            </tooltip>
+        </Button>
+        <Button prefWidth="32" prefHeight="32" mnemonicParsing="false"
+                onAction="#exportGalaxyButtonHandler">
+            <styleClass>
+                <String fx:value="toolbar-button"/>
+                <String fx:value="icon-save"/>
+            </styleClass>
+            <tooltip>
+                <Tooltip text="Uložit galaxii"/>
+            </tooltip>
+        </Button>
+        <Button prefWidth="32" prefHeight="32" mnemonicParsing="false"
+                onAction="#runSimulationButtonHanler">
+            <styleClass>
+                <String fx:value="toolbar-button"/>
+                <String fx:value="icon-run"/>
+            </styleClass>
+            <tooltip>
+                <Tooltip text="Spustit simulaci"/>
+            </tooltip>
+        </Button>
+        <Button prefWidth="32" prefHeight="32" mnemonicParsing="false"
+                onAction="#stopSimulationButtonHandler">
+            <styleClass>
+                <String fx:value="toolbar-button"/>
+                <String fx:value="icon-stop"/>
+            </styleClass>
+            <tooltip>
+                <Tooltip text="Zastavit simulaci"/>
+            </tooltip>
+        </Button>
+        <Button mnemonicParsing="false" onAction="#makeUpdateButtonHandler">
+            <styleClass>
+                <String fx:value="toolbar-button"/>
+                <String fx:value="icon-step"/>
+            </styleClass>
+            <tooltip>
+                <Tooltip text="Umělý update"/>
+            </tooltip>
+        </Button>
+    </ToolBar>
+
+    <SplitPane dividerPositions="0.9" VBox.vgrow="ALWAYS" orientation="VERTICAL">
+        <SplitPane dividerPositions="0.2" VBox.vgrow="ALWAYS" orientation="HORIZONTAL">
+        <Accordion>
+                <panes>
+                    <TitledPane text="Properties" alignment="CENTER">
+                        <ScrollPane fitToWidth="true">
+                        <VBox fx:id="propertyVBox" alignment="CENTER" spacing="5.0">
+                            <Label textFill="RED">Properties:
+                                <font>
+                                    <Font size="24.0"/>
+                                </font>
+                            </Label>
+                            <Label>Galaxy width</Label>
+                            <Spinner fx:id="spinnerGalaxyWidth" min="100" max="1600" initialValue="800"
+                                     editable="true"/>
+                            <Label>Galaxy height</Label>
+                            <Spinner fx:id="spinnerGalaxyHeight" min="100" max="1600" initialValue="800"
+                                     editable="true"/>
+                            <Label>Planet count</Label>
+                            <Spinner fx:id="spinnerPlanetCount" min="50" max="10000" initialValue="5000"
+                                     editable="true"/>
+                            <Label>Station count</Label>
+                            <Spinner fx:id="spinnerStationCount" min="1" max="20" initialValue="5000" editable="true"/>
+                            <Label>Planet spacing</Label>
+                            <Spinner fx:id="spinnerPlanetSpacing" min="1" max="8" initialValue="2" editable="true"/>
+                            <Label>Station spacing</Label>
+                            <Spinner fx:id="spinnerStationSpacing" min="5" max="20" initialValue="10" editable="true"/>
+                            <Label>Ships per Station</Label>
+                            <Spinner fx:id="spinnerShipsPerStation" min="10" max="1500" initialValue="1000" editable="true"/>
+
+                            <Button text="Default" textFill="RED" onAction="#defaultButtonHandler">
+                                <VBox.margin>
+                                    <Insets top="10.0"/>
+                                </VBox.margin>
+                            </Button>
+
+                        </VBox>
+                        </ScrollPane>
+                    </TitledPane>
+                    <TitledPane text="Zásilky" alignment="CENTER">
+                        <VBox fx:id="vBoxInspector">
+                            <ComboBox fx:id="comboboxPlanets" HBox.hgrow="ALWAYS"/>
+                            <Button text="Nový požadavek" onAction="#newRequestButtonHandle"/>
+                        </VBox>
+                    </TitledPane>
+                </panes>
+            </Accordion>
+        <ScrollPane fx:id="scrollPane" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS" pannable="true">
+            <Canvas fx:id="canvas" width="900" height="900"/>
+        </ScrollPane>
+        </SplitPane>
+        <AnchorPane>
+            <TextArea fx:id="textAreaLog" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"
+                      editable="false"/>
+        </AnchorPane>
+    </SplitPane>
+    <HBox spacing="10" prefHeight="40.0">
+        <padding>
+            <Insets left="10" top="10" right="10" bottom="10"/>
+        </padding>
+        <Label fx:id="labelYear" prefWidth="50" text="Rok: 0"/>
+        <Label fx:id="labelMonth" prefWidth="50" text="Měsíc: 0"/>
+        <Label fx:id="labelDay" prefWidth="50" text="Den: 0"/>
+        <HBox fx:id="hBoxProgressBarContainer" HBox.hgrow="ALWAYS">
+            <ProgressBar fx:id="progressBarGalaxyProgress"/>
+        </HBox>
+        <Label fx:id="labelRemaining" prefWidth="150" text="Zbývá: "/>
+
+    </HBox>
+
+</VBox>
