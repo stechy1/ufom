@@ -2,6 +2,7 @@ package cz.vrbik.pt.semestralka.model.galaxy.ship;
 
 import cz.vrbik.pt.semestralka.Headquarters;
 import cz.vrbik.pt.semestralka.model.galaxy.planet.BasePlanet;
+import cz.vrbik.pt.semestralka.model.service.RequestPriority;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -49,7 +50,6 @@ public abstract class BaseShip implements IShip {
     public BaseShip(BasePlanet homePlanet) {
         this.homePlanet = homePlanet;
         id = ID_COUNTER++;
-        log.debug(String.format("Vytvářím novou loď na planetě: %s. ID lodi: %d", homePlanet.getName(), id));
     }
 
     /**
@@ -199,7 +199,7 @@ public abstract class BaseShip implements IShip {
             Headquarters.getInstance().makeRequest(request);
             Headquarters.getInstance().nextHijackedShip();
 
-            log.debug("loď byla přepadena piráty, posílá nový dotaz aby byla nahrazena");
+            log.debug("loď s číslem: " + id  + "byla přepadena piráty, posílá nový dotaz aby se opakovala cesta");
         }
         this.hijacked = hijacked;
     }
@@ -302,6 +302,7 @@ public abstract class BaseShip implements IShip {
 
     @Override
     public void setRequest(ResourceRequest request) {
+        log.debug("loď číslo: " + id + "se vydává na cestu: " + request);
         this.request = request;
     }
 
@@ -312,9 +313,12 @@ public abstract class BaseShip implements IShip {
 
     @Override
     public void render(GraphicsContext g) {
+
         if (isHijacked()) {
             g.setFill(Color.RED);
-        } else if (getCargo() == 0) {
+        } else if (request.priority == RequestPriority.HIGH) {
+            g.setFill(Color.YELLOW);
+        } else if(getCargo() == 0){
             g.setFill(Color.BLUE);
         } else {
             g.setFill(Color.LIGHTGRAY);
@@ -322,9 +326,6 @@ public abstract class BaseShip implements IShip {
 
         g.fillRect(x - width / 2, y - height / 2, width, height);
 
-        g.setStroke(Color.WHITE);
-        g.setFont(new Font("Verdana", 6));
-        g.strokeText(Integer.toString(this.id), x, y);
 
     }
 

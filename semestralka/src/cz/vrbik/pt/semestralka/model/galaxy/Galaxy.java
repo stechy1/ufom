@@ -26,9 +26,6 @@ public class Galaxy implements IUpdatable, IRestorable {
 
     private static final Logger log = Logger.getLogger(Galaxy.class.getName());
 
-    public static int TRANSLATE_X = 50;
-    public static int TRANSLATE_Y = 50;
-
     public final Config config;
 
     private final GalaxyGenerator stationGenerator;
@@ -79,6 +76,7 @@ public class Galaxy implements IUpdatable, IRestorable {
         STATION_COUNT = config.getStationCount();
         GalaxyGenerator.setWidth(GALAXY_WIDTH);
         GalaxyGenerator.setHeight(GALAXY_HEIGHT);
+        Station.MAX_SHIP_OUT = config.getShipCount();
     }
 
     /**
@@ -150,19 +148,19 @@ public class Galaxy implements IUpdatable, IRestorable {
 //            Vypsání aktuální konfigurace
             pw.println(config);
 
-            for(Planet planet : stationGenerator.getPlanets()){
+            for (Planet planet : stationGenerator.getPlanets()) {
                 pw.println(planet.export());
             }
 
-            for(Station station : stationGenerator.getStations()){
+            for (Station station : stationGenerator.getStations()) {
                 pw.println(station.export());
             }
 
-            for(Planet planet : stationGenerator.getPlanets()){
+            for (Planet planet : stationGenerator.getPlanets()) {
                 pw.println(planet.exportNeighbours());
             }
 
-            for(Station station : stationGenerator.getStations()){
+            for (Station station : stationGenerator.getStations()) {
                 pw.println(station.exportNeighbours());
             }
         } catch (FileNotFoundException e) {
@@ -184,77 +182,69 @@ public class Galaxy implements IUpdatable, IRestorable {
 
             String line = br.readLine();
             config.updateConfig(line);
+            updateGalaxyConfig();
 
             List<Planet> planets = new ArrayList<>();
-            for (int i = 0; i < config.getPlanetCount(); i++) {
+            for (int i = 0; i < PLANET_COUNT; i++) {
                 line = br.readLine();
 
                 planets.add(Planet.restorePlanet(line));
             }
-            planetGenerator.getPlanets().clear();
-            planetGenerator.getPlanets().addAll(planets);
+            this.planets.clear();
+            this.planets.addAll(planets);
 
             System.out.println("načteno planets" + planets.size());
 
             List<Station> stations = new ArrayList<>();
-            for (int i = 0; i < config.getStationCount(); i++) {
+            for (int i = 0; i < STATION_COUNT; i++) {
                 line = br.readLine();
                 stations.add(Station.restoreStation(line));
             }
-            planetGenerator.getStations().clear();
-            planetGenerator.getStations().addAll(stations);
-
+            this.stations.clear();
+            this.stations.addAll(stations);
 
 
             List<Path> paths = new ArrayList<>();
 
-            for (int i = 0; i < ((config.getPlanetCount()) + config.getStationCount()); i++) {
+            for (int i = 0; i < ((PLANET_COUNT) + STATION_COUNT); i++) {
                 line = br.readLine();
-
                 String data[] = line.split(":");
-
                 int source = Integer.parseInt(data[0]);
-
                 String neighbours[] = data[1].split(",");
-
                 int intNeighbours[] = new int[neighbours.length];
-
                 for (int j = 0; j < neighbours.length; j++) {
                     intNeighbours[j] = Integer.parseInt(neighbours[j]);
                 }
 
                 BasePlanet a;
 
-                if(source >= 0){
+                if (source >= 0) {
                     a = planets.get(source);
-                }
-                else{
+                } else {
                     a = stations.get(Math.abs(source) - 1);
                 }
 
-                for(int neighbour : intNeighbours){
+                for (int neighbour : intNeighbours) {
                     BasePlanet b;
 
-                    if(neighbour >= 0){
+                    if (neighbour >= 0) {
                         b = planets.get(neighbour);
-                    }
-                    else{
+                    } else {
                         b = stations.get(Math.abs(neighbour) - 1);
                     }
 
-
-                    if(!a.isFull() && !b.isFull()){
-                    paths.add(new Path(a, b));}
+                    if (!a.isFull() && !b.isFull()) {
+                        paths.add(new Path(a, b));
+                    }
 
                 }
             }
 
-            planetGenerator.getPaths().clear();
-            planetGenerator.getPaths().addAll(paths);
+            this.paths.clear();
+            this.paths.addAll(paths);
 
             Headquarters.getInstance().runDijkstra();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return false;
         }

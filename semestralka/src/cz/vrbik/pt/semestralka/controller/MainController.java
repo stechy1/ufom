@@ -38,6 +38,8 @@ public class MainController implements Initializable {
     private static final int CANVAS_PADDING = 100;
     private static final int MAP_MARGIN = 50;
 
+
+
     @FXML
     private VBox container;
 
@@ -55,6 +57,8 @@ public class MainController implements Initializable {
     private Spinner<Number> spinnerPlanetSpacing;
     @FXML
     private Spinner<Number> spinnerStationSpacing;
+    @FXML
+    private Spinner<Number> spinnerShipsPerStation;
 
     @FXML
     private VBox vBoxInspector;
@@ -81,7 +85,7 @@ public class MainController implements Initializable {
     @FXML
     private Label labelRemaining;
 
-    private final Duration duration = Duration.millis(100);
+    private final Duration duration = Duration.millis(30);
     private final KeyFrame oneFrame = new KeyFrame(duration, event -> update());
     private Timeline timeline;
     private Config config;
@@ -108,7 +112,7 @@ public class MainController implements Initializable {
         g.scale(scaleX, scaleY);
         translateX = (int) (config.getGalaxyWidth() / (canvas.getWidth() - CANVAS_PADDING / scaleX) + MAP_MARGIN / scaleX);
         translateY = (int) (config.getGalaxyHeight() / (canvas.getHeight() - CANVAS_PADDING / scaleY) + MAP_MARGIN / scaleY);
-        System.out.println("scaleX: " + scaleX + ", scaleY: " + scaleY + ", translateX: " + translateX + ", translateY: " + translateY);
+        //System.out.println("scaleX: " + scaleX + ", scaleY: " + scaleY + ", translateX: " + translateX + ", translateY: " + translateY);
         g.translate(translateX, translateY);
     }
 
@@ -133,6 +137,8 @@ public class MainController implements Initializable {
         Bindings.bindBidirectional(spinnerStationCount.getValueFactory().valueProperty(), config.stationCount);
         Bindings.bindBidirectional(spinnerPlanetSpacing.getValueFactory().valueProperty(), config.planetSpacing);
         Bindings.bindBidirectional(spinnerStationSpacing.getValueFactory().valueProperty(), config.stationSpacing);
+        Bindings.bindBidirectional(spinnerShipsPerStation.getValueFactory().valueProperty(), config.shipCount);
+
 
         hBoxProgressBarContainer.widthProperty().addListener((observable, oldValue, newValue) -> progressBarGalaxyProgress.setPrefWidth(newValue.doubleValue()));
 
@@ -320,5 +326,9 @@ public class MainController implements Initializable {
 
         if (month == 12)
             month = 0;
+    }
+
+    public void defaultButtonHandler() {
+        config.setDefault();
     }
 }

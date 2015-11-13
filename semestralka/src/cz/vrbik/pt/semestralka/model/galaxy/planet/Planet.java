@@ -198,16 +198,23 @@ public class Planet extends BasePlanet {
         emptyShips.clear();
 
         dockedShips.stream().filter(IShip::isReady).forEach(iShip -> {
-            inhabitantsEndagered = (inhabitantsEndagered - iShip.getCargo());
-            lastDeliver += iShip.getCargo();
 
-            log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", jeste zbyva dovezt: " + inhabitantsEndagered );
+            if(iShip.getRequest().priority == RequestPriority.NORMAL) {
 
+                inhabitantsEndagered = (inhabitantsEndagered - iShip.getCargo());
+
+                lastDeliver += iShip.getCargo();
+
+
+                log.debug("na planetu " + this.getName() + " dorazily zásoby: " + iShip.getCargo() + ", ještě zbývá dovézt: " + inhabitantsEndagered + ", ze stanice: " + iShip.getTrip().get(0));
+
+            }
             iShip.unLoadCargo(iShip.getCargo());
             emptyShips.add(iShip);
         });
 
         dockedShips.removeAll(emptyShips);
+
     }
 
     @Override

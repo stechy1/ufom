@@ -15,11 +15,9 @@ import java.util.Stack;
  */
 public class Station extends BasePlanet {
 
-    private static final Logger log = Logger.getLogger(Station.class.getName());
-
     public static final int DEFAULT_WIDTH = 10;
     public static final int DEFAULT_HEIGHT = 10;
-    public static final int MAX_SHIP_OUT = 2000;
+    public static int MAX_SHIP_OUT = 1000;
 
     private final Stack<IShip> parkedShips = new Stack<>();
 
@@ -99,9 +97,6 @@ public class Station extends BasePlanet {
         ship.setRequest(request);
         ship.schedule(road);
         emptyShips.add(ship);
-
-        log.debug("Připravuji loď " + ship + " na cestu");
-        //ship.startTrip();
         return true;
     }
     
@@ -131,13 +126,10 @@ public class Station extends BasePlanet {
             parkedShips.push(dockedShip);
             if (dockedShip.isHijacked()){
                 dockedShip.setHijacked(false);
-                //TODO čištění lodi po příjezdu
             }
         }
 
         dockedShips.clear();
-
-
     }
 
     @Override

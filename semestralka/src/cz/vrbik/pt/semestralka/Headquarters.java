@@ -7,10 +7,13 @@ import cz.vrbik.pt.semestralka.model.galaxy.planet.Station;
 import cz.vrbik.pt.semestralka.model.service.Prepravka;
 import cz.vrbik.pt.semestralka.model.service.RequestPriority;
 import cz.vrbik.pt.semestralka.model.service.ResourceRequest;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -84,7 +87,7 @@ public class Headquarters {
         }
 
         long delta = System.currentTimeMillis() - start;
-        log.debug("Dijkstra přepočítal trasy za: " + delta + "ms.");
+        log.info("Dijkstra přepočítal trasy za: " + delta + "ms.");
     }
 
     public void setDefaults() {
@@ -97,6 +100,8 @@ public class Headquarters {
             a.minDistance = Double.POSITIVE_INFINITY;
             a.previous = null;
         }
+
+        requests.clear();
     }
 
     /**
@@ -118,7 +123,9 @@ public class Headquarters {
             return;
 
         //FIREWALL proti už nevalidním requestům
-        if ((request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) && request.priority == RequestPriority.NORMAL) {
+        if ((request.requestPlanet.isNotInteresting()
+                || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth)
+                && request.priority == RequestPriority.NORMAL) {
             return;
         }
 
@@ -172,15 +179,28 @@ public class Headquarters {
 
         hijackedShips = 0;
 
-        /*
         if (monthCounter == 12) {
+            yearStatistic();
+        }
+    }
+
+    private void yearStatistic() {
+        try (PrintWriter pw = new PrintWriter("yearLog.log")) {
+
+            log.info("\n ---Roční statistika--- \n(stav populace a dodávky na jednotlivých planetách) byla vygenerován do souboru yearLog\n" +
+                    "včetně nultého měsíce\n");
+
             for (Planet a : planets) {
-                log.info("historie populace na planetě: " + a.getName() + " " + a.inhabitantStatistics);
-                log.info("historie dodávek na planetě: " + a.getName() + " " + a.deliversStatistics + "\n");
+                pw.println("historie populace na planetě: " + a.getName() + " " + a.inhabitantStatistics);
+                pw.println("historie dodávek na planetě:  " + a.getName() + " " + a.deliversStatistics);
+                pw.println("");
             }
-        }*/
 
+            pw.close();
 
+        } catch (FileNotFoundException e) {
+            log.error("Nepodařilo se zapsat do souboru");
+        }
     }
 
     public void update(int timestamp) {
@@ -195,10 +215,10 @@ public class Headquarters {
             monthUpdate();
         }
 
-
-        if ((hijackedShips % 10) == 0 && hijackedShips != 0) {
+        /*
+        if ((hijackedShips % 300) == 0 && hijackedShips != 0) {
             runDijkstra();
-        }
+        }*/
 
         if (requests.size() == 0)
             return;
@@ -207,7 +227,7 @@ public class Headquarters {
         Iterator<ResourceRequest> requestIterator = requests.iterator();
         int i = 0;
         while (requestIterator.hasNext()) {
-            if (i == 300)
+            if (i == 200)
                 break;
 
             ResourceRequest request = requestIterator.next();

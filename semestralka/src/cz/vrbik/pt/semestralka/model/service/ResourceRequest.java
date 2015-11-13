@@ -33,4 +33,13 @@ public final class ResourceRequest {
         this.quantity = quantity;
         this.priority = priority;
     }
+
+    @Override
+    public String toString() {
+        return "ResourceRequest{" +
+                "requestPlanet=" + requestPlanet +
+                ", quantity=" + quantity +
+                ", priority=" + priority +
+                '}';
+    }
 }

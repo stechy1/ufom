@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 <?import java.lang.*?>
-<?import javafx.scene.PerspectiveCamera?>
 
 <VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
       stylesheets="@../css/style.css"
@@ -72,7 +71,7 @@
                 </graphic>
             </MenuItem>
             <SeparatorMenuItem mnemonicParsing="false"/>
-            <MenuItem mnemonicParsing="false" text="Umělý update" onAction="#makeUpdateButtonHandler">
+            <MenuItem mnemonicParsing="false" text="Umělý update (po hodině 1/25 dne)" onAction="#makeUpdateButtonHandler">
                 <graphic>
                     <ImageView>
                         <Image url="@../icon/16/step.png"/>
@@ -165,22 +164,24 @@
                                 </font>
                             </Label>
                             <Label>Galaxy width</Label>
-                            <Spinner fx:id="spinnerGalaxyWidth" min="100" max="1600" initialValue="800"
+                            <Spinner fx:id="spinnerGalaxyWidth" min="100" max="800" initialValue="800"
                                      editable="true"/>
                             <Label>Galaxy height</Label>
-                            <Spinner fx:id="spinnerGalaxyHeight" min="100" max="1600" initialValue="800"
+                            <Spinner fx:id="spinnerGalaxyHeight" min="100" max="800" initialValue="800"
                                      editable="true"/>
                             <Label>Planet count</Label>
-                            <Spinner fx:id="spinnerPlanetCount" min="50" max="10000" initialValue="5000"
+                            <Spinner fx:id="spinnerPlanetCount" min="50" max="18000" initialValue="5000"
                                      editable="true"/>
                             <Label>Station count</Label>
-                            <Spinner fx:id="spinnerStationCount" min="1" max="20" initialValue="5000" editable="true"/>
+                            <Spinner fx:id="spinnerStationCount" min="1" max="30" initialValue="5000" editable="true"/>
                             <Label>Planet spacing</Label>
-                            <Spinner fx:id="spinnerPlanetSpacing" min="1" max="20" initialValue="2" editable="true"/>
+                            <Spinner fx:id="spinnerPlanetSpacing" min="2" max="8" initialValue="2" editable="true"/>
                             <Label>Station spacing</Label>
-                            <Spinner fx:id="spinnerStationSpacing" min="5" max="50" initialValue="10" editable="true"/>
+                            <Spinner fx:id="spinnerStationSpacing" min="5" max="20" initialValue="10" editable="true"/>
+                            <Label>Ships per Station</Label>
+                            <Spinner fx:id="spinnerShipsPerStation" min="10" max="1500" initialValue="1000" editable="true"/>
 
-                            <Button text="Default" textFill="RED">
+                            <Button text="Default" textFill="RED" onAction="#defaultButtonHandler">
                                 <VBox.margin>
                                     <Insets top="10.0"/>
                                 </VBox.margin>
