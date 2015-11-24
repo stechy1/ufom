@@ -313,12 +313,13 @@ public abstract class BaseShip implements IShip {
 
     @Override
     public void render(GraphicsContext g) {
+
         if (isHijacked()) {
             g.setFill(Color.RED);
-        } else if (getCargo() == 0) {
-            g.setFill(Color.BLUE);
-        } else if(request.priority == RequestPriority.HIGH){
+        } else if (request.priority == RequestPriority.HIGH) {
             g.setFill(Color.YELLOW);
+        } else if(getCargo() == 0){
+            g.setFill(Color.BLUE);
         } else {
             g.setFill(Color.LIGHTGRAY);
         }

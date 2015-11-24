@@ -87,7 +87,7 @@ public class Headquarters {
         }
 
         long delta = System.currentTimeMillis() - start;
-        log.debug("Dijkstra přepočítal trasy za: " + delta + "ms.");
+        log.info("Dijkstra přepočítal trasy za: " + delta + "ms.");
     }
 
     public void setDefaults() {
@@ -123,7 +123,9 @@ public class Headquarters {
             return;
 
         //FIREWALL proti už nevalidním requestům
-        if ((request.requestPlanet.isNotInteresting() || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth) && request.priority == RequestPriority.NORMAL) {
+        if ((request.requestPlanet.isNotInteresting()
+                || (mapa.get(request.requestPlanet).weight + TIME_RESERVE) > ticksToEndOfMonth)
+                && request.priority == RequestPriority.NORMAL) {
             return;
         }
 
@@ -213,10 +215,10 @@ public class Headquarters {
             monthUpdate();
         }
 
-
-        if ((hijackedShips % 100) == 0 && hijackedShips != 0) {
-            Platform.runLater(this::runDijkstra);
-        }
+        /*
+        if ((hijackedShips % 300) == 0 && hijackedShips != 0) {
+            runDijkstra();
+        }*/
 
         if (requests.size() == 0)
             return;
@@ -225,7 +227,7 @@ public class Headquarters {
         Iterator<ResourceRequest> requestIterator = requests.iterator();
         int i = 0;
         while (requestIterator.hasNext()) {
-            if (i == 300)
+            if (i == 200)
                 break;
 
             ResourceRequest request = requestIterator.next();

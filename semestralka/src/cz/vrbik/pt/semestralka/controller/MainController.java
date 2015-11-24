@@ -85,7 +85,7 @@ public class MainController implements Initializable {
     @FXML
     private Label labelRemaining;
 
-    private final Duration duration = Duration.millis(100);
+    private final Duration duration = Duration.millis(30);
     private final KeyFrame oneFrame = new KeyFrame(duration, event -> update());
     private Timeline timeline;
     private Config config;

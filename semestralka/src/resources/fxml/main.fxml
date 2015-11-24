@@ -164,18 +164,18 @@
                                 </font>
                             </Label>
                             <Label>Galaxy width</Label>
-                            <Spinner fx:id="spinnerGalaxyWidth" min="100" max="1600" initialValue="800"
+                            <Spinner fx:id="spinnerGalaxyWidth" min="100" max="800" initialValue="800"
                                      editable="true"/>
                             <Label>Galaxy height</Label>
-                            <Spinner fx:id="spinnerGalaxyHeight" min="100" max="1600" initialValue="800"
+                            <Spinner fx:id="spinnerGalaxyHeight" min="100" max="800" initialValue="800"
                                      editable="true"/>
                             <Label>Planet count</Label>
-                            <Spinner fx:id="spinnerPlanetCount" min="50" max="10000" initialValue="5000"
+                            <Spinner fx:id="spinnerPlanetCount" min="50" max="18000" initialValue="5000"
                                      editable="true"/>
                             <Label>Station count</Label>
-                            <Spinner fx:id="spinnerStationCount" min="1" max="20" initialValue="5000" editable="true"/>
+                            <Spinner fx:id="spinnerStationCount" min="1" max="30" initialValue="5000" editable="true"/>
                             <Label>Planet spacing</Label>
-                            <Spinner fx:id="spinnerPlanetSpacing" min="1" max="8" initialValue="2" editable="true"/>
+                            <Spinner fx:id="spinnerPlanetSpacing" min="2" max="8" initialValue="2" editable="true"/>
                             <Label>Station spacing</Label>
                             <Spinner fx:id="spinnerStationSpacing" min="5" max="20" initialValue="10" editable="true"/>
                             <Label>Ships per Station</Label>
